@@ -2,62 +2,16 @@
 
 - node:
   node: 16.14.0
-- package manager:
+- package manager:  
   pnpm: 8.6.12, 必须使用pnpm
 - commit msg 必须符合commitlint规范，否则无法提交
 
 - git workflow
-  遵守工作流进行开发
+  遵守git工作流进行开发  
   ![](./git-workflow.png)
 
 - css  
   预处理器sass
-
-- 目录结构
-
-```bash
-├─ .husky                 # husky 配置文件
-├─ .vscode                # VSCode 推荐配置
-├─ public                 # 静态资源文件（该文件夹不会被打包）
-├─ src
-│  ├─ api                 # API 接口管理
-│  ├─ assets              # 静态资源文件
-│  ├─ components          # 全局组件
-│  ├─ config              # 全局配置项
-│  ├─ directives          # 全局指令文件
-│  ├─ enums               # 项目常用枚举
-│  ├─ hooks               # 常用 Hooks 封装
-│  ├─ layouts             # 框架布局模块
-│  ├─ router              # 路由管理
-│  ├─ stores              # pinia store
-│  ├─ styles              # 全局样式文件
-│  ├─ utils               # 常用工具库
-│  ├─ views               # 项目所有页面
-│  ├─ App.vue             # 项目根组件
-│  └─ main.ts             # 项目入口文件
-├─ .editorconfig           # 统一不同编辑器的编码风格
-├─ .eslintignore           # 忽略 Eslint 校验
-├─ .eslintrc.cjs           # Eslint 校验配置文件
-├─ .gitignore              # 忽略 git 提交
-├─ .lintstagedrc           # lint-staged 配置文件
-├─ .prettierignore         # 忽略 Prettier 格式化
-├─ .prettierrc.json        # Prettier 格式化配置
-├─ commitlint.config.cjs   # git 提交规范配置
-├─ env.d.ts
-├─ git-workflow.png
-├─ index.html
-├─ package.json
-├─ pnpm-lock.yaml          # 依赖包包版本锁
-├─ postcss.config.js        # postcss 配置
-├─ README.md
-├─ tailwind.config.js
-├─ tsconfig.app.json
-├─ tsconfig.json
-├─ tsconfig.node.json
-├─ tsconfig.vitest.json
-├─ vite.config.ts
-└─ vitest.config.ts
-```
 
 ## Recommended IDE Setup
 
@@ -105,5 +59,17 @@ pnpm test:unit
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
-pnpm lint
+pnpm lint:eslint
+```
+
+### Lint with [prettier](https://www.prettier.cn/)
+
+```sh
+pnpm lint:prettier
+```
+
+### Lint staged
+
+```sh
+pnpm lint:lint-staged
 ```
