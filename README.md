@@ -1,4 +1,4 @@
-# cloud-filling-new
+# J-Admin
 
 ## 核心模块版本
 
@@ -7,18 +7,22 @@
 - vite: 4.4.9
 - ts: 5.1.6
 
-- package manager:  
-  pnpm: 8.6.12, 必须使用pnpm
+- package manager:
+
+  pnpm: 8.6.12，必须使用pnpm
+
+## 代码规范
 
 - commit msg
 
-  必须符合commitlint规范，否则无法提交
+  遵守commitlint规范，否则无法提交
 
   commit 建议使用`pnpm commit`命令
 
-- git workflow
-  遵守git工作流进行开发  
-  ![](./git-workflow.png)
+## git workflow
+
+遵守git工作流进行开发  
+ ![](./git-workflow.png)
 
 - css  
   预处理器sass
