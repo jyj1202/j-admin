@@ -1,5 +1,5 @@
 {
-  "name": "cloud-filling-new",
+  "name": "j-admin",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -54,6 +54,7 @@
     "unplugin-auto-import": "^0.16.6",
     "unplugin-vue-components": "^0.25.2",
     "vite": "^4.4.9",
+    "vite-plugin-svg-icons": "^2.0.1",
     "vitest": "^0.34.2",
     "vue-tsc": "^1.8.8"
   }

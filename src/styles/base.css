@@ -19,6 +19,8 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+  /* --font-size-base: 1rem; */
 }
 
 /* semantic color variables for this project */
@@ -80,7 +82,7 @@ body {
     'Droid Sans',
     'Helvetica Neue',
     sans-serif;
-  font-size: 15px;
+  font-size: var(--el-font-size-medium);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -88,14 +90,41 @@ body {
 
 a,
 .green {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
 }
 
 @media (hover: hover) {
   /*@media (hover: hover) 部分是媒体查询的条件，它检查设备是否支持悬停功能。如果设备支持悬停功能，则嵌套在媒体查询内的样式将生效。*/
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+  /* a:hover {
+    background-color: #808be9;
+  } */
+  /* background-color: hsla(160, 100%, 37%, 0.2); */
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--el-border-color-dark);
+  border-radius: 20px;
+}
+
+/* fade-transform */
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+  transition: all 0.2s;
+}
+.fade-transform-enter-from {
+  opacity: 0;
+  transition: all 0.2s;
+  transform: translateX(-30px);
+}
+.fade-transform-leave-to {
+  opacity: 0;
+  transition: all 0.2s;
+  transform: translateX(30px);
 }
