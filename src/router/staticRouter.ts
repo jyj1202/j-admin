@@ -20,6 +20,22 @@ export const staticRouter: RouteRecordRaw[] = [
         }
       },
       {
+        path: '/j-form/test',
+        name: 'test',
+        component: () => import("@/views/j-form/test.vue"),
+        meta: {
+
+        }
+      },
+      {
+        path: '/avue',
+        name: 'avue',
+        component: () => import("@/views/avue/index.vue"),
+        meta: {
+
+        }
+      },
+      {
         path: '/j-form',
         name: 'j-form',
         component: () => import("@/views/j-form/index.vue")

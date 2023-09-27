@@ -20,3 +20,14 @@ declare namespace Menu {
     children?: MenuOption[];
   }
 }
+
+declare global {
+
+  /**
+   * @deprecated stop to use null
+   * @see {@link https://github.com/sindresorhus/meta/discussions/7}
+   */
+  type Nullable<T> = T | null
+  type Arrayable<T> = T | T[]
+  type Awaitable<T> = Promise<T> | T
+}

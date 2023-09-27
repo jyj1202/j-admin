@@ -10,6 +10,9 @@ import 'virtual:svg-icons-register'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
+/* install avue */
+import Avue from '@smallwei/avue';
+import '@smallwei/avue/lib/index.css';
 /* install glob components */
 import installGlobComponents from "@/components/install";
 
@@ -18,6 +21,7 @@ const app = createApp(App)
 app.use(router)
 app.use(pinia)
 app.use(ElementPlus)
+app.use(Avue)
 app.use(installGlobComponents)
 
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {

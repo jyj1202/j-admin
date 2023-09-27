@@ -14,7 +14,7 @@
       <el-main class=" bg-gray-100">
         <Main/>
       </el-main>
-      <el-footer class="flex justify-center items-center">
+      <el-footer class="flex justify-center items-center border-t">
         <Footer />
       </el-footer>
     </el-container>
