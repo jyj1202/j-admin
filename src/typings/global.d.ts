@@ -21,8 +21,7 @@ declare namespace Menu {
   }
 }
 
-declare global {
-
+declare module global {
   /**
    * @deprecated stop to use null
    * @see {@link https://github.com/sindresorhus/meta/discussions/7}
@@ -30,4 +29,6 @@ declare global {
   type Nullable<T> = T | null
   type Arrayable<T> = T | T[]
   type Awaitable<T> = Promise<T> | T
+  type NotNull = string|number|boolean|undefined|bigint|symbol
+  type Primitive =  Nullable<NotNull>
 }

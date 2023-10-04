@@ -1,22 +1,20 @@
 import type { FormItemRule } from 'element-plus'
+import type { Option, DicData } from "@/typings/common";
 
-export interface formDataType {
-  [key: string]: unknown
-}
-
-export interface OptionType {
-  size?: '' | 'large' | 'default' | 'small';
+export interface OptionType extends Option {
   labelWidth?: string|number;
   labelPosition?: 'left'|'right'|'top';
-  column: ColumnItem[];
+  column: JFormColumn[];
+  submitBtn?: boolean;
+  emptyBtn?: boolean;
 }
 
-export interface ColumnItem {
+export interface JFormColumn {
   label: string;
   prop: string;
-  type: string;
+  type?: string;
   placeholder?: string;
-  rules?: Arrayable<FormItemRule>;
+  rules?: global.Arrayable<FormItemRule>;
   span?: number;
   min?: number;
   max?: number;
@@ -25,8 +23,5 @@ export interface ColumnItem {
   activeIcon?: string;
   inactiveIcon?: string;
   formatTooltip?: Function;
-  dicData?: Array<{
-    label: string,
-    value: string|number|object
-  }>;
+  dicData?: DicData;
 }

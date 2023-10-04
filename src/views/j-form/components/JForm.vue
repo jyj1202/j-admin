@@ -8,6 +8,7 @@
     :size="getProp('size')"
     :label-width="getProp('labelWidth')"
     :label-position="getProp('labelPosition')"
+    @submit.prevent
   >
   <el-row :gutter="rowGutter">
     <el-col
@@ -21,15 +22,15 @@
         :rules="col.rules"
       >
         <component
-          :is="getComponentType(col.type)"
+          :is="getComponentType(getProp('type', col))"
           v-model="formData[col.prop]"
           v-bind="col"
         >
-          <template v-if="getSlotComponent(col.type)">
+          <template v-if="getSlotComponent(getProp('type', col))">
             <component
               v-for="dicData in col.dicData"
               :key="dicData.value"
-              :is="`el-${getSlotComponent(col.type)}`"
+              :is="`el-${getSlotComponent(getProp('type', col))}`"
               v-bind="dicData"
             />
           </template>
@@ -38,38 +39,63 @@
     </el-col>
   </el-row>
     <el-form-item>
-      <el-button type="primary" @click="handleSubmit(formRef)">Submit</el-button>
-      <el-button @click="handleReset(formRef)">Reset</el-button>
+      <el-button v-if="getProp('submitBtn')" type="primary" @click="handleSubmit()">Submit</el-button>
+      <el-button v-if="getProp('emptyBtn')" @click="handleReset()">Reset</el-button>
     </el-form-item>
   </el-form>
 </template>
 
 <script setup lang="ts" name="JForm">
 import { reactive, toRaw, watch, computed, ref } from "vue";
-import type { OptionType, formDataType, ColumnItem } from "./type.d";
+import type { OptionType } from "./jForm.d";
 import { defaultConfig } from "./config";
 import type { FormInstance } from 'element-plus'
 
-/* form ref */
-const formRef = ref<FormInstance>()
+type FormDataType = Record<string, unknown>
 /* prop and emit */
-interface PropsType {
+interface JFormProps {
   option: OptionType;
-  modelValue: formDataType
+  modelValue: FormDataType
 }
-const props = defineProps<PropsType>()
+const props = defineProps<JFormProps>()
 const emit = defineEmits<{
   submit: [form: {}, done: Function]
-  'update:model-value': [value: formDataType]
+  'update:model-value': [value: FormDataType]
 }>()
 
 /* 表单数据 */
-const formData = reactive<formDataType>({})
-for (const key in props.modelValue) {
-  formData[key] = props.modelValue[key]
+const formData = reactive<FormDataType>({})
+watch(()=> props.modelValue, (newVal) => {
+  setFormData()
+}, {
+  immediate: true
+})
+function setFormData() {
+  /* Object.keys do not traverse the prototype */
+  Object.keys(props.modelValue).forEach(key => {
+    /** set or update old formData's key */
+    formData[key] = props.modelValue[key]
+  })
+  /** delete old formData's keys which new modelValue doesn't exists */
+  const deletedKeys = getDeletedKeys(formData, props.modelValue)
+  deletedKeys.forEach(key=> {
+    delete formData[key]
+  })
+}
+function getDeletedKeys(oldObj:object, newObj:object) {
+  const deletedKeys:Array<string> = [];
+  const newKeys = Object.keys(newObj)
+  Object.keys(oldObj).forEach(key => {
+    // if (Object.prototype.hasOwnProperty.call(oldObj, key) && !(key in newObj)) {
+    if (!newKeys.includes(key)) {
+      deletedKeys.push(key)
+    }
+  })
+  return deletedKeys
 }
 
-/**TODO: notice underlying problem
+/**
+ * TODO: notice underlying problem
  * @description to realize v-model(:modelValue)
 */
 watch(formData, (newFormData) => {
@@ -119,12 +145,14 @@ const rowGutter = computed((): number => {
   return 30
 })
 
+/* form ref */
+const formRef = ref<FormInstance|null>(null)
 /**
  * @description 提交
  */
-const handleSubmit = async (formRef: FormInstance | undefined) => {
-  if (!formRef) return
-  await formRef.validate((valid, fields) => {
+const handleSubmit = async () => {
+  if (!formRef.value) return
+  await formRef.value.validate((valid, fields) => {
     if (valid) {
       emit('submit', toRaw(formData), done)
     } else {
@@ -135,9 +163,9 @@ const handleSubmit = async (formRef: FormInstance | undefined) => {
 /**
  * @description 重置
  */
- const handleReset = (formRef: FormInstance | undefined) => {
-  if (!formRef) return
-  formRef.resetFields()
+ const handleReset = () => {
+  if (!formRef.value) return
+  formRef.value.resetFields()
 }
 
 </script>

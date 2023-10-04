@@ -28,6 +28,11 @@ const menuList: Menu.MenuOption[] = reactive([{
     title: 'j components'
   },
   children: [{
+    path: '/j-components/guide',
+    meta: {
+      title: 'guide'
+    }
+  }, {
     path: '/j-components/waterfall',
     meta: {
       title: 'waterfall'

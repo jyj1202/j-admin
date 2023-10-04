@@ -4,5 +4,7 @@ export const defaultConfig: Record<string, any> = {
   labelPosition: 'left',
   // gutter: 30,
   span: 12,
-  
+  type: 'input',
+  submitBtn: true,
+  emptyBtn: true,
 }

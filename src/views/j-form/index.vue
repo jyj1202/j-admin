@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-white p-5 rounded-md shadow-md">
-    <el-alert title="使用动态组件，传入配置生成表单。" type="success" :closable="false"/>
+  <div class="bg-white p-5 rounded-md shadow">
+    <el-alert title="二次封装el-form组件，实现传入配置生成表单。" type="success" :closable="false"/>
     <JForm
       class="mt-5"
       v-model="formData"
@@ -13,11 +13,11 @@
 <script setup lang="ts">
 import { reactive, ref } from "vue";
 import JForm from "./components/JForm.vue";
-import type { OptionType } from "./components/type.d";
+import type { OptionType } from "./components/jForm.d";
 import { toRaw } from "vue";
 import { ElMessage } from 'element-plus'
 
-let formData = ref({
+const formData = ref({
   'input-number': 1,
   input: 'default value'
 })
@@ -146,7 +146,4 @@ const handleSubmit = (form: object, done: Function) => {
 }
 
 </script>
-
-<style scoped>
-
-</style>
+./components/jForm

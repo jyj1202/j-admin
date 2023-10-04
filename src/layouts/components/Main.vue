@@ -12,9 +12,3 @@
 <script setup lang="ts">
 
 </script>
-
-<style scoped >
-:deep(.el-scrollbar__view) {
-  padding: 1.2rem;
-}
-</style>
