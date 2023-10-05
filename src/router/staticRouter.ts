@@ -46,6 +46,14 @@ export const staticRouter: RouteRecordRaw[] = [
         component: () => import("@/views/j-crud/index.vue")
       },
       {
+        path: '/j-components',
+        children: [{
+          path: '/j-components/waterfall',
+          name: 'waterfall',
+          component: () => import("@/views/j-components/waterfall/index.vue")
+        }]
+      },
+      {
         path: '/form-generator',
         name: 'form-generator',
         component: () => import("@/views/form-generator/index.vue")

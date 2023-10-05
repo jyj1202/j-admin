@@ -23,6 +23,16 @@ const menuList: Menu.MenuOption[] = reactive([{
     title: 'workbench'
   }
 }, {
+  path: '/j-form',
+  meta: {
+    title: 'j form'
+  }
+}, {
+  path: '/j-crud',
+  meta: {
+    title: 'j crud'
+  }
+}, {
   path: '/j-components',
   meta: {
     title: 'j components'
@@ -38,16 +48,6 @@ const menuList: Menu.MenuOption[] = reactive([{
       title: 'waterfall'
     }
   }]
-}, {
-  path: '/j-form',
-  meta: {
-    title: 'j form'
-  }
-}, {
-  path: '/j-crud',
-  meta: {
-    title: 'j crud'
-  }
 }, {
   path: '/j-form-generator',
   meta: {
