@@ -1,6 +1,8 @@
 <template>
   <div class="flex-1 flex items-center text-4xl">
-    <el-icon class="h-full px-2 cursor-pointer hover:bg-gray-100"><Fold /></el-icon>
+    <el-icon class="h-full px-2 cursor-pointer hover:bg-gray-100" @click="handleMenuCollapse">
+      <component :is="settingStore.isCollapse?'Expand':'Fold'"></component>
+    </el-icon>
     <el-icon class="h-full px-2 cursor-pointer hover:bg-gray-100"><RefreshRight /></el-icon>
     <el-breadcrumb class="px-2" separator="/">
       <el-breadcrumb-item :to="{ path: '/' }">homepage</el-breadcrumb-item>
@@ -33,18 +35,25 @@
 </template>
 
 <script setup lang="ts">
-import {
-  ref
-} from "vue";
+import { ref } from "vue";
+import {useSettingStore} from "@/stores/modules/setting";
+
+/** emit */
+const emit = defineEmits<{
+  (e: 'menuCollapse'): void
+}>()
 
 const avatarUrl = ref('https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png')
 
 const handlePersonalSetting = () => {
-  console.log('handlePersonalSetting');
   
 }
 const handleLogout = () => {}
 
+const settingStore = useSettingStore()
+const handleMenuCollapse = () => {
+  settingStore.isCollapse = !settingStore.isCollapse
+}
 
 </script>
 

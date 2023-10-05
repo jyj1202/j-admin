@@ -1,8 +1,10 @@
 <template>
   <el-scrollbar>
     <el-menu
-      default-active="2"
       class="el-menu-vertical-demo"
+      :default-active="activeMenu"
+      :collapse="settingStore.isCollapse"
+      :collapse-transition="false"
       @select="handleSelect"
     >
       <MenuTree :menu-list="menuList"/>
@@ -11,9 +13,11 @@
 </template>
 
 <script setup lang="ts">
-import { reactive } from "vue";
+import { reactive, computed } from "vue";
+import { useRoute } from 'vue-router'
 import { useRouter } from 'vue-router'
 import MenuTree from "./MenuTree.vue";
+import {useSettingStore} from "@/stores/modules/setting";
 
 const router = useRouter()
 
@@ -105,12 +109,22 @@ const handleSelect = (index: string) => {
   }
 }
 
+const settingStore = useSettingStore()
 
+const route = useRoute()
+const activeMenu = computed(() => (route.path));
 
 </script>
 
 <style scoped lang="scss">
 .el-menu {
   border-right: none;
+}
+// .el-scrollbar {
+//   width: auto;
+// }
+:deep(.el-menu-item.is-active) {
+  border-right: 2px solid var(--el-color-primary);
+  background-color: var(--el-color-primary-light-8);
 }
 </style>

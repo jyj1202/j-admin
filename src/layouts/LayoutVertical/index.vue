@@ -1,11 +1,13 @@
 <template>
   <el-container class="h-screen">
-    <el-aside class="flex flex-col border-r h-full" width="220px">
-      <div class="logo flex items-center justify-center space-x-2">
-        <img class="logo-img w-7" src="@/assets/images/logo.png" alt="logo" />
-        <span class="logo-text text-2xl font-semibold">J Admin</span>
+    <el-aside class="flex flex-col border-r h-full" :class="{'w-250': !settingStore.isCollapse}">
+      <div>
+        <div class="logo flex items-center justify-center space-x-2">
+          <img class="logo-img w-7" src="@/assets/images/logo.png" alt="logo" />
+          <span v-show="!settingStore.isCollapse" class="logo-text text-2xl font-semibold">J Admin</span>
+        </div>
+        <Menu class="flex-1" />
       </div>
-      <Menu class="flex-1" />
     </el-aside>
     <el-container>
       <el-header class="flex justify-between border-b">
@@ -26,6 +28,9 @@ import Footer from "../components/Footer.vue";
 import Menu from "../components/Menu/index.vue";
 import Header from "../components/Header.vue";
 import Main from "../components/Main.vue";
+import {useSettingStore} from "@/stores/modules/setting";
+
+const settingStore = useSettingStore()
 
 </script>
 
@@ -39,5 +44,11 @@ import Main from "../components/Main.vue";
 .el-footer {
   height: auto;
   padding: 0.25rem 0;
+}
+.el-aside {
+  transition: width 1s ease;
+}
+.w-250 {
+  width: 250px;
 }
 </style>

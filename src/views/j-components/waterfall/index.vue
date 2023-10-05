@@ -11,10 +11,6 @@ import Waterfall from "./components/Waterfall.vue";
 
 const images = Object.values(import.meta.glob('@/assets/images/waterfall/*', { as: 'url', eager: true }))
 
-console.log(images);
-
-
-
 </script>
 
 <style lang="scss" scoped>
