@@ -23,7 +23,7 @@
       :size="getProp('size')"
       :fit="true"
       highlight-current-row
-      :header-cell-style="{background:'#fafafa',color: '#000', 'fontWeight': 700}"
+      :header-cell-style="{'fontWeight': 700}"
     >
       <!-- defaultColumn -->
       <template v-if="defaultColumn.length">

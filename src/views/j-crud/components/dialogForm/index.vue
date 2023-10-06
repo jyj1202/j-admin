@@ -1,10 +1,20 @@
 <template>
   <el-dialog
+    id="dialogForm"
     v-model="dialogVisible"
-    title="Add Row"
     width="50%"
+    :show-close="false"
     :close-on-click-modal="false"
   >
+    <template #header="{ titleId, titleClass }">
+      <div class="flex justify-between items-center">
+        <h4 :id="titleId" :class="titleClass">Add Row</h4>
+        <div>
+          <el-button type="info" link icon="FullScreen" @click="handleToogleFullScreen"></el-button>
+          <el-button type="info" link icon="Close" @click="dialogVisible=false"></el-button>
+        </div>
+      </div>
+    </template>
     <JForm
       class="mt-5"
       v-model="formData"
@@ -28,6 +38,7 @@ import { ref, computed } from 'vue';
 import JForm from "@/views/j-form/components/JForm.vue";
 import type { OptionType } from "@/views/j-form/components/jForm.d";
 import { ElMessage } from 'element-plus'
+import { toggleFullScreen } from "@/utils/screen";
 
 
 /** props and emit */
@@ -56,11 +67,17 @@ const _show = (data={}) => {
   dialogVisible.value = true
 }
 
+const handleToogleFullScreen = () => {
+  toggleFullScreen(document.getElementById('dialogForm')!)
+}
+
 defineExpose({
   _show
 })
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
+:deep(.el-dialog__header) {
+  margin-right: 0;
+}
 </style>

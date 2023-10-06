@@ -13,7 +13,7 @@
       <el-header class="flex justify-between border-b">
         <Header />
       </el-header>
-      <el-main class=" bg-gray-100">
+      <el-main :class="[settingStore.isDark ? 'bg-black' : 'bg-gray-100']">
         <Main/>
       </el-main>
       <el-footer class="flex justify-center items-center border-t">
@@ -35,6 +35,9 @@ const settingStore = useSettingStore()
 </script>
 
 <style scoped lang="scss">
+.el-container {
+  background-color: var(--el-bg-color);
+}
 .el-header, .logo {
   height: 55px;
 }

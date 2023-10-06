@@ -7,8 +7,11 @@ import { defineStore } from 'pinia'
 import type { SettingStateType } from './settingType'
 
 export const useSettingStore = defineStore('setting', {
+  persist: true,
   state: (): SettingStateType => ({
-    isCollapse: false
+    isCollapse: false,
+    themeColor: '#1E90FF',
+    isDark: false,
   }),
 
   getters: {

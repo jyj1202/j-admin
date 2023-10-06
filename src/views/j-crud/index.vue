@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white p-5 rounded-md shadow">
+  <div class="p-5 rounded-md shadow">
     <el-alert
       title="二次封装el-table组件，实现传入配置生成表格，配合JForm组件完成增删查改业务。"
       description="功能：
