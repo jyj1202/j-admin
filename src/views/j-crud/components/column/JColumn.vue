@@ -1,4 +1,5 @@
 <template>
+  <!-- FIXME:ts error implicit any-->
   <el-table-column
     v-for="column in columns"
     :key="column.prop"
@@ -11,24 +12,27 @@
     resizable
   >
     <template #default="{row}">
-      <slot v-if="!column.children" :name="`${column.prop}`" v-bind="{row, column, size: defaultConfig.size}">
-        <!-- html -->
-        <template v-if="column.html">
-          <span v-html="getCellValue(row, column)"></span>
+      <template v-if="!column.children">
+        <slot :name="`${column.prop}`" v-bind="{row, column, size: defaultConfig.size}">
+          <!-- html -->
+          <template v-if="column.html">
+            <span v-html="getCellValue(row, column)"></span>
+          </template>
+          <!-- cell edit -->
+          <template v-else-if="column.cell===true">
+          </template>
+          <!-- default -->
+          <template v-else>
+            {{getCellValue(row, column)}}
+          </template>
+        </slot>
+      </template>
+      <!-- <component v-else :is="JColumn" :columns="column.children"></component> -->
+      <JColumn v-else :columns="column.children">
+        <template v-for="(val, key) in getColumnSlots" :key="key" #[key]="scope">
+          <slot :name="key" v-bind="scope"></slot>
         </template>
-        <!-- cell edit -->
-        <template v-else-if="column.cell===true">
-        </template>
-        <!-- default -->
-        <template v-else>
-          {{getCellValue(row, column)}}
-        </template>
-      </slot>
-      <Column
-        v-else
-        :columns="column.children"
-      >
-      </Column>
+      </JColumn>
     </template>
   </el-table-column>
 </template>
@@ -36,17 +40,20 @@
 <script setup lang="ts" name="Column">
 import type { JCrudColumn, DicData } from "@/views/j-crud/components/jCrud";
 import { defaultConfig } from "../config";
-import { inject } from "vue";
-import { getPropFnKey } from "../utils/keys";
+import { inject, useSlots, type ComputedRef } from "vue";
+import { getPropKey, getColumnSlotsKey } from "../utils/keys";
+import JColumn from "./JColumn.vue";
 
 
 /** inject getProp method FIXME: ts type */
-const getProp = inject<Function>(getPropFnKey)!
+const getProp = inject<Function>(getPropKey)!
+const getColumnSlots = inject<ComputedRef<Record<string, Function>>>(getColumnSlotsKey)!
 
 interface JCrudColumnProp {
   columns: JCrudColumn[];
 }
 const props = defineProps<JCrudColumnProp>()
+
 
 /**
  * @method 获取cell值(处理格式化、数据字典、数组join等)

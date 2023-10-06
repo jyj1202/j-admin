@@ -1,3 +1,4 @@
 export const JCrudOptionKey = Symbol('optionKey')
 
-export const getPropFnKey = Symbol('getPropKey')
+export const getPropKey = Symbol('getPropKey')
+export const getColumnSlotsKey = Symbol('getColumnSlotsKey')

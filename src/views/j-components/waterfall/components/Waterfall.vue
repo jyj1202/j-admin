@@ -22,7 +22,7 @@ interface JWaterfallProp {
   imgBorderRadius?: string;
 }
 const props = withDefaults(defineProps<JWaterfallProp>(), {
-  imgBorderRadius: '4px'
+  imgBorderRadius: '2px'
 })
 
 </script>

@@ -39,8 +39,8 @@
       
       <!-- main -->
       <Column :columns="option.column">
-        <template v-for="item in getColumnSlots()" :key="item" #[item]="scope">
-          <slot :name="item" v-bind="scope"></slot>
+        <template v-for="(val, key) in getColumnSlots" :key="key" #[key]="scope">
+          <slot :name="key" v-bind="scope"></slot>
         </template>
       </Column>
 
@@ -97,11 +97,11 @@
 <script setup lang="ts">
 import { ref, computed, provide, useSlots, onMounted } from 'vue';
 import { defaultConfig } from "./config";
-import { JCrudOptionKey, getPropFnKey } from "@/views/j-crud/components/utils/keys";
-import type { JCrudOptionType, PageOption, DicData, JCrudColumn } from "./jCrud";
+import { JCrudOptionKey, getPropKey, getColumnSlotsKey } from "@/views/j-crud/components/utils/keys";
+import type { JCrudOptionType, PageOption, JCrudColumn } from "./jCrud.d.ts";
 import DialogForm from "./dialogForm/index.vue";
 import HeaderSearch from "./header/HeaderSearch.vue";
-import Column from "./column/Column.vue";
+import Column from "./column/JColumn.vue";
 
 
 /** prop and emit */
@@ -126,21 +126,8 @@ const emit = defineEmits<{
 /** provide */
 // const key = Symbol() as InjectionKey<string>
 provide<JCrudOptionType>(JCrudOptionKey, props.option) // 若提供的是非字符串值会导致错误
-provide(getPropFnKey, getProp)
+provide(getPropKey, getProp)
 
-
-/**
- * get vue component prop.
- * match param's option first, then props.option, last defaultConfig.
- * Exclude null and undefined from T: type NonNullable<T> = T & {}.
- * @param propName
- * @param option
- */
-function getProp(propName: string, option: Record<string, any>={}):NonNullable<any> {
-  let propValue
-  propValue = option[propName] ?? props.option[propName as keyof JCrudOptionType] ?? defaultConfig[propName]
-  return propValue
-}
 
 /** table config */
 const loading = props.tableLoading
@@ -161,13 +148,19 @@ const defaultColumn = computed(() => {
   return columns
 })
 
-onMounted(()=> {
-  console.log(useSlots());
-  
+/** column slots */
+const getColumnSlots = computed<Record<string, Function>>(() => {
+  const columnSlots: Record<string, any> = {}
+  const slots = useSlots()
+  const propNames = getOptionPropNames(props.option.column)
+  Object.keys(slots).forEach(key => {
+    if (propNames[key]) {
+      columnSlots[key] = slots[key]
+    }
+  })
+  return columnSlots
 })
-const getColumnSlots = () => {
-  return []
-}
+provide(getColumnSlotsKey, getColumnSlots)
 
 
 /** pagination */
@@ -194,6 +187,36 @@ const handleDelete = (row: object) => {
 
 /** header search */
 const isHeaderSearchShow = ref(false)
+
+
+/**
+ * get vue component prop.
+ * match param's option first, then props.option, last defaultConfig.
+ * Exclude null and undefined from T: type NonNullable<T> = T & {}.
+ * @param propName
+ * @param option
+ */
+function getProp(propName: string, option: Record<string, any>={}):NonNullable<any> {
+  let propValue
+  propValue = option[propName] ?? props.option[propName as keyof JCrudOptionType] ?? defaultConfig[propName]
+  return propValue
+}
+
+/**
+ * 获取所有传递过来的col.prop
+ * @param cols
+ * @param propNames
+ */
+function getOptionPropNames(cols: JCrudColumn[], propNames:Record<string, boolean>={}) {
+  cols.forEach(col=> {
+    if (col.children) {
+      getOptionPropNames(col.children, propNames)
+    } else {
+      propNames[col.prop] = true
+    }
+  })
+  return propNames
+}
 </script>
 
 <style scoped>

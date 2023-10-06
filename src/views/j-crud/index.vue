@@ -19,12 +19,14 @@
       @row-del="handleRowDel"
       @refresh-change="handleRefreshChange"
     >
-      <slot name="test"></slot>
-      <template #name="{row, col, size}">
-        <el-tag :size="size">{{ row[col.prop] }}</el-tag>
+      <template #name="{row, column, size}">
+        <el-tag :size="size">{{ row[column.prop] }}</el-tag>
       </template>
-      <template #state="{row, col, size}">
-        <el-tag :size="size">{{ row[col.prop] }}</el-tag>
+      <template #state="{row, column, size}">
+        <el-tag :size="size">{{ row[column.prop] }}</el-tag>
+      </template>
+      <template #city="{row, column}">
+        <span class="text-red-200">{{ row[column.prop] }}</span>
       </template>
     </JCrud>
   </div>
@@ -32,9 +34,10 @@
 
 <script setup lang="ts">
 import { reactive } from "vue";
-import JCrud from "./components/JCrud.vue";
-import type { JCrudOptionType } from "./components/jCrud";
 import { ElMessage, ElMessageBox } from 'element-plus'
+import type { JCrudOptionType } from "./components/jCrud";
+import JCrud from "./components/JCrud.vue";
+
 
 const tableData = reactive([
   {
@@ -107,7 +110,7 @@ const tableOption = reactive<JCrudOptionType<Row>>({
       return new Date(value).toLocaleString('en-US')
     }
   }, {
-    label: 'Name',
+    label: 'Name(use slot)',
     prop: 'name',
     search: true
   }, {
@@ -135,7 +138,7 @@ const tableOption = reactive<JCrudOptionType<Row>>({
       prop: 'state',
       search: true
     }, {
-      label: 'City',
+      label: 'City(use slot)',
       prop: 'city',
       search: true
     }, {

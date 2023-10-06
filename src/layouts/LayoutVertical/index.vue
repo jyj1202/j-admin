@@ -13,7 +13,7 @@
       <el-header class="flex justify-between border-b">
         <Header />
       </el-header>
-      <el-main :class="[settingStore.isDark ? 'bg-black' : 'bg-gray-100']">
+      <el-main>
         <Main/>
       </el-main>
       <el-footer class="flex justify-center items-center border-t">

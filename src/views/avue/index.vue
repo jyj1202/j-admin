@@ -3,7 +3,11 @@
     <ElButton @click="formData={name: 'da'}">click</ElButton>
     <avue-form v-model="formData" :option="option"></avue-form>
     <div ref="divRef">dada</div>
-    <avue-crud :data="tableData" :option="tableOption"></avue-crud>
+    <avue-crud :data="tableData" :option="tableOption">
+      <template #name="scope">
+        {{ scope }}
+      </template>
+    </avue-crud>
   </div>
 </template>
 
