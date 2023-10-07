@@ -87,10 +87,7 @@
       </el-pagination>
     </div>
 
-    <DialogForm
-      ref="dialogFormRef"
-      :option="option"
-    />
+    <DialogForm ref="dialogFormRef"/>
   </div>
 </template>
 
@@ -173,11 +170,11 @@ const handleCurrentChange = () => {}
 const dialogFormRef = ref<InstanceType<typeof DialogForm> | null>(null)
 /** add */
 const showAddDialogForm = () => {
-  dialogFormRef.value?._show()
+  dialogFormRef.value?._show('Add Row')
 }
 /** edit */
 const showEditDialogForm = (row: object) => {
-  dialogFormRef.value?._show(row)
+  dialogFormRef.value?._show('Edit Row', row)
   emit('rowUpdate', row)
 }
 /** delete */

@@ -24,7 +24,7 @@
         <component
           :is="getComponentType(getProp('type', col))"
           v-model="formData[col.prop]"
-          v-bind="col"
+          v-bind="getComponentProps(col)"
         >
           <template v-if="getSlotComponent(getProp('type', col))">
             <component
@@ -47,14 +47,14 @@
 
 <script setup lang="ts" name="JForm">
 import { reactive, toRaw, watch, computed, ref } from "vue";
-import type { OptionType } from "./jForm.d";
+import type { JFormOptionType, JFormColumn } from "./jForm.d";
 import { defaultConfig } from "./config";
 import type { FormInstance } from 'element-plus'
 
 type FormDataType = Record<string, unknown>
 /* prop and emit */
 interface JFormProps {
-  option: OptionType;
+  option: JFormOptionType;
   modelValue: FormDataType
 }
 const props = defineProps<JFormProps>()
@@ -76,12 +76,15 @@ function setFormData() {
     /** set or update old formData's key */
     formData[key] = props.modelValue[key]
   })
+  
   /** delete old formData's keys which new modelValue doesn't exists */
   const deletedKeys = getDeletedKeys(formData, props.modelValue)
+  
   deletedKeys.forEach(key=> {
     delete formData[key]
   })
 }
+/** @description get keys that need to delete when toggle row form */
 function getDeletedKeys(oldObj:object, newObj:object) {
   const deletedKeys:Array<string> = [];
   const newKeys = Object.keys(newObj)
@@ -111,6 +114,10 @@ const getComponentType = (type: string) => {
   type = compTypeMap[type] ?? type
   return `el-${type}`
 }
+const getComponentProps = (col: any) => {
+  const {formatter, dicData, ...formCol} = col
+  return formCol
+}
 
 /**
  * @description 获取组件插槽内子组件
@@ -133,7 +140,7 @@ const getSlotComponent = (type: string): string|undefined => {
  */
 const getProp = (propName: string, option: Record<string, any>={}):any => {
   let propValue
-  propValue = option[propName] ?? props.option[propName as keyof OptionType] ?? defaultConfig[propName]
+  propValue = option[propName] ?? props.option[propName as keyof JFormOptionType] ?? defaultConfig[propName]
   return propValue
 }
 

@@ -1,4 +1,4 @@
-export interface Option {
+export interface CommonOption {
   size?: '' | 'large' | 'default' | 'small';
 }
 

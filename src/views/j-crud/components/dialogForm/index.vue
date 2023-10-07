@@ -8,7 +8,7 @@
   >
     <template #header="{ titleId, titleClass }">
       <div class="flex justify-between items-center">
-        <h4 :id="titleId" :class="titleClass">Add Row</h4>
+        <h4 :id="titleId" :class="titleClass">{{ dialogFormTitle }}</h4>
         <div>
           <el-button type="info" link icon="FullScreen" @click="handleToogleFullScreen"></el-button>
           <el-button type="info" link icon="Close" @click="dialogVisible=false"></el-button>
@@ -34,36 +34,54 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue';
-import JForm from "@/views/j-form/components/JForm.vue";
-import type { OptionType } from "@/views/j-form/components/jForm.d";
+import { ref, computed, inject } from 'vue';
 import { ElMessage } from 'element-plus'
 import { toggleFullScreen } from "@/utils/screen";
+import { JCrudOptionKey } from "@/views/j-crud/components/utils/keys";
+import type { JFormOptionType, JFormColumn } from "@/views/j-form/components/jForm.d";
+import type { JCrudOptionType, JCrudColumn } from "@/views/j-crud/components/jCrud";
+import JForm from "@/views/j-form/components/JForm.vue";
 
 
-/** props and emit */
-interface AddDialogProps {
-  option: OptionType;
-}
-const props = defineProps<AddDialogProps>()
+/** inject */
+const crudOption = inject<JCrudOptionType>(JCrudOptionKey)
 
 const dialogVisible = ref(false)
-
+const dialogFormTitle = ref('')
 const formData = ref({})
-const formOption = computed(()=>{
-  const option = {
-    ...props.option,
+const formOption = computed<JFormOptionType>(()=>{
+  const cols = getFormColsFromCrudCols(crudOption!.column)
+  const option: JFormOptionType = {
+    column: cols,
     submitBtn: false,
     emptyBtn: false
   }
   return option
 })
+/**
+ * get formCols from crudCols, because crud col may has children, but form cols array need to be flat.
+ * @param crudCols
+ * @param cols
+ */
+function getFormColsFromCrudCols(crudCols: JCrudColumn[], cols: JFormColumn[]=[]): JFormColumn[] {
+  crudCols.forEach((col) => {
+    if (col.children) {
+      getFormColsFromCrudCols(col.children, cols)
+    } else {
+      cols.push(col)
+    }
+  })
+  return cols
+}
+
 const handleSubmit = (form: object, done: Function) => {
   console.log(form, done);
   ElMessage.success(JSON.stringify(form))
 }
-const _show = (data={}) => {
+
+const _show = (title: string, data={}) => {
   formData.value = data
+  dialogFormTitle.value = title
   dialogVisible.value = true
 }
 

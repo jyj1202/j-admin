@@ -1,7 +1,7 @@
 import type { FormItemRule } from 'element-plus'
-import type { Option, DicData } from "@/typings/common";
+import type { CommonOption, DicData } from "@/typings/common";
 
-export interface OptionType extends Option {
+export interface JFormOptionType extends CommonOption {
   labelWidth?: string|number;
   labelPosition?: 'left'|'right'|'top';
   column: JFormColumn[];

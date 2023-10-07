@@ -118,6 +118,7 @@ const tableOption = reactive<JCrudOptionType<Row>>({
     prop: 'sex',
     html: true,
     search: true,
+    type: 'select',
     dicData: [{
       label: 'female',
       value: 0

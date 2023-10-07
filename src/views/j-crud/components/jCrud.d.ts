@@ -1,7 +1,7 @@
-import type { Option, DicData } from "@/typings/common";
+import type { CommonOption, DicData } from "@/typings/common";
 import { JFormColumn } from "@/views/j-form/components/jForm";
 
-export interface JCrudOptionType<T= any> extends Option  {
+export interface JCrudOptionType<T= any> extends CommonOption  {
   column: JCrudColumn<T>[];
   stripe?: boolean;
   border?: boolean;

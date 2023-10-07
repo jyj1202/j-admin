@@ -13,7 +13,7 @@
 <script setup lang="ts">
 import { reactive, ref } from "vue";
 import JForm from "./components/JForm.vue";
-import type { OptionType } from "./components/jForm.d";
+import type { JFormOptionType } from "./components/jForm.d";
 import { toRaw } from "vue";
 import { ElMessage } from 'element-plus'
 
@@ -22,7 +22,7 @@ const formData = ref({
   input: 'default value'
 })
 
-const formOption = reactive<OptionType>({
+const formOption = reactive<JFormOptionType>({
   labelPosition: 'left',
   column: [{
     label: 'input',
