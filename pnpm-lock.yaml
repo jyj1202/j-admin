@@ -17,6 +17,9 @@ dependencies:
   axios:
     specifier: ^1.5.0
     version: 1.5.0
+  driver.js:
+    specifier: ^1.3.0
+    version: 1.3.0
   element-plus:
     specifier: ^2.3.12
     version: 2.3.12(vue@3.3.4)
@@ -2761,6 +2764,10 @@ packages:
       find-up: 3.0.0
       minimatch: 3.1.2
     dev: true
+
+  /driver.js@1.3.0:
+    resolution: {integrity: sha512-ilUkVc5iMIYfMd8FdWy8n5Wv//gsJuRP+lo8QfWpwP9c0UGOgD7P9nVQMZwcdW84aqAZHHUHrV7GgiopAN6HUQ==}
+    dev: false
 
   /eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}

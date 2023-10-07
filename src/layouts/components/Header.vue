@@ -1,17 +1,17 @@
 <template>
   <div class="flex-1 flex items-center text-4xl">
-    <el-icon class="header-icon" @click="handleMenuCollapse">
+    <el-icon id="collapseIcon" class="header-icon" @click="handleMenuCollapse">
       <component :is="settingStore.isCollapse?'Expand':'Fold'"></component>
     </el-icon>
-    <el-icon class="header-icon"><RefreshRight /></el-icon>
-    <el-breadcrumb class="px-2" separator="/">
+    <el-icon id="refreshIcon" class="header-icon"><RefreshRight /></el-icon>
+    <el-breadcrumb id="breadcrumb" class="px-2" separator="/">
       <el-breadcrumb-item v-for="item in breadcrumbs" :key="item.title">{{ item.title }}</el-breadcrumb-item>
     </el-breadcrumb>
   </div>
 
   <div class="flex items-center text-4xl">
-    <el-icon class="header-icon" @click="handleFullScreen"><FullScreen /></el-icon>
-    <el-dropdown>
+    <el-icon id="fullScreenIcon" class="header-icon" @click="handleFullScreen"><FullScreen /></el-icon>
+    <el-dropdown  id="personalSetting">
       <div class="header-icon flex items-center space-x-2">
         <el-avatar :src="avatarUrl" />
         <span class="el-dropdown-link">
@@ -28,7 +28,7 @@
         </el-dropdown-menu>
       </template>
     </el-dropdown>
-    <SettingDrawer class="header-icon text-xl"/>
+    <SettingDrawer id="settingDrawer" class="header-icon text-xl"/>
   </div>
 </template>
 

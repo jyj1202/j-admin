@@ -13,7 +13,7 @@
       <el-header class="flex justify-between border-b">
         <Header />
       </el-header>
-      <el-main>
+      <el-main id="pageBody">
         <Main/>
       </el-main>
       <el-footer class="flex justify-center items-center border-t">

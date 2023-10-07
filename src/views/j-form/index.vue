@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white p-5 rounded-md shadow">
-    <el-alert title="二次封装el-form组件，实现传入配置生成表单。" type="success" :closable="false"/>
+    <el-alert title="🤡 二次封装el-form组件，实现传入配置生成表单。" type="success" :closable="false"/>
     <JForm
       class="mt-5"
       v-model="formData"
