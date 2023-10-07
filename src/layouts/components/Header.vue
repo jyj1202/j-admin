@@ -5,9 +5,7 @@
     </el-icon>
     <el-icon class="header-icon"><RefreshRight /></el-icon>
     <el-breadcrumb class="px-2" separator="/">
-      <el-breadcrumb-item :to="{ path: '/' }">homepage</el-breadcrumb-item>
-      <el-breadcrumb-item><a href="/">promotion management</a></el-breadcrumb-item>
-      <el-breadcrumb-item>promotion list</el-breadcrumb-item>
+      <el-breadcrumb-item v-for="item in breadcrumbs" :key="item.title">{{ item.title }}</el-breadcrumb-item>
     </el-breadcrumb>
   </div>
 
@@ -35,31 +33,42 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, computed } from "vue";
+import { useRoute } from 'vue-router'
 import {useSettingStore} from "@/stores/modules/setting";
 import { toggleFullScreen } from "@/utils/screen";
 import SettingDrawer from "./SettingDrawer/index.vue";
 
-/** emit */
-const emit = defineEmits<{
-  (e: 'menuCollapse'): void
-}>()
-
-const avatarUrl = ref('https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png')
-
-const handlePersonalSetting = () => {
-  
-}
-const handleLogout = () => {}
-
+/** fold */
 const settingStore = useSettingStore()
 const handleMenuCollapse = () => {
   settingStore.isCollapse = !settingStore.isCollapse
 }
 
+/** breadcrumb */
+const breadcrumbs = computed(() => {
+  const route = useRoute()
+  const breadcrumb: Array<{title: string, icon?: string}> = []
+  for (let i = 1; i < route.matched.length; i++) {
+    const routeItem = route.matched[i];
+    const {meta: {title, icon}} = routeItem
+    title && breadcrumb.push({title, icon})
+  }
+  return breadcrumb
+})
+
+/** FullScreen */
 const handleFullScreen = () => {
   toggleFullScreen(document.documentElement)
 }
+
+/** personal setting */
+const avatarUrl = ref('https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png')
+const handlePersonalSetting = () => {
+  
+}
+const handleLogout = () => {}
+
 </script>
 
 <style scoped lang="scss">

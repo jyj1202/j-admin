@@ -16,7 +16,7 @@ export const staticRouter: RouteRecordRaw[] = [
         name: 'workbench',
         component: () => import("@/views/workbench/index.vue"),
         meta: {
-
+          title: 'workbench'
         }
       },
       {
@@ -38,30 +38,55 @@ export const staticRouter: RouteRecordRaw[] = [
       {
         path: '/j-form',
         name: 'j-form',
-        component: () => import("@/views/j-form/index.vue")
+        component: () => import("@/views/j-form/index.vue"),
+        meta: {
+          title: 'j form'
+        }
       },
       {
         path: '/j-crud',
         name: 'j-crud',
-        component: () => import("@/views/j-crud/index.vue")
+        component: () => import("@/views/j-crud/index.vue"),
+        meta: {
+          title: 'j crud'
+        }
       },
       {
         path: '/j-components',
+        meta: {
+          title: 'j components'
+        },
         children: [{
           path: '/j-components/waterfall',
           name: 'waterfall',
-          component: () => import("@/views/j-components/waterfall/index.vue")
+          component: () => import("@/views/j-components/waterfall/index.vue"),
+          meta: {
+            title: 'waterfall'
+          }
+        }, {
+          path: '/j-components/guide',
+          name: 'guide',
+          component: () => import("@/views/j-components/guide/index.vue"),
+          meta: {
+            title: 'guide'
+          }
         }]
       },
       {
-        path: '/form-generator',
-        name: 'form-generator',
-        component: () => import("@/views/form-generator/index.vue")
+        path: '/j-form-generator',
+        name: 'j-form-generator',
+        component: () => import("@/views/j-form-generator/index.vue"),
+        meta: {
+          title: 'j form generator'
+        }
       },
       {
         path: '/screen',
         name: 'screen',
-        component: () => import("@/views/screen/index.vue")
+        component: () => import("@/views/screen/index.vue"),
+        meta: {
+          title: 'screen'
+        }
       },
     ]
   },
