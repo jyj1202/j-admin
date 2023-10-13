@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white p-5 rounded-md shadow">
+  <div class="p-5 page-card">
     <el-alert title="🤡 二次封装el-form组件，实现传入配置生成表单。" type="success" :closable="false"/>
     <JForm
       class="mt-5"
@@ -28,7 +28,7 @@ const formOption = reactive<JFormOptionType>({
     label: 'input',
     prop: 'input',
     type: 'input',
-    span: 12,
+    span: 8,
     placeholder: 'try to input something',
     rules: {
       required: true,
@@ -41,10 +41,18 @@ const formOption = reactive<JFormOptionType>({
     type: 'input-number',
     min: 1,
     max: 2,
+    span: 8,
+  }, {
+    label: 'password',
+    prop: 'password',
+    type: 'password',
+    showPassword: true,
+    span: 8
   }, {
     label: 'select',
     prop: 'select',
     type: 'select',
+    multiple: true,
     placeholder: 'make a selection',
     rules: [{
       required: true,

@@ -11,7 +11,7 @@ export interface JFormOptionType extends CommonOption {
 
 export interface JFormColumn {
   label: string;
-  prop: string;
+  prop: string; /** 不可重复 */
   type?: string;
   placeholder?: string;
   rules?: global.Arrayable<FormItemRule>;
@@ -24,4 +24,8 @@ export interface JFormColumn {
   inactiveIcon?: string;
   formatTooltip?: Function;
   dicData?: DicData;
+  showPassword?: boolean;
+  multiple?: boolean;
+  component?: string|object;  /** 动态组件 */
+  labelWidth?: number;
 }

@@ -21,24 +21,27 @@
         :prop="col.prop"
         :rules="col.rules"
       >
-        <component
-          :is="getComponentType(getProp('type', col))"
-          v-model="formData[col.prop]"
-          v-bind="getComponentProps(col)"
-        >
-          <template v-if="getSlotComponent(getProp('type', col))">
-            <component
-              v-for="dicData in col.dicData"
-              :key="dicData.value"
-              :is="`el-${getSlotComponent(getProp('type', col))}`"
-              v-bind="dicData"
-            />
-          </template>
-        </component>
+        <slot :name="col.prop" v-bind="{col, size: getProp('size', col)}">
+          <component
+            :is="getComponentType(col, getProp('type', col))"
+            v-model="formData[col.prop]"
+            v-bind="getComponentProps(col)"
+            :key="col.prop"
+          >
+            <template v-if="!col.component && getSlotComponent(getProp('type', col))">
+              <component
+                v-for="dicData in col.dicData"
+                :key="dicData.value"
+                :is="`el-${getSlotComponent(getProp('type', col))}`"
+                v-bind="dicData"
+              />
+            </template>
+          </component>
+        </slot>
       </el-form-item>
     </el-col>
   </el-row>
-    <el-form-item>
+    <el-form-item v-if="getProp('submitBtn')||getProp('emptyBtn')">
       <el-button v-if="getProp('submitBtn')" type="primary" @click="handleSubmit()">Submit</el-button>
       <el-button v-if="getProp('emptyBtn')" @click="handleReset()">Reset</el-button>
     </el-form-item>
@@ -106,16 +109,26 @@ watch(formData, (newFormData) => {
 })
 
 /**@description get component to be render */
-const getComponentType = (type: string) => {
-  /* 组件映射 */
+const getComponentType = (col: JFormColumn,type: string): string|object => {
+  /** if col has custom component, use component */
+  if (col.component) {
+    return col.component
+  }
+  /* if col doesn't have custom component, use col's type to get form component */
   const compTypeMap: Record<string, string> = {
-    'date': 'date-picker' // FIXME:bug
+    'date': 'date-picker', // FIXME:bug
+    'password': 'input'
   }
   type = compTypeMap[type] ?? type
   return `el-${type}`
 }
+/**
+ * https://element-plus.org/zh-CN/component/input.html#%E6%A0%BC%E5%BC%8F%E5%8C%96
+ * element ui input has "formatter" prop, so need to delete "formatter" prop to avoid collide
+ * @param col
+ */
 const getComponentProps = (col: any) => {
-  const {formatter, dicData, ...formCol} = col
+  const {formatter, ...formCol} = col
   return formCol
 }
 

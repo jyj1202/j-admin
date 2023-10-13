@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col justify-center items-center h-full">
-    <div class="grid grid-cols-3 justify-items-center md:gap-10 sm:gap-4 xl:pr-40 pb-20">
+    <div class="icon-container grid grid-cols-3 justify-items-center md:gap-10 sm:gap-4 xl:mr-40 mb-20 p-5">
       <SvgIcon
         class="xl:w-60 md:w-40 sm:w-20"
         v-for="item in logos"
@@ -38,9 +38,45 @@ import { reactive } from "vue";
 服务时引入一个静态资源会返回解析后的公共路径 */
 // import vueUrl from "@/assets/images/vue.svg"; /* /src/assets/images/vue.svg */
 
-const logos = reactive(['vue', 'vite', 'viteconf', 'pinia', 'element-ui', 'tailwindcss'])
+const logos = reactive(['vue', 'typescript', 'vite', 'pinia', 'element-ui', 'tailwindcss'])
 </script>
 
 <style scoped>
-
+.icon-container{
+  position: relative;
+}
+.icon-container:before,.icon-container:after{
+  content:"";
+  display:block;
+  position: absolute;
+  box-sizing: border-box;
+  width: 0;
+  height:0;
+  border:4px solid transparent;
+  border-radius: 1rem;
+}
+ 
+.icon-container:before{
+  top: 0;
+  left: 0;
+  transition: border-color 0s ease-in 0.8s,width 0.2s ease-in 0.6s,height 0.2s ease-in 0.4s;
+}
+.icon-container:after{
+  right: 0;
+  bottom: 0;
+  transition: border-color 0s ease-in 0.4s,width 0.2s ease-in 0.2s,height 0.2s ease-in;
+}
+ 
+.icon-container:hover:before{
+  width: 100%;
+  height: 100%;
+  transition: width 0.2s ease-in ,height 0.2s ease-in 0.2s;border-top-color:var(--el-color-primary);
+  border-right-color: var(--el-color-primary);
+}
+.icon-container:hover:after{
+  width: 100%;
+  height: 100%;
+  transition: border-color 0s ease-in 0.4s,width 0.2s ease-in 0.4s,height 0.3s ease-in 0.6s;
+  border-bottom-color: var(--el-color-primary);border-left-color:var(--el-color-primary);
+}
 </style>

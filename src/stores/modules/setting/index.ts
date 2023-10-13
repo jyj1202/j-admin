@@ -1,5 +1,5 @@
 /**
- * @description 权限
+ * @description 系统样式设置
  */
 
 import { defineStore } from 'pinia'

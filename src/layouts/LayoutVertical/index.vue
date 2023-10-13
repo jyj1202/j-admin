@@ -13,8 +13,9 @@
       <el-header class="flex justify-between border-b">
         <Header />
       </el-header>
-      <el-main id="pageBody">
-        <Main/>
+      <el-main>
+        <HeaderTab class="border-b"/>
+        <Main class="main flex-1" id="pageBody"/>
       </el-main>
       <el-footer class="flex justify-center items-center border-t">
         <Footer />
@@ -24,11 +25,12 @@
 </template>
 
 <script setup lang="ts" name="LayoutVertical">
+import {useSettingStore} from "@/stores/modules/setting";
 import Footer from "../components/Footer.vue";
 import Menu from "../components/Menu/index.vue";
 import Header from "../components/Header.vue";
 import Main from "../components/Main.vue";
-import {useSettingStore} from "@/stores/modules/setting";
+import HeaderTab from "../components/HeaderTab.vue";
 
 const settingStore = useSettingStore()
 
@@ -50,6 +52,15 @@ const settingStore = useSettingStore()
 }
 .el-aside {
   transition: width 1s ease;
+}
+.el-main {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  overflow: hidden;
+  .main {
+    padding: var(--el-main-padding);
+  }
 }
 .w-250 {
   width: 250px;
