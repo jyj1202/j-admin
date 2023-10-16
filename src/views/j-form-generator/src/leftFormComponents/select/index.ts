@@ -1,12 +1,15 @@
 import { markRaw } from "vue";
-import DicSetting from "./DicSetting.vue";
-import type { FormComponentMeta } from "@/views/j-form-generator/src/formComponents/type.d";
+import DicSetting from "../DicSetting.vue";
+import type { FormComponentMeta } from "@/views/j-form-generator/src/typings";
 
 
 const selectMeta: FormComponentMeta = {
   label: 'Select',
   type: 'select',
-  labelWidth: 100,
+  dicData: [{
+    label: 'label1',
+    value: 'value1'
+  }],
   option: [{
     label: 'placeholder',
     prop: 'placeholder',
@@ -18,12 +21,12 @@ const selectMeta: FormComponentMeta = {
     type: 'switch',
     span: 24,
   }, {
-    label: 'multiple',
+    label: 'multiple',  // FIXME: multiple bug
     prop: 'multiple',
     type: 'switch',
     span: 24
   }, {
-    label: 'dic data',
+    label: 'dic data(value unique)',
     prop: 'dicData',
     component: markRaw(DicSetting),
     span: 24

@@ -40,7 +40,7 @@
 <script setup lang="ts" name="Column">
 import type { JCrudColumn, DicData } from "@/views/j-crud/components/jCrud";
 import { defaultConfig } from "../config";
-import { inject, useSlots, type ComputedRef } from "vue";
+import { inject, type ComputedRef } from "vue";
 import { getPropKey, getColumnSlotsKey } from "../utils/keys";
 import JColumn from "./JColumn.vue";
 

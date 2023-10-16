@@ -1,7 +1,13 @@
 <template>
   <el-button-group size="default">
-    <el-button text icon="Back" />
-    <el-button text icon="Right" />
+    <el-button
+      :disabled="currentFormOptionIndex<1"
+      text icon="Back"
+      @click="redo"
+    />
+    <el-button :disabled="currentFormOptionIndex>=historyFormOptions.length-1" text icon="Right"
+      @click="undo"  
+    />
   </el-button-group>
   <el-button-group size="default">
     <el-button text icon="Upload">Import JSON</el-button>
@@ -12,10 +18,13 @@
 </template>
 
 <script setup lang="ts">
+import { storeToRefs } from "pinia";
 import { useFormGeneratorStore } from "@/stores/modules/formGenerator";
 
+
 const formGeneratorStore = useFormGeneratorStore()
-const { clearFormItemList } = formGeneratorStore
+const { clearFormItemList, undo, redo } = formGeneratorStore
+const { currentFormOptionIndex, historyFormOptions } = storeToRefs(formGeneratorStore)
 
 const handleClear = () => {
   clearFormItemList()

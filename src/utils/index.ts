@@ -2,6 +2,10 @@ export function getId() {
   return Date.now().toString()
 }
 
+export function deepClone<T>(data: T):T {
+  return JSON.parse(JSON.stringify(data))
+}
+
 // export const getObjType = (obj: unknown) => {
 //   let toString = Object.prototype.toString;
 //   let map = {

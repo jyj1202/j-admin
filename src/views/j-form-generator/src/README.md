@@ -9,7 +9,7 @@
 
 左侧字段，中间主体 -> 右侧配置 -> 头部
 
-### 左侧字段 FormComponents.vue √
+### 左侧字段 leftFormComponents/index.vue √
 
 - 描述表单组件元信息 interface FormComponentMeta
   - label: 叫什么名字,
@@ -31,28 +31,29 @@
 
 ### 右侧配置 Setting.vue
 
-- 基本属性配置：
-  - 所有表单组件通用的属性
-- 表单item属性
-  - label
-  - label-position
-  - span
-  - default value
-  - disable
-  - hide
-  - require
-- 表单组件属性
-  - 表单组件独有的属性
-- 事件配置
-  - 引入minac editor
+- 表单配置
+
+- 表单item配置
+  - 表单item属性 √
+    - label √
+    - span √
+    - default value
+    - disable √
+    - display √
+      - 是否可见在该组件只记录值，页面仍然展示，否则隐藏后无法再去修改
+    - require
+  - 表单组件属性
+    - 表单组件独有的属性
+  - 事件配置
+    - 引入minac editor
 
 ### 头部 Header.vue
 
-- 撤销恢复
-  - 历史记录采用顺序表
 - 导入导出
   - 轻松实现
 - 预览
-- 配合j form组件轻松实现
+  - 配合j form组件轻松实现
 - 清空
   - 清空当前form
+- 撤销恢复
+  - 历史记录采用顺序表

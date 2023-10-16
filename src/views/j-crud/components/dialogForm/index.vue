@@ -53,8 +53,7 @@ const formOption = computed<JFormOptionType>(()=>{
   const cols = getFormColsFromCrudCols(crudOption!.column)
   const option: JFormOptionType = {
     column: cols,
-    submitBtn: false,
-    emptyBtn: false
+    menuBtn: false,
   }
   return option
 })
@@ -68,7 +67,8 @@ function getFormColsFromCrudCols(crudCols: JCrudColumn[], cols: JFormColumn[]=[]
     if (col.children) {
       getFormColsFromCrudCols(col.children, cols)
     } else {
-      cols.push(col)
+      const {formatter, ...otherProps} = col
+      cols.push(otherProps)
     }
   })
   return cols

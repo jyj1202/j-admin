@@ -1,8 +1,9 @@
 <template>
   <JForm
-    class="mt-5"
-    v-model="formData"
+    v-if="formGeneratorStore.currentFormItem"
     :option="formOption"
+    :model-value="formGeneratorStore.currentFormItem"
+    @update:model-value="handleUpdate"
   >
 
   </JForm>
@@ -11,18 +12,21 @@
 <script setup lang="ts">
 /*
   label
-  label-position
   span
   default value
   disable
-  hide
-  require
+  display
+  required
 */
-import { reactive, ref } from "vue";
+import { reactive } from "vue";
 import JForm from "@/views/j-form/components/JForm.vue";
 import type { JFormOptionType } from "@/views/j-form/components/jForm.d";
+import { useFormGeneratorStore } from "@/stores/modules/formGenerator";
 
-const formData = ref({})
+
+const formGeneratorStore = useFormGeneratorStore()
+const { pushHistory } = formGeneratorStore
+
 const formOption = reactive<JFormOptionType>({
   labelPosition: 'left',
   labelWidth: 100,
@@ -38,37 +42,14 @@ const formOption = reactive<JFormOptionType>({
     label: 'label width',
     prop: 'labelWidth',
     type: 'input-number',
+    min: 1,
     span: 24,
-  }, {
-    label: 'label position',
-    prop: 'labelPosition',
-    type: 'select',
-    span: 24,
-    placeholder: 'select label position',
-    dicData: [{
-      label: 'left',
-      value: 'left'
-    }, {
-      label: 'right',
-      value: 'right'
-    }, {
-      label: 'top',
-      value: 'top'
-    }]
   }, {
     label: 'span',
     prop: 'span',
     type: 'input-number',
-    span: 24,
-  }, {
-    label: 'disable',
-    prop: 'disable',
-    type: 'switch',
-    span: 24,
-  }, {
-    label: 'display',
-    prop: 'display',
-    type: 'switch',
+    max: 24,
+    min: 1,
     span: 24,
   }, {
     label: 'size',
@@ -85,8 +66,32 @@ const formOption = reactive<JFormOptionType>({
       label: 'small',
       value: 'small'
     }]
+  }, {
+    label: 'disabled',
+    prop: 'disabled',
+    type: 'switch',
+    span: 24,
+  }, {
+    label: 'display',
+    prop: 'display',
+    type: 'switch',
+    span: 24,
+  }, {
+    label: 'required',
+    prop: 'required',
+    type: 'switch',
+    span: 24,
   },]
 })
+
+const handleUpdate = (newVal: any) => {
+  Object.keys(newVal).forEach(key => {
+    // if (key in formGeneratorStore.currentFormItem!) {
+      (formGeneratorStore.currentFormItem as any)[key] = newVal[key]
+    // }
+  })
+  pushHistory()
+}
 
 </script>
 

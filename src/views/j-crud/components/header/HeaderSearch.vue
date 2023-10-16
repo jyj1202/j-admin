@@ -29,7 +29,8 @@ function getNeedSearchCols(cols: JCrudColumn[], needSearchCols: JCrudColumn[]=[]
     if (col.children) {
       getNeedSearchCols(col.children, needSearchCols)
     } else if(col.search) {
-      needSearchCols.push(col)
+      const {formatter, ...otherProps} = col
+      needSearchCols.push(otherProps)
     }
   })
   return needSearchCols

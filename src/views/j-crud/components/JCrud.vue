@@ -92,7 +92,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, provide, useSlots, onMounted } from 'vue';
+import { ref, computed, provide, useSlots } from 'vue';
 import { defaultConfig } from "./config";
 import { JCrudOptionKey, getPropKey, getColumnSlotsKey } from "@/views/j-crud/components/utils/keys";
 import type { JCrudOptionType, PageOption, JCrudColumn } from "./jCrud.d.ts";

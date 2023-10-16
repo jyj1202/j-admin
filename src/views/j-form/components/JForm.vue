@@ -8,6 +8,7 @@
     :size="getProp('size')"
     :label-width="getProp('labelWidth')"
     :label-position="getProp('labelPosition')"
+    :label-suffix="getProp('labelSuffix')"
     @submit.prevent
   >
   <el-row :gutter="rowGutter">
@@ -27,6 +28,7 @@
             v-model="formData[col.prop]"
             v-bind="getComponentProps(col)"
             :key="col.prop"
+            @change="handleFormItemValueChange"
           >
             <template v-if="!col.component && getSlotComponent(getProp('type', col))">
               <component
@@ -41,9 +43,9 @@
       </el-form-item>
     </el-col>
   </el-row>
-    <el-form-item v-if="getProp('submitBtn')||getProp('emptyBtn')">
-      <el-button v-if="getProp('submitBtn')" type="primary" @click="handleSubmit()">Submit</el-button>
-      <el-button v-if="getProp('emptyBtn')" @click="handleReset()">Reset</el-button>
+    <el-form-item v-if="getProp('menuBtn')">
+      <el-button v-if="getProp('submitBtn')" type="primary" @click="handleSubmit()">{{ getProp('submitText') }}</el-button>
+      <el-button v-if="getProp('emptyBtn')" @click="handleReset()">{{ getProp('emptyText') }}</el-button>
     </el-form-item>
   </el-form>
 </template>
@@ -82,7 +84,6 @@ function setFormData() {
   
   /** delete old formData's keys which new modelValue doesn't exists */
   const deletedKeys = getDeletedKeys(formData, props.modelValue)
-  
   deletedKeys.forEach(key=> {
     delete formData[key]
   })
@@ -99,14 +100,17 @@ function getDeletedKeys(oldObj:object, newObj:object) {
   })
   return deletedKeys
 }
-
 /**
  * TODO: notice underlying problem
  * @description to realize v-model(:modelValue)
 */
-watch(formData, (newFormData) => {
-  emit('update:model-value', toRaw(newFormData))
-})
+// watch(formData, (newFormData) => {
+//   emit('update:model-value', toRaw(newFormData))
+// })
+const handleFormItemValueChange = () => {
+  emit('update:model-value', toRaw(formData))
+}
+
 
 /**@description get component to be render */
 const getComponentType = (col: JFormColumn,type: string): string|object => {
@@ -117,7 +121,8 @@ const getComponentType = (col: JFormColumn,type: string): string|object => {
   /* if col doesn't have custom component, use col's type to get form component */
   const compTypeMap: Record<string, string> = {
     'date': 'date-picker', // FIXME:bug
-    'password': 'input'
+    'password': 'input',
+    'textarea': 'input'
   }
   type = compTypeMap[type] ?? type
   return `el-${type}`
@@ -127,9 +132,11 @@ const getComponentType = (col: JFormColumn,type: string): string|object => {
  * element ui input has "formatter" prop, so need to delete "formatter" prop to avoid collide
  * @param col
  */
-const getComponentProps = (col: any) => {
-  const {formatter, ...formCol} = col
-  return formCol
+const getComponentProps = (col: JFormColumn) => {
+  col.placeholder = `please ${col.type} ${col.label}`
+  /** FIXME: if user set formatter on column, delete it */
+  const {formatter, ...otherProps} = col as any
+  return otherProps
 }
 
 /**
@@ -153,7 +160,7 @@ const getSlotComponent = (type: string): string|undefined => {
  */
 const getProp = (propName: string, option: Record<string, any>={}):any => {
   let propValue
-  propValue = option[propName] ?? props.option[propName as keyof JFormOptionType] ?? defaultConfig[propName]
+  propValue = option[propName] ?? props.option[propName as keyof JFormOptionType] ?? (defaultConfig as any)[propName]
   return propValue
 }
 

@@ -75,7 +75,7 @@ const formOption = reactive<JFormOptionType>({
     inactiveIcon: "Close",
   }, {
     label: 'radio-group',
-    prop: 'radio-group',
+    prop: 'radioGroup',
     type: 'radio-group',
     rules: {
       required: true,
