@@ -98,6 +98,7 @@ const handleDragChange = (e: ChangeEvent) => {
   const { added, moved } = e
   if (added) {
     const {element, newIndex} = added
+    // console.log(element == currentFormOption.value.column[newIndex]); // false
     /** make currentFormItem==currentFormOption.value.column[newIndex] */
     setCurrentFormItem(currentFormOption.value.column[newIndex])
   }

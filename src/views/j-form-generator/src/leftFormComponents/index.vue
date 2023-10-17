@@ -60,7 +60,7 @@ const draggableCloneHandler = (formComponent: FormComponentMeta): FormItemMeta =
     span: 24, disabled: false, display: true
   }
   /** add id, prop */
-  /** add formItem prop: span 24, disable: false, size: 'default' */
+  /** add formItem prop: span 24, disable: false, size: 'default' */  
   return {...deepClone(formComponent), ...defaultFormItemProps, ...formItemUniqueProps,} as FormItemMeta
 }
 </script>
