@@ -74,7 +74,7 @@ li {
   }
 }
 .ghost-class {
-  border-Top: 2px solid var(--el-color-primary);
+  border-top: 2px solid var(--el-color-primary);
   width: 100%;
   height: 0;
   font-size: 0;

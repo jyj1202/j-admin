@@ -218,6 +218,6 @@ function getSlotComponent (type: string):string|undefined {
   }
 }
 .ghost-class {
-  border-Top: 2px solid var(--el-color-primary);
+  border-top: 2px solid var(--el-color-primary);
 }
 </style>
