@@ -91,7 +91,7 @@ export const staticRouter: RouteRecordRaw[] = [
       {
         path: '/test',
         name: 'test',
-        component: () => import("@/views/test/index.tsx"),
+        component: () => import("@/views/test/index"),
         meta: {
           title: 'test'
         }

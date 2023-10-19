@@ -70,12 +70,12 @@ export default defineComponent( (props: { columns: JCrudColumn[]}, context) => {
             show-overflow-tooltip={getProp('overHidden', column)}
             resizable
             v-slots={{
-              default: (scoped) => {
+              default: (scoped: any) => {
                 if (scoped && !column.children) {
                   const { row } = scoped
                   return slots[column.prop] ? slots[column.prop]!({row, column, size: defaultConfig.size}) : getDefaultCell(column, row)
                 } else {
-                  return getRender(column.children)
+                  return getRender(column.children!)
                 }
               }
             }}
