@@ -88,6 +88,14 @@ export const staticRouter: RouteRecordRaw[] = [
           title: 'screen'
         }
       },
+      {
+        path: '/test',
+        name: 'test',
+        component: () => import("@/views/test/index.tsx"),
+        meta: {
+          title: 'test'
+        }
+      },
     ]
   },
 ];

@@ -133,7 +133,7 @@ const getComponentType = (col: JFormColumn,type: string): string|object => {
  * @param col
  */
 const getComponentProps = (col: JFormColumn) => {
-  col.placeholder = `please ${col.type} ${col.label}`
+  col.placeholder = `please ${getProp('type', col)} ${col.label}`
   /** FIXME: if user set formatter on column, delete it */
   const {formatter, ...otherProps} = col as any
   return otherProps

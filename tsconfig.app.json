@@ -8,6 +8,8 @@
     "types": ["element-plus/global", "vite-plugin-svg-icons/client"],
     "baseUrl": ".",
     "paths": {
+      /* 如果你在构建工具中配置了路径解析别名，例如 @/* 这个别名被默认配置在了 create-vue 项目中，
+      你需要通过 compilerOptions.paths 选项为 TypeScript 再配置一遍。 */
       "@/*": ["./src/*"]
     }
   }

@@ -98,7 +98,7 @@ import { JCrudOptionKey, getPropKey, getColumnSlotsKey } from "@/views/j-crud/co
 import type { JCrudOptionType, PageOption, JCrudColumn } from "./jCrud.d.ts";
 import DialogForm from "./dialogForm/index.vue";
 import HeaderSearch from "./header/HeaderSearch.vue";
-import Column from "./column/JColumn.vue";
+import Column from "./column/JColumnCopy";
 
 
 /** prop and emit */

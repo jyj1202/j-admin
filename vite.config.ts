@@ -26,6 +26,9 @@ export default defineConfig({
     //   resolvers: [ElementPlusResolver()],
     // }),
   ],
+  server: {
+    port: 8888
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
