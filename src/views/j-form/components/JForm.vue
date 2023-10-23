@@ -11,38 +11,41 @@
     :label-suffix="getProp('labelSuffix')"
     @submit.prevent
   >
-  <el-row :gutter="rowGutter">
-    <el-col
-      v-for="col in option.column"
-      :key="col.prop"
-      :span="getProp('span', col)"
-    >
-      <el-form-item
-        :label="col.label"
-        :prop="col.prop"
-        :rules="col.rules"
+    <el-row :gutter="rowGutter">
+      <el-col
+        v-for="col in option.column"
+        :key="col.prop"
+        :span="getProp('span', col)"
       >
-        <slot :name="col.prop" v-bind="{col, size: getProp('size', col)}">
-          <component
-            :is="getComponentType(col, getProp('type', col))"
-            v-model="formData[col.prop]"
-            v-bind="getComponentProps(col)"
-            :key="col.prop"
-            @change="handleFormItemValueChange"
-          >
-            <template v-if="!col.component && getSlotComponent(getProp('type', col))">
-              <component
-                v-for="dicData in col.dicData"
-                :key="dicData.value"
-                :is="`el-${getSlotComponent(getProp('type', col))}`"
-                v-bind="dicData"
-              />
-            </template>
-          </component>
-        </slot>
-      </el-form-item>
-    </el-col>
-  </el-row>
+        <el-form-item
+          :label="col.label"
+          :prop="col.prop"
+          :rules="col.rules"
+        >
+          <slot :name="col.prop" v-bind="{col, size: getProp('size', col)}">
+            <component
+              :ref="`${col.prop}Ref`"
+              :is="getComponentType(getProp('type', col), col)"
+              v-model="formData[col.prop]"
+              v-bind="getComponentProps(col)"
+              :key="col.prop"
+              @change="handleFormItemValueChange"
+            >
+              <template v-if="!col.component && getSlotComponent(getProp('type', col))">
+                <template v-if="col.dicData">
+                  <component
+                    v-for="dicData in col.dicData"
+                    :key="dicData.value"
+                    :is="getSlotComponent(getProp('type', col))"
+                    v-bind="dicData"
+                  />
+                </template>
+              </template>
+            </component>
+          </slot>
+        </el-form-item>
+      </el-col>
+    </el-row>
     <el-form-item v-if="getProp('menuBtn')">
       <el-button v-if="getProp('submitBtn')" type="primary" @click="handleSubmit()">{{ getProp('submitText') }}</el-button>
       <el-button v-if="getProp('emptyBtn')" @click="handleReset()">{{ getProp('emptyText') }}</el-button>
@@ -51,10 +54,11 @@
 </template>
 
 <script setup lang="ts" name="JForm">
-import { reactive, toRaw, watch, computed, ref } from "vue";
+import { reactive, toRaw, watch, computed, ref, useSlots } from "vue";
+import type { FormInstance } from 'element-plus'
 import type { JFormOptionType, JFormColumn } from "./jForm.d";
 import { defaultConfig } from "./config";
-import type { FormInstance } from 'element-plus'
+import { getComponentType, getSlotComponent } from "@/utils/form";
 
 type FormDataType = Record<string, unknown>
 /* prop and emit */
@@ -111,46 +115,17 @@ const handleFormItemValueChange = () => {
   emit('update:model-value', toRaw(formData))
 }
 
-
-/**@description get component to be render */
-const getComponentType = (col: JFormColumn,type: string): string|object => {
-  /** if col has custom component, use component */
-  if (col.component) {
-    return col.component
-  }
-  /* if col doesn't have custom component, use col's type to get form component */
-  const compTypeMap: Record<string, string> = {
-    'date': 'date-picker', // FIXME:bug
-    'password': 'input',
-    'textarea': 'input'
-  }
-  type = compTypeMap[type] ?? type
-  return `el-${type}`
-}
 /**
  * https://element-plus.org/zh-CN/component/input.html#%E6%A0%BC%E5%BC%8F%E5%8C%96
  * element ui input has "formatter" prop, so need to delete "formatter" prop to avoid collide
  * @param col
  */
 const getComponentProps = (col: JFormColumn) => {
-  col.placeholder = `please ${getProp('type', col)} ${col.label}`
+  col.placeholder = col.placeholder ?? `please ${getProp('type', col)} ${col.label}`
+  const customSlots = useSlots()
   /** FIXME: if user set formatter on column, delete it */
   const {formatter, ...otherProps} = col as any
-  return otherProps
-}
-
-/**
- * @description 获取组件插槽内子组件
- * @param type 
- */
-const getSlotComponent = (type: string): string|undefined => {
-  /* 插槽子组件映射 */
-  const slotCompMap: Record<string, string> = {
-    'select': 'option',
-    'radio-group': 'radio',
-    'checkbox-group': 'checkbox',
-  }
-  return slotCompMap[type]
+  return {...otherProps, customSlots}
 }
 
 /**

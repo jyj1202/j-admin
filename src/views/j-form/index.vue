@@ -2,11 +2,19 @@
   <div class="p-5 page-card">
     <el-alert title="🤡 二次封装el-form组件，实现传入配置生成表单。" type="success" :closable="false"/>
     <JForm
+      ref="formRef"
       class="mt-5"
       v-model="formData"
       :option="formOption"
       @submit="handleSubmit"
-    />
+    >
+      <template #uploadDefault>
+        <el-icon><Plus /></el-icon>
+      </template>
+    </JForm>
+    <el-dialog v-model="dialogVisible">
+      <img w-full :src="dialogImageUrl" alt="Preview Image" />
+    </el-dialog>
   </div>
 </template>
 
@@ -16,19 +24,33 @@ import JForm from "./components/JForm.vue";
 import type { JFormOptionType } from "./components/jForm.d";
 import { toRaw } from "vue";
 import { ElMessage } from 'element-plus'
+import type { UploadProps, UploadUserFile } from 'element-plus'
 
 const formData = ref({
   'input-number': 1,
   input: 'default value'
 })
+const formRef = ref<InstanceType<typeof JForm> | null>(null)
 
+const fileList = ref<UploadUserFile[]>([
+  {
+    name: 'food.jpeg',
+    url: 'https://fuss10.elemecdn.com/3/63/4e7f3a15429bfda99bce42a18cdd1jpeg.jpeg?imageMogr2/thumbnail/360x360/format/webp/quality/100',
+  }
+])
+const dialogVisible = ref(false)
+const dialogImageUrl = ref('')
+const handlePictureCardPreview: UploadProps['onPreview'] = (uploadFile) => {
+  dialogImageUrl.value = uploadFile.url!
+  dialogVisible.value = true
+}
 const formOption = reactive<JFormOptionType>({
   labelPosition: 'left',
   column: [{
     label: 'input',
     prop: 'input',
     type: 'input',
-    span: 8,
+    span: 12,
     placeholder: 'try to input something',
     rules: {
       required: true,
@@ -41,13 +63,13 @@ const formOption = reactive<JFormOptionType>({
     type: 'input-number',
     min: 1,
     max: 2,
-    span: 8,
+    span: 12,
   }, {
     label: 'password',
     prop: 'password',
     type: 'password',
     showPassword: true,
-    span: 8
+    span: 12
   }, {
     label: 'select',
     prop: 'select',
@@ -143,10 +165,21 @@ const formOption = reactive<JFormOptionType>({
       label: 'option 3',
       disabled: false
     }, ])
+  }, {
+    label: 'upload',
+    prop: 'upload',
+    type: 'upload',
+    span: 24,
+    action: 'https://run.mocky.io/v3/9d059bf9-4660-45f2-925d-ce80ad6c4d15',
+    multiple: true,
+    listType: "picture-card",
+    fileList: fileList,
+    onPreview: handlePictureCardPreview
   }]
 })
 
 const handleSubmit = (form: object, done: Function) => {
+  // console.log(formRef.value!.$refs.uploadRef[0].elUploadRef.submit);
   console.log(form, done);
   console.log(toRaw(formData.value));
   console.log(toRaw(formData.value) === form) // true
@@ -154,4 +187,3 @@ const handleSubmit = (form: object, done: Function) => {
 }
 
 </script>
-./components/jForm

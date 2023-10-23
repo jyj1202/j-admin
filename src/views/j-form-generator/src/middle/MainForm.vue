@@ -7,7 +7,7 @@
     @click="handleFormClick"
   >
     <el-row class="h-full">
-      <draggable
+      <Draggable
         class="flex items-start content-start flex-wrap h-full w-full overflow-hidden"
         :list="currentFormOption.column"
         :group="{ name: 'form' }"
@@ -34,12 +34,15 @@
                 v-bind="getFormComponentProps(element)"
               >
                 <template v-if="!element.component && getSlotComponent(element.type)">
-                  <component
-                    v-for="dicData in element.dicData"
-                    :key="dicData.value"
-                    :is="`el-${getSlotComponent(element.type)}`"
-                    v-bind="dicData"
-                  />
+                  <!-- 当同时使用时，v-if 比 v-for 优先级更高。我们并不推荐在一元素上同时使用这两个指令 -->
+                  <template v-if="element.dicData">
+                    <component
+                      v-for="dicData in element.dicData"
+                      :key="dicData.value"
+                      :is="getSlotComponent(element.type)"
+                      v-bind="dicData"
+                    />
+                  </template>
                 </template>
               </component>
             </el-form-item>
@@ -51,7 +54,7 @@
             />
           </el-col>
         </template>
-      </draggable>
+      </Draggable>
     </el-row>
   </el-form>
 </template>
@@ -59,10 +62,11 @@
 <script setup lang="ts">
 import { reactive } from "vue";
 import { storeToRefs } from 'pinia'
-import draggable from 'vuedraggable'
+import Draggable from 'vuedraggable'
 import { getId } from "@/utils";
 import type { FormItemMeta } from '@/views/j-form-generator/src/typings'
 import { useFormGeneratorStore } from "@/stores/modules/formGenerator";
+import { getComponentType as getFormItemComponent, getSlotComponent } from "@/utils/form";
 
 
 const formGeneratorStore = useFormGeneratorStore()
@@ -146,26 +150,6 @@ const handleFormClick = () => {
 }
 
 /** method */
-/**
- * get vue component prop
- * @param propName
- * @param option
- */
-// function getProp(propName: string, option: Record<string, any>={}):any {
-//   return currentFormOption.value[propName]
-// }
-
-/** @description get component to be render */
-function getFormItemComponent(type: string) {
-  /* 组件映射 */
-  const compTypeMap: Record<string, string> = {
-    'date': 'date-picker', // FIXME:bug
-    'password': 'input',
-    'textarea': 'input',
-  }
-  type = compTypeMap[type] ?? type
-  return `el-${type}`
-}
 
 /**
  * https://element-plus.org/zh-CN/component/input.html#%E6%A0%BC%E5%BC%8F%E5%8C%96
@@ -175,23 +159,10 @@ function getFormItemComponent(type: string) {
 function getFormComponentProps(element: FormItemMeta) {
   // const {formatter, ...formCol} = element
   // return formCol
-  const { id, prop, option, icon, ...compProps } = element
+  const { id, option, icon, ...compProps } = element
   return compProps
 }
 
-/**
- * @description 获取组件插槽内子组件
- * @param type 
- */
-function getSlotComponent (type: string):string|undefined {
-  /* 插槽子组件映射 */
-  const slotCompMap: Record<string, string> = {
-    'select': 'option',
-    'radio-group': 'radio',
-    'checkbox-group': 'checkbox',
-  }
-  return slotCompMap[type]
-}
 </script>
 
 <style scoped lang="scss">

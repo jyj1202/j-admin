@@ -1,4 +1,4 @@
-import type { FormItemRule } from 'element-plus'
+import type { FormItemRule, UploadProps } from 'element-plus'
 import type { CommonOption, DicData } from "@/typings/common";
 
 export interface JFormOptionType extends CommonOption {
@@ -15,7 +15,10 @@ export interface JFormOptionType extends CommonOption {
   span?: number; /** 默认表单item栅格占据的列数 */
 }
 
-export interface JFormColumn {
+/** upload */
+type SelectableUploadProps = Partial<UploadProps>
+
+export interface JFormColumn extends SelectableUploadProps {
   /** common */
   label: string;
   prop: string; /** 不可重复 */

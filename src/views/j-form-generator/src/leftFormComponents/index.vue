@@ -1,23 +1,28 @@
 <template>
-  <draggable
-    class="grid grid-cols-2 gap-2"
-    tag="ul"
-    :list="componentList"
-    :group="{ name: 'form', pull: 'clone', put: false }"
-    ghost-class="ghost"
-    :sort="false"
-    :clone="draggableCloneHandler"
-    item-key="type"
-  >
-    <template #item="{element}">
-      <li class="px-1.5 py-0.5 rounded-sm cursor-move leading-normal align-middle">
-        <a>
-          <i :class="element.icon"></i>
-          <span class="text-sm leading-none">{{element.label}}</span>
-        </a>
-      </li>
-    </template>
-  </draggable>
+  <div class="space-y-4">
+    <div v-for="category in componentList" :key="category.title">
+      <div class="pb-2">{{ category.title }}</div>
+      <draggable
+        class="grid grid-cols-2 gap-2"
+        tag="ul"
+        :list="category.list"
+        :group="{ name: 'form', pull: 'clone', put: false }"
+        ghost-class="ghost"
+        :sort="false"
+        :clone="draggableCloneHandler"
+        item-key="type"
+      >
+        <template #item="{element}">
+          <li class="px-1.5 py-0.5 rounded-sm cursor-move leading-normal align-middle">
+            <a>
+              <i :class="element.icon"></i>
+              <span class="text-sm leading-none">{{element.label}}</span>
+            </a>
+          </li>
+        </template>
+      </draggable>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -34,19 +39,29 @@ import radioGroupMeta from "./radio-group";
 import checkboxGroupMeta from "./checkbox-group";
 import switchMeta from "./switch";
 import rateMeta from "./rate";
+import uploadMeta from "./upload";
 
 /** left aside form component list */
-const componentList = reactive<FormComponentMeta[]>([
-  inputMeta,
-  passwordMeta,
-  textareaMeta,
-  inputNumberMeta,
-  selectMeta,
-  radioGroupMeta,
-  checkboxGroupMeta,
-  switchMeta,
-  rateMeta
-  ])
+const componentList = reactive<{title: string; list: FormComponentMeta[];}[]>([
+  {
+    title: 'normal',
+    list: [
+      inputMeta,
+      passwordMeta,
+      textareaMeta,
+      inputNumberMeta,
+      selectMeta,
+      radioGroupMeta,
+      checkboxGroupMeta,
+      switchMeta,
+      rateMeta
+    ]
+  },
+  {
+    title: 'upload',
+    list: [ uploadMeta ]
+  }
+])
 
 /**
  * clone formComponent handler
