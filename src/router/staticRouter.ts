@@ -70,7 +70,15 @@ export const staticRouter: RouteRecordRaw[] = [
           meta: {
             title: 'guide'
           }
-        }]
+        }, 
+        {
+          path: '/j-components/monaca-editor',
+          name: 'monaca-editor',
+          component: () => import("@/views/j-components/monaca-editor/index.vue"),
+          meta: {
+            title: 'monaca-editor'
+          }
+        },]
       },
       {
         path: '/j-form-generator',

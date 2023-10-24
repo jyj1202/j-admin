@@ -10,8 +10,8 @@
         </el-collapse-item>
       </el-collapse>
     </el-tab-pane>
-    <el-tab-pane class="px-3" label="Event" name="event">
-
+    <el-tab-pane lazy label="Event" name="event">
+      <EventSetting class="mt-2"/>
     </el-tab-pane>
   </el-tabs>
   <el-tabs class="form-setting" v-else model-value="formSetting">
@@ -27,6 +27,7 @@ import { useFormGeneratorStore } from "@/stores/modules/formGenerator";
 import FormItemSetting from "./FormItemSetting.vue";
 import ComponentSetting from "./ComponentSetting.vue";
 import FormConfig from "./FormConfig.vue";
+import EventSetting from "./EventSetting.vue";
 
 
 const formGeneratorStore = useFormGeneratorStore()

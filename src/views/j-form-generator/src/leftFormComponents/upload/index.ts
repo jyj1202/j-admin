@@ -7,6 +7,7 @@ const uploadMeta: FormComponentMeta = {
   label: 'base upload',
   type: 'upload',
   headers: [],
+  // class: 'h-10',
   option: [{
     label: 'action',
     prop: 'action',
@@ -76,6 +77,11 @@ const uploadMeta: FormComponentMeta = {
     prop: 'headers',
     component: markRaw(DicSetting),
     span: 24
+  }, {
+    label: 'request header',
+    prop: 'beforeUpload',
+    component: 'JMonacoEditor',
+    span: 24,
   }]
 }
 
