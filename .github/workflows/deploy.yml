@@ -46,7 +46,7 @@ jobs:
       # 创建一个名为 .nojekyll 的空文件。这个文件通常用于阻止 GitHub Pages 在发布网站时执行 Jekyll 构建过程。
         run: |
           pnpm build-only
-          touch .vitepress/dist/.nojekyll
+          touch ./dist/.nojekyll
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
