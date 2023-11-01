@@ -36,7 +36,10 @@
 import { reactive } from "vue";
 /* 将资源引入为 URL
 服务时引入一个静态资源会返回解析后的公共路径 */
-// import vueUrl from "@/assets/images/vue.svg"; /* /src/assets/images/vue.svg */
+/** base: '/j-admin' */
+import img from "@/assets/images/pinia.svg" /** /j-admin/src/assets/images/pinia.svg */
+console.log(img);
+
 
 const logos = reactive(['vue', 'typescript', 'vite', 'pinia', 'element-ui', 'tailwindcss'])
 </script>

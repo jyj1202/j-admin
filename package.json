@@ -1,6 +1,7 @@
 {
   "name": "j-admin",
   "version": "0.0.1",
+  "author": "jyj1202",
   "private": true,
   "scripts": {
     "dev": "vite",

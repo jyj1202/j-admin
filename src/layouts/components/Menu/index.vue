@@ -56,6 +56,11 @@ const menuList: Menu.MenuOption[] = reactive([{
     meta: {
       title: 'monaca-editor'
     }
+  }, {
+    path: '/j-components/dialog',
+    meta: {
+      title: 'dialog'
+    }
   },]
 }, {
   path: '/j-form-generator',

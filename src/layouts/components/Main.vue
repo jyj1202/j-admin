@@ -3,9 +3,9 @@
   <div class="wrapper">
     <router-view v-slot="{ Component, route }">
       <transition name="fade-transform">
-        <keep-alive>
+        <!-- <keep-alive> -->
           <component :is="Component" :key="route.fullPath"/>
-        </keep-alive>
+        <!-- </keep-alive> -->
       </transition>
     </router-view>
   </div>

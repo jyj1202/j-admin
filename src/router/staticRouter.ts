@@ -78,7 +78,16 @@ export const staticRouter: RouteRecordRaw[] = [
           meta: {
             title: 'monaca-editor'
           }
-        },]
+        },
+        {
+          path: '/j-components/dialog',
+          name: 'dialog',
+          component: () => import("@/views/j-components/dialog/index.vue"),
+          meta: {
+            title: 'dialog'
+          }
+        },
+        ]
       },
       {
         path: '/j-form-generator',
