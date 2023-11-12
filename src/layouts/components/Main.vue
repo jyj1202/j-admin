@@ -14,5 +14,6 @@
 <style scoped lang="scss">
 .wrapper {
   overflow-y: auto;
+  overflow-x: hidden;
 }
 </style>

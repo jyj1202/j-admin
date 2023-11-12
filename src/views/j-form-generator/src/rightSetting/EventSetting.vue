@@ -7,6 +7,7 @@
 </template>
 
 <script setup lang="ts">
+import JMonacoEditor from "@/components/JMonacoEditor.vue";
 
 </script>
 

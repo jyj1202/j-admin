@@ -1,6 +1,7 @@
 import { markRaw } from "vue";
 import DicSetting from "../DicSetting.vue";
 import type { FormComponentMeta } from "@/views/j-form-generator/src/typings";
+import JMonacoEditor from "@/components/JMonacoEditor.vue";
 
 
 const uploadMeta: FormComponentMeta = {
@@ -80,7 +81,7 @@ const uploadMeta: FormComponentMeta = {
   }, {
     label: 'request header',
     prop: 'beforeUpload',
-    component: 'JMonacoEditor',
+    component: markRaw(JMonacoEditor),
     span: 24,
   }]
 }

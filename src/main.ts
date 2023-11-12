@@ -20,10 +20,10 @@ import installGlobComponents from "@/components/install";
 const app = createApp(App)
 
 app.use(router)
-app.use(pinia)
-app.use(ElementPlus)
-app.use(Avue)
-app.use(installGlobComponents)
+  .use(pinia)
+  .use(ElementPlus)
+  .use(Avue)
+  .use(installGlobComponents)
 
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
   app.component(key, component)

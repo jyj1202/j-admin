@@ -5,16 +5,19 @@
 <template>
   <div class="waterfall">
     <slot v-bind="props">
-      <img
+      <ImgLoad
         v-for="(item, index) in urls"
         :key="index"
-        :src="item"
+        :pre-src="getPreSrc(item)"
+        :next-src="item"
       />
     </slot>
   </div>
 </template>
 
 <script setup lang="ts">
+import ImgLoad from "@/components/ImgLoad.vue";
+import { getFilenameFromPath, getDir, getExt } from "@/utils/file";
 
 /** props */
 interface JWaterfallProp {
@@ -24,6 +27,13 @@ interface JWaterfallProp {
 const props = withDefaults(defineProps<JWaterfallProp>(), {
   imgBorderRadius: '2px'
 })
+
+const getPreSrc = (src: string) => {
+  const filename = getFilenameFromPath(src)
+  const dir = getDir(src)
+  const ext = getExt(src)
+  return `${dir}/min/${filename}-min.${ext}`
+}
 
 </script>
 
