@@ -32,7 +32,7 @@ const getPreSrc = (src: string) => {
   const filename = getFilenameFromPath(src)
   const dir = getDir(src)
   const ext = getExt(src)
-  return `${dir}/min/${filename}-min.${ext}`
+  return `${dir}/min/${filename}.${ext}`
 }
 
 </script>
