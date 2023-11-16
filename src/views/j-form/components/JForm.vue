@@ -77,7 +77,8 @@ const formData = reactive<FormDataType>({})
 watch(()=> props.modelValue, (newVal) => {
   setFormData()
 }, {
-  immediate: true
+  immediate: true,
+  deep: true
 })
 function setFormData() {
   /* Object.keys do not traverse the prototype */
