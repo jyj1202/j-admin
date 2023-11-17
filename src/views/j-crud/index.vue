@@ -18,6 +18,7 @@
       :table-loading="false"
       @row-del="handleRowDel"
       @refresh-change="handleRefreshChange"
+      @sort-change="handleSortChange"
     >
       <template #name="{row, column, size}">
         <el-tag :size="size">{{ row[column.prop] }}</el-tag>
@@ -102,22 +103,29 @@ const tableOption = reactive<JCrudOptionType<Row>>({
   header: true,
   index: true,
   selection: true,
+  defaultSort:{
+    prop: 'date',
+    order: 'descending'
+  },
   column: [{
     label: 'Date(use format)',
     prop: 'date',
     width: 180,
+    sortable: true,
     formatter: (row, value, label, col) => {
       return new Date(value).toLocaleString('en-US')
     }
   }, {
     label: 'Name(use slot)',
     prop: 'name',
-    search: true
+    search: true,
+    sortable: 'custom',
   }, {
     label: 'Sex(use v-html)',
     prop: 'sex',
     html: true,
     search: true,
+    sortable: true,
     type: 'select',
     dicData: [{
       label: 'female',
@@ -172,6 +180,11 @@ const handleRefreshChange = () => {
     type: 'success',
     message: 'refresh success'
   });
+}
+
+const handleSortChange = (column: object, order: string, prop: string) => {
+  console.log(column, order, prop);
+  
 }
 
 </script>

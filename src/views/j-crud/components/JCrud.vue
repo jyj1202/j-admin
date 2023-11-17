@@ -24,6 +24,8 @@
       :fit="true"
       highlight-current-row
       :header-cell-style="{'fontWeight': 700}"
+      :default-sort="getProp('defaultSort')"
+      @sort-change="handleSortChange"
     >
       <!-- defaultColumn -->
       <template v-if="defaultColumn.length">
@@ -119,6 +121,7 @@ const emit = defineEmits<{
   (e: 'rowUpdate', row: object): void;
   (e: 'refreshChange'): void;
   (e: 'update:page'): void;
+  (e: 'sortChange'): void;
 }>()
 /** provide */
 // const key = Symbol() as InjectionKey<string>
@@ -185,6 +188,11 @@ const handleDelete = (row: object) => {
 /** header search */
 const isHeaderSearchShow = ref(false)
 
+/** sortable handler */
+const handleSortChange = (e: {column: object; order: 'descending'|'ascending'; prop: string;}) => {
+  const {column, order, prop} = e
+  emit('sortChange', column, order, prop)
+}
 
 /**
  * get vue component prop.

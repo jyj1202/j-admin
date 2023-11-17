@@ -16,6 +16,10 @@ export interface JCrudOptionType<T= any> extends CommonOption  {
   indexLabel?: string;
   selection?: boolean;
   header?: boolean;
+  defaultSort?: {
+    prop: string;
+    order: 'descending'|'ascending'
+  }
 }
 
 /** T: type of row */
@@ -30,6 +34,7 @@ export interface JCrudColumn<T= any> extends JFormColumn {
   formatter?: (row: T, value: any, label: string|undefined, column: JCrudColumn) => string|undefined;
   type?: string;
   search?: boolean;
+  sortable?: boolean|'custom';
 }
 
 export {DicData}

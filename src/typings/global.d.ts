@@ -21,7 +21,7 @@ declare namespace Menu {
   }
 }
 
-declare module global {
+declare global {
   /**
    * @deprecated stop to use null
    * @see {@link https://github.com/sindresorhus/meta/discussions/7}

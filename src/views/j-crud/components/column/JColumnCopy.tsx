@@ -69,6 +69,7 @@ export default defineComponent( (props: { columns: JCrudColumn[]}, context) => {
             align={getProp('align', column)}
             show-overflow-tooltip={getProp('overHidden', column)}
             resizable
+            sortable={getProp('sortable', column)}
             v-slots={{
               default: (scoped: any) => {
                 if (scoped && !column.children) {
