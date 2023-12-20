@@ -106,6 +106,35 @@ export const staticRouter: RouteRecordRaw[] = [
         }
       },
       {
+        path: '/d3',
+        name: 'd3.js',
+        meta: {
+          title: 'd3'
+        },
+        children: [{
+          path: '/d3/getting-started',
+          name: 'd3-getting-started',
+          component: () => import("@/views/d3/getting-started.vue"),
+          meta: {
+            title: 'd3 getting-started'
+          }
+        }, {
+          path: '/d3/knowledge-network',
+          name: 'd3-knowledge-network',
+          component: () => import("@/views/d3/knowledge-network.vue"),
+          meta: {
+            title: 'd3 knowledge-network'
+          }
+        }, {
+          path: '/d3/knowledge-network2',
+          name: 'd3-knowledge-network2',
+          component: () => import("@/views/d3/knowledge-network2.vue"),
+          meta: {
+            title: 'd3 knowledge-network2'
+          }
+        }]
+      },
+      {
         path: '/test',
         name: 'test',
         component: () => import("@/views/test/index"),

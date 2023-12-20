@@ -74,6 +74,27 @@ const menuList: Menu.MenuOption[] = reactive([{
   }
 }, {
   path: '',
+  meta: {
+    title: 'd3'
+  },
+  children: [{
+    path: '/d3/getting-started',
+    meta: {
+      title: 'd3 getting-started'
+    }
+  }, {
+    path: '/d3/knowledge-network',
+    meta: {
+      title: 'd3 knowledge-network'
+    }
+  }, {
+    path: '/d3/knowledge-network2',
+    meta: {
+      title: 'd3 knowledge-network2'
+    }
+  }]
+}, {
+  path: '',
   meta: { title: 'multi menu' },
   children: [{
     path: '',

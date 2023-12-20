@@ -5,7 +5,7 @@
   "compilerOptions": {
     "composite": true,
     "strict": true,
-    "types": ["element-plus/global", "vite-plugin-svg-icons/client"],
+    "types": ["element-plus/global", "vite-plugin-svg-icons/client", "d3"],
     "baseUrl": ".",
     "paths": {
       /* 如果你在构建工具中配置了路径解析别名，例如 @/* 这个别名被默认配置在了 create-vue 项目中，

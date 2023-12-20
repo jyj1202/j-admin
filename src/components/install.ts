@@ -19,10 +19,12 @@ import type { App, Component } from "vue";
 
 import SvgIcon from "./SvgIcon.vue";
 import JUpload from "./JUpload";
+import JMonacoEditor from "./JMonacoEditor.vue";
 
 const globComponents: Record<string, Component> = {
   SvgIcon,
-  JUpload
+  JUpload,
+  JMonacoEditor
 }
 
 const installGlobComponents = {
