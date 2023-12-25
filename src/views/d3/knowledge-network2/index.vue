@@ -9,7 +9,7 @@ import * as d3 from "d3";
 import { onMounted } from "vue";
 
 onMounted(() => {
-  init()
+  // init()
 })
 
 const workerScript = `
@@ -49,9 +49,13 @@ function init() {
   const worker = createWorkerFrom(workerScript);
   worker.addEventListener("message", messaged);
   worker.postMessage({ nodes, links });
-  invalidation.then(() => worker.terminate()); // terminate if cell re-run
+  // invalidation.then(() => worker.terminate()); // terminate if cell re-run
 
-  const context = DOM.context2d(width, height);
+  // const canvas = document.createElement('canvas');
+  // canvas.width = width;
+  // canvas.height = height;
+  // const context = canvas.getContext('2d');
+  const context = document.context2d(width, height);
   context.canvas.style = `width:${width}px;max-width: 100%; height: auto;`;
   return context.canvas;
 

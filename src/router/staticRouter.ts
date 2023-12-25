@@ -121,14 +121,14 @@ export const staticRouter: RouteRecordRaw[] = [
         }, {
           path: '/d3/knowledge-network',
           name: 'd3-knowledge-network',
-          component: () => import("@/views/d3/knowledge-network.vue"),
+          component: () => import("@/views/d3/knowledge-network/index.vue"),
           meta: {
             title: 'd3 knowledge-network'
           }
         }, {
           path: '/d3/knowledge-network2',
           name: 'd3-knowledge-network2',
-          component: () => import("@/views/d3/knowledge-network2.vue"),
+          component: () => import("@/views/d3/knowledge-network2/index.vue"),
           meta: {
             title: 'd3 knowledge-network2'
           }

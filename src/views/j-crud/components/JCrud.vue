@@ -121,7 +121,7 @@ const emit = defineEmits<{
   (e: 'rowUpdate', row: object): void;
   (e: 'refreshChange'): void;
   (e: 'update:page'): void;
-  (e: 'sortChange'): void;
+  (e: 'sortChange', column: object, order: 'ascending' | 'descending' | null, prop: string): void;
 }>()
 /** provide */
 // const key = Symbol() as InjectionKey<string>
@@ -189,7 +189,7 @@ const handleDelete = (row: object) => {
 const isHeaderSearchShow = ref(false)
 
 /** sortable handler */
-const handleSortChange = (e: {column: object; order: 'descending'|'ascending'; prop: string;}) => {
+const handleSortChange = (e: {column: object; order: 'descending'|'ascending' | null; prop: string;}) => {
   const {column, order, prop} = e
   emit('sortChange', column, order, prop)
 }
