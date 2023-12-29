@@ -67,11 +67,11 @@
  * 
  */
 
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import { staticRouter, errorRouter } from "./staticRouter";
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes: [...staticRouter, ...errorRouter],
   // scrollBehavior() {
   //   return { top: 50 }
