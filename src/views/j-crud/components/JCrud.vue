@@ -15,6 +15,7 @@
     </div>
 
     <el-table
+      ref="elTableRef"
       v-loading="loading"
       style="width: 100%"
       :data="data"
@@ -94,9 +95,10 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, provide, useSlots } from 'vue';
+import { ref, computed, provide, useSlots, readonly } from 'vue';
+import { type TableInstance } from "element-plus";
 import { defaultConfig } from "./config";
-import { JCrudOptionKey, getPropKey, getColumnSlotsKey } from "@/views/j-crud/components/utils/keys";
+import { JCrudOptionKey, getPropKey, getColumnSlotsKey, getElTableRefKey, getEmitKey } from "@/views/j-crud/components/utils/keys";
 import type { JCrudOptionType, PageOption, JCrudColumn } from "./jCrud.d.ts";
 import DialogForm from "./dialogForm/index.vue";
 import HeaderSearch from "./header/HeaderSearch.vue";
@@ -122,11 +124,16 @@ const emit = defineEmits<{
   (e: 'refreshChange'): void;
   (e: 'update:page'): void;
   (e: 'sortChange', column: object, order: 'ascending' | 'descending' | null, prop: string): void;
+  (e: 'sortable-change', oldIndex: number|undefined, newIndex: number|undefined): void;
 }>()
 /** provide */
+provide(getEmitKey, emit)
 // const key = Symbol() as InjectionKey<string>
-provide<JCrudOptionType>(JCrudOptionKey, props.option) // 若提供的是非字符串值会导致错误
+provide(JCrudOptionKey, readonly(props.option)) // 若提供的是非字符串值会导致错误
 provide(getPropKey, getProp)
+
+const elTableRef = ref<TableInstance|null>()
+provide(getElTableRefKey, elTableRef)
 
 
 /** table config */

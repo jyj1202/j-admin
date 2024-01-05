@@ -35,6 +35,9 @@ dependencies:
   pinia-plugin-persistedstate:
     specifier: ^3.2.0
     version: 3.2.0(pinia@2.1.6)
+  sortablejs:
+    specifier: ^1.15.1
+    version: 1.15.1
   vue:
     specifier: ^3.3.4
     version: 3.3.4
@@ -70,6 +73,9 @@ devDependencies:
   '@types/smallwei__avue':
     specifier: ^3.0.1
     version: 3.0.1
+  '@types/sortablejs':
+    specifier: ^1.15.7
+    version: 1.15.7
   '@vitejs/plugin-vue':
     specifier: ^4.3.1
     version: 4.3.1(vite@4.4.9)(vue@3.3.4)
@@ -1308,6 +1314,10 @@ packages:
 
   /@types/smallwei__avue@3.0.1:
     resolution: {integrity: sha512-tFX4PZopLhgXTdGG26R2opjBTo+ZQ4TklBIaevfN0nqibG1sXHudw7gOV/jsg0j5hYcj4c1kARq3nTDugfXu1A==}
+    dev: true
+
+  /@types/sortablejs@1.15.7:
+    resolution: {integrity: sha512-PvgWCx1Lbgm88FdQ6S7OGvLIjWS66mudKPlfdrWil0TjsO5zmoZmzoKiiwRShs1dwPgrlkr0N4ewuy0/+QUXYQ==}
     dev: true
 
   /@types/svgo@2.6.4:
@@ -6203,6 +6213,10 @@ packages:
 
   /sortablejs@1.14.0:
     resolution: {integrity: sha512-pBXvQCs5/33fdN1/39pPL0NZF20LeRbLQ5jtnheIPN9JQAaufGjKdWduZn4U7wCtVuzKhmRkI0DFYHYRbB2H1w==}
+    dev: false
+
+  /sortablejs@1.15.1:
+    resolution: {integrity: sha512-P5Cjvb0UG1ZVNiDPj/n4V+DinttXG6K8n7vM/HQf0C25K3YKQTQY6fsr/sEGsJGpQ9exmPxluHxKBc0mLKU1lQ==}
     dev: false
 
   /source-map-js@1.0.2:

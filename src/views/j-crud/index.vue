@@ -19,6 +19,7 @@
       @row-del="handleRowDel"
       @refresh-change="handleRefreshChange"
       @sort-change="handleSortChange"
+      @sortable-change="handleSortableChange"
     >
       <template #name="{row, column, size}">
         <el-tag :size="size">{{ row[column.prop] }}</el-tag>
@@ -100,6 +101,7 @@ interface Row {
   sex: number;
 }
 const tableOption = reactive<JCrudOptionType<Row>>({
+  sortable: true,
   header: true,
   index: true,
   selection: true,
@@ -185,6 +187,10 @@ const handleRefreshChange = () => {
 const handleSortChange = (column: object, order: string, prop: string) => {
   console.log(column, order, prop);
   
+}
+
+const handleSortableChange = (oldIndex: number, newIndex: number) => {
+  console.log(oldIndex, newIndex);
 }
 
 </script>

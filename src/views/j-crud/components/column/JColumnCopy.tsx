@@ -1,6 +1,8 @@
-import { defineComponent, inject } from 'vue'
+import { defineComponent, inject, onMounted, type Ref } from 'vue'
+import Sortable, { type SortableEvent } from 'sortablejs'
+import { type TableInstance } from "element-plus";
 import type { JCrudColumn, DicData } from "@/views/j-crud/components/jCrud";
-import { getPropKey } from "../utils/keys";
+import { getPropKey, JCrudOptionKey, getElTableRefKey, getEmitKey } from "../utils/keys";
 import { defaultConfig } from "../config";
 
 /**
@@ -10,7 +12,48 @@ import { defaultConfig } from "../config";
 export default defineComponent( (props: { columns: JCrudColumn[]}, context) => {
     /** 该上下文对象是非响应式的，可以安全地解构： */
     const { slots } = context /** attrs, slots, emit, expose */
-    const getProp = inject<Function>(getPropKey)!
+    const getProp = inject(getPropKey)!
+    const option = inject(JCrudOptionKey)!
+    const elTableRef = inject(getElTableRefKey)!
+    const parentEmit = inject(getEmitKey)!
+
+    onMounted(() => {
+      console.log(elTableRef.value!.$el.querySelectorAll('.el-table__body-wrapper table tbody')[0]);
+      const tbody = elTableRef.value!.$el.querySelectorAll('.el-table__body-wrapper table tbody')[0]
+      setSort(tbody)
+    })
+    
+
+    function setSort(el: HTMLElement) {
+      if (!el) return
+      rowDrop(el)
+      // columnDrop()
+    }
+
+    function rowDrop(el: HTMLElement) {
+      tableDrop(el, evt => {
+        const { oldIndex, newIndex } = evt
+        parentEmit('sortable-change', oldIndex, newIndex)
+        // const oldIndex = evt.oldIndex;
+        // const newIndex = evt.newIndex;
+        // const targetRow = list.splice(oldIndex, 1)[0]
+        // list.splice(newIndex, 0, targetRow)
+        // $emit('sortable-change', oldIndex, newIndex)
+        // refreshTable(() => this.rowDrop())
+
+      })
+    }
+
+    function tableDrop (el: HTMLElement, cb: (evt: SortableEvent) => void) {
+      if (!option.sortable) return
+      Sortable.create(el, {
+        ghostClass: 'j-ghost',
+        chosenClass: 'j-ghost',
+        animation: 500,
+        delay: 0,
+        onEnd: evt => cb(evt)
+      })
+    }
     
     const getDefaultCell = (column: JCrudColumn, row: any) => {
       if (column.html) {
@@ -95,5 +138,8 @@ export default defineComponent( (props: { columns: JCrudColumn[]}, context) => {
   // 目前仍然需要手动声明运行时的 props
   {
     props: ['columns'],
+    // emits: {
+    //   'sortable-change': (oldIndex: number|undefined, newIndex: number|undefined) => void
+    // }
   }
 )

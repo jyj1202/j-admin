@@ -1,5 +1,6 @@
-@import url(./reset.css);
-@import url(./base.css);
+@use './reset.css';
+@use './base.css';
 /* tailwind有样式设置 */
-@import url(./tailwind.css);
-@import url(./element.scss);
+@use './tailwind.css';
+@use './element.scss';
+@use './j-crud.css';

@@ -19,7 +19,9 @@ export interface JCrudOptionType<T= any> extends CommonOption  {
   defaultSort?: {
     prop: string;
     order: 'descending'|'ascending'
-  }
+  };
+  /** 拖拽排序 */
+  sortable?: boolean;
 }
 
 /** T: type of row */
