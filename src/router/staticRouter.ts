@@ -90,6 +90,14 @@ export const staticRouter: RouteRecordRaw[] = [
         ]
       },
       {
+        path: '/sortable',
+        name: 'sortable.js',
+        component: () => import("@/views/sortable/index.vue"),
+        meta: {
+          title: 'sortable.js'
+        }
+      },
+      {
         path: '/j-form-generator',
         name: 'j-form-generator',
         component: () => import("@/views/j-form-generator/index.vue"),

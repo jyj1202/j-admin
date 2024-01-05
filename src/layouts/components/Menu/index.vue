@@ -63,6 +63,11 @@ const menuList: Menu.MenuOption[] = reactive([{
     }
   },]
 }, {
+    path: '/sortable',
+    meta: {
+      title: 'sortable.js'
+    }
+  }, {
   path: '/j-form-generator',
   meta: {
     title: 'j form generator'
