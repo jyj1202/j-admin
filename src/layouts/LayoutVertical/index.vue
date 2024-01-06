@@ -1,10 +1,12 @@
 <template>
   <el-container class="h-screen">
-    <el-aside class="flex flex-col border-r h-full" :class="{'w-250': !settingStore.isCollapse}">
+    <el-aside class="flex flex-col border-r h-full" :class="[settingStore.isCollapse ? 'w-64' : 'w-250']">
       <div>
         <div class="logo flex items-center justify-center space-x-2">
           <img class="logo-img w-7" src="@/assets/images/logo.png" alt="logo" />
-          <span v-show="!settingStore.isCollapse" class="logo-text text-2xl font-semibold">J Admin</span>
+          <Transition>
+            <span v-show="!settingStore.isCollapse" class="logo-text text-2xl font-semibold">J Admin</span>
+          </Transition>
         </div>
         <Menu class="flex-1" />
       </div>
@@ -51,7 +53,7 @@ const settingStore = useSettingStore()
   padding: 0.25rem 0;
 }
 .el-aside {
-  transition: width 1s ease;
+  transition: width .4s ease;
 }
 .el-main {
   display: flex;
@@ -62,7 +64,20 @@ const settingStore = useSettingStore()
     padding: var(--el-main-padding);
   }
 }
+.w-64 {
+  width: 64px;
+}
 .w-250 {
   width: 250px;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: transform 0.4s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  transform: translateX(-999px);
 }
 </style>

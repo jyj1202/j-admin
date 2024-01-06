@@ -17,126 +17,30 @@ import { reactive, computed } from "vue";
 import { useRoute } from 'vue-router'
 import { useRouter } from 'vue-router'
 import MenuTree from "./MenuTree.vue";
-import {useSettingStore} from "@/stores/modules/setting";
+import { useSettingStore } from "@/stores/modules/setting";
+import type { RouteRecordRaw } from "vue-router";
 
 const router = useRouter()
+const route = useRoute()
+const routes = router.options.routes
 
-const menuList: Menu.MenuOption[] = reactive([{
-  path: '/workbench',
-  meta: {
-    title: 'workbench'
-  }
-}, {
-  path: '/j-form',
-  meta: {
-    title: 'j form'
-  }
-}, {
-  path: '/j-crud',
-  meta: {
-    title: 'j crud'
-  }
-}, {
-  path: '/j-components',
-  meta: {
-    title: 'j components'
-  },
-  children: [{
-    path: '/j-components/guide',
-    meta: {
-      title: 'guide'
+const rootRoute = routes.find(r => r.path == '/')
+const menuList = generateMenuList(rootRoute?.children);
+
+function generateMenuList(routes: RouteRecordRaw[]=[], menuList:Menu.MenuOption[]=[]) {
+  routes.forEach(route => {
+    const { path, children, meta } = route
+    if (!meta) return
+    const { menu, title } = meta
+    if (!menu) return
+    const menuItem: Menu.MenuOption = { path, meta }
+    if (children) {
+      menuItem.children = generateMenuList(children)
     }
-  }, {
-    path: '/j-components/waterfall',
-    meta: {
-      title: 'waterfall'
-    }
-  }, {
-    path: '/j-components/monaca-editor',
-    meta: {
-      title: 'monaca-editor'
-    }
-  }, {
-    path: '/j-components/dialog',
-    meta: {
-      title: 'dialog'
-    }
-  },]
-}, {
-    path: '/sortable',
-    meta: {
-      title: 'sortable.js'
-    }
-  }, {
-  path: '/j-form-generator',
-  meta: {
-    title: 'j form generator'
-  }
-}, {
-  path: '/screen',
-  meta: {
-    title: 'screen'
-  }
-}, {
-  path: '',
-  meta: {
-    title: 'd3'
-  },
-  children: [{
-    path: '/d3/getting-started',
-    meta: {
-      title: 'd3 getting-started'
-    }
-  }, {
-    path: '/d3/knowledge-network',
-    meta: {
-      title: 'd3 knowledge-network'
-    }
-  }, {
-    path: '/d3/knowledge-network2',
-    meta: {
-      title: 'd3 knowledge-network2'
-    }
-  }]
-}, {
-  path: '',
-  meta: { title: 'multi menu' },
-  children: [{
-    path: '',
-    meta: {title: 'menu 1'},
-    children: [{
-      path: '',
-      meta: {title: 'menu 1-1'}
-    }, {
-      path: '',
-      meta: {title: 'menu 1-2'}
-    }]
-  }, {
-    path: '',
-    meta: {title: 'menu 2'}
-  }]
-}, {
-  path: '',
-  meta: {
-    title: 'system manage'
-  },
-  children: [{
-    path: '/system-manage/account-manage',
-    meta: {
-      title: 'account manage'
-    }
-  }, {
-    path: '',
-    meta: {
-      title: 'role manage'
-    }
-  }, {
-    path: '',
-    meta: {
-      title: 'menu manage'
-    }
-  }]
-}])
+    menuList.push(menuItem)
+  });
+  return menuList
+}
 
 const handleSelect = (index: string) => {
   if (typeof index === 'string' && index.startsWith('http')) return window.open(index, '_blank')
@@ -147,7 +51,6 @@ const handleSelect = (index: string) => {
 
 const settingStore = useSettingStore()
 
-const route = useRoute()
 const activeMenu = computed(() => (route.path));
 
 </script>

@@ -18,7 +18,6 @@ export default defineComponent( (props: { columns: JCrudColumn[]}, context) => {
     const parentEmit = inject(getEmitKey)!
 
     onMounted(() => {
-      console.log(elTableRef.value!.$el.querySelectorAll('.el-table__body-wrapper table tbody')[0]);
       const tbody = elTableRef.value!.$el.querySelectorAll('.el-table__body-wrapper table tbody')[0]
       setSort(tbody)
     })

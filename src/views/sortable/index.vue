@@ -1,7 +1,7 @@
 <template>
   <div class="flex gap-5 justify-center">
     <div class="left w-1/3">
-      <ul ref="leftRef" class="border">
+      <ul ref="leftRef" class="border rounded">
         <li class="border-b h-16 flex items-center justify-between px-4" v-for="item in leftData" :key="item.label">
           <span>{{ item.label }}</span>
           <el-icon class="my-handle"><Rank /></el-icon>
@@ -11,7 +11,7 @@
     </div>
 
     <div class="right w-1/3">
-      <ul class=" border">
+      <ul class=" border rounded">
         <li
           class="border-b h-16 flex items-center justify-between px-4"
           v-for="(item, index) in rightData"
