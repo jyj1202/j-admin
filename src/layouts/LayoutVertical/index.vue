@@ -2,7 +2,7 @@
   <el-container class="h-screen">
     <el-aside class="flex flex-col border-r h-full" :class="[settingStore.isCollapse ? 'w-64' : 'w-250']">
       <div class="flex flex-col h-full">
-        <div class="logo flex items-center justify-center space-x-2">
+        <div class="logo flex items-center justify-center space-x-2 border-b">
           <img class="logo-img w-7" src="@/assets/images/logo.png" alt="logo" />
           <Transition>
             <span v-show="!settingStore.isCollapse" class="logo-text text-2xl font-semibold">J Admin</span>
@@ -52,9 +52,6 @@ const settingStore = useSettingStore()
   height: auto;
   padding: 0.25rem 0;
 }
-.el-aside {
-  transition: width .4s ease;
-}
 .el-main {
   display: flex;
   flex-direction: column;
@@ -64,6 +61,11 @@ const settingStore = useSettingStore()
     padding: var(--el-main-padding);
   }
 }
+
+/** el-aside collapse transition */
+.el-aside {
+  transition: width .4s ease;
+}
 .w-64 {
   width: 64px;
 }
@@ -71,6 +73,7 @@ const settingStore = useSettingStore()
   width: 250px;
 }
 
+/** logo transition */
 .v-enter-active,
 .v-leave-active {
   transition: transform 0.4s ease;

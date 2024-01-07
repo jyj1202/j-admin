@@ -28,7 +28,7 @@
     </div>
 
     <el-select v-model="value" filterable :filter-method="filterMethod">
-      <el-option>
+      <el-option :value="1">
         <el-tree
           :data="data"
           node-key="label"

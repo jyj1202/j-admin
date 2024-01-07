@@ -46,11 +46,29 @@ export const staticRouter: RouteRecordRaw[] = [
         }
       },
       {
+        path: '/j-form-generator',
+        name: 'j-form-generator',
+        component: () => import("@/views/j-form-generator/index.vue"),
+        meta: {
+          title: 'j form generator',
+          menu: true,
+        }
+      },
+      {
         path: '/j-crud',
         name: 'j-crud',
         component: () => import("@/views/j-crud/index.vue"),
         meta: {
           title: 'j crud',
+          menu: true,
+        }
+      },
+      {
+        path: '/j-virtualized-list',
+        name: 'j-virtualized-list',
+        component: () => import("@/views/j-virtualized-list/index.vue"),
+        meta: {
+          title: 'virtualized list',
           menu: true,
         }
       },
@@ -112,15 +130,6 @@ export const staticRouter: RouteRecordRaw[] = [
         component: () => import("@/views/sortable/index.vue"),
         meta: {
           title: 'sortable.js',
-          menu: true,
-        }
-      },
-      {
-        path: '/j-form-generator',
-        name: 'j-form-generator',
-        component: () => import("@/views/j-form-generator/index.vue"),
-        meta: {
-          title: 'j form generator',
           menu: true,
         }
       },
