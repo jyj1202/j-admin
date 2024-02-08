@@ -176,6 +176,23 @@ export const staticRouter: RouteRecordRaw[] = [
         }]
       },
       {
+        path: '/vueuse',
+        name: 'vueuse',
+        meta: {
+          title: 'vueuse',
+          menu: true,
+        },
+        children: [{
+          path: '/vueuse/useVModel',
+          name: 'vueuse-useVModel',
+          meta: {
+            title: 'useVModel',
+            menu: true,
+          },
+          component: () => import("@/views/vueuse/useVModel/index.vue")
+        }]
+      },
+      {
         path: '/test',
         name: 'test',
         component: () => import("@/views/test/index"),
