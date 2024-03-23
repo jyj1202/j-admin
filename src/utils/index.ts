@@ -113,3 +113,23 @@ export function getObjType(obj: unknown): dataType|'element' {
   }
   return typeMap[Object.prototype.toString.call(obj) as keyof typeof typeMap] as dataType;
 };
+
+
+export function useLock<P extends any[] = any[], V = any>(fn: (...args: P) => Promise<V>, count: number = 1) {
+  let maxCount = count
+  let initCount = 0
+
+  const lockFn = async function (...args: P) {
+    if (initCount < maxCount) {
+      try {
+        initCount++
+        const res = await fn(...args)
+        return res
+      } finally {
+        initCount--
+      }
+    }
+  }
+  return lockFn
+}
+

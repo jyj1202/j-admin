@@ -176,6 +176,23 @@ export const staticRouter: RouteRecordRaw[] = [
         }]
       },
       {
+        path: '/utility-functions',
+        name: 'utility-functions',
+        meta: {
+          title: 'utility functions',
+          menu: true,
+        },
+        children: [{
+          path: '/utility-functions/useLock',
+          name: 'utility-functions-useLock',
+          component: () => import("@/views/utility-functions/useLock.vue"),
+          meta: {
+            title: 'useLock',
+            menu: true,
+          }
+        }]
+      },
+      {
         path: '/test',
         name: 'test',
         component: () => import("@/views/test/index"),

@@ -104,7 +104,7 @@ function handleScroll(e: Event) {
 }
 
 function scrollHandler(e: Event) {
-  const scrollTop = e.target!.scrollTop
+  const scrollTop = (e.target as HTMLElement).scrollTop
   const count = Math.floor(scrollTop / trHeight)
   startIndex.value = count
   startIndex.value = count
