@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/jyj1202/j-admin/compare/v0.0.2...v0.1.1) (2024-03-23)
+
+### Features
+
+- 🚀 add custom tree select component ([b6d200d](https://github.com/jyj1202/j-admin/commit/b6d200db7cc1dc5581b572bc12d59978a4515867))
+- 🚀 add side menu auto generate by route's meta ([927ab0b](https://github.com/jyj1202/j-admin/commit/927ab0bdd6d30b60d31ec90c73337f324b43b927))
+- 🚀 add virtualized list ([48c32a1](https://github.com/jyj1202/j-admin/commit/48c32a1a7a68eac2c42fcb427b5d0403d47fa6f6))
+- 🚀 test vueuse usemodel ([31b711c](https://github.com/jyj1202/j-admin/commit/31b711ccbf11dccde813746da78ea0cb454a779d))
+- **jcrud:** 🚀 add row sortable feature ([4f4b19a](https://github.com/jyj1202/j-admin/commit/4f4b19a7df2db566a8a51e2ee1e1e8c502add84b))
+- **util:** 🚀 add useLock hook ([ba99310](https://github.com/jyj1202/j-admin/commit/ba993106203eb99f4c7a476e0cb372ff4406b503))
+- **view:** 🚀 add sortable.js demo ([7b3f33f](https://github.com/jyj1202/j-admin/commit/7b3f33f7e5d62c7839edf499f42a9a0d93fd202a))
+
 ### [0.0.2](https://github.com/jyj1202/j-admin/compare/v0.0.1...v0.0.2) (2024-01-02)
 
 ### Features
