@@ -64,7 +64,7 @@ const settingStore = useSettingStore()
 
 /** el-aside collapse transition */
 .el-aside {
-  transition: width .4s ease;
+  transition: width .1s ease;
 }
 .w-64 {
   width: 64px;
@@ -76,7 +76,7 @@ const settingStore = useSettingStore()
 /** logo transition */
 .v-enter-active,
 .v-leave-active {
-  transition: transform 0.4s ease;
+  transition: transform 0.1s ease;
 }
 
 .v-enter-from,

@@ -58,6 +58,8 @@ const activeMenu = computed(() => (route.path));
 <style scoped lang="scss">
 .el-menu {
   border-right: none;
+  width: 100%;
+  transition: width .1s ease;
 }
 // .el-scrollbar {
 //   width: auto;
