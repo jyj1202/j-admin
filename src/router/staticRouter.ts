@@ -210,6 +210,23 @@ export const staticRouter: RouteRecordRaw[] = [
         }]
       },
       {
+        path: '/video.js',
+        name: 'video.js',
+        meta: {
+          title: 'video.js',
+          menu: true,
+        },
+        children: [{
+          path: '/video.js/player-list',
+          name: 'video.js-player-list',
+          component: () => import("@/views/video.js/player-list.vue"),
+          meta: {
+            title: 'player list',
+            menu: true,
+          }
+        }]
+      },
+      {
         path: '/test',
         name: 'test',
         component: () => import("@/views/test/index"),

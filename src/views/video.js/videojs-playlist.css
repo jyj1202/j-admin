@@ -1,0 +1,113 @@
+/* .vjs-showPlaylist-button  .vjs-icon-placeholder:before {
+  content: '章节';
+  font-size: 14px;
+  color: #fff;
+} */
+.vjs-pageFullscreen-icon-enter:before {
+  content: "全屏";
+}
+.vjs-pageFullscreen-icon-exit:before {
+  content: "退出全屏";
+}
+.vjs-pageFullscreen {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: -100vw;
+  z-index: 9;
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(90deg);
+  transform-origin: bottom left;
+}
+
+.video-js.vjs-horizontal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;  
+  z-index: 9;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  transform-origin: initial;
+  transform: none;
+}
+
+@media screen and (orientation: landscape) {
+  .video-js, .video-js .vjs-horizontal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;  
+    z-index: 9;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    transform-origin: initial;
+    transform: none;
+  }
+}
+
+
+.vjs-playlist-modal {
+  /* display: none; */
+  transform: translateX(999px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 9;
+  transition: transform .5s;
+}
+
+.vjs-playlist-close-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 60%;
+}
+
+.vjs-playlist-modal.vjs-playlist-show {
+  /* display: block; */
+  transform: translateX(0);
+}
+
+.vjs-playlist-show .vjs-playlist-container {
+  /* display: block; */
+  width: 40%;
+}
+
+.vjs-playlist-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 40%;
+  background-color: rgba(0, 0, 0, .7);
+  padding: 15px;
+  font-size: 16px;
+  min-width: 200px;
+  overflow-y: auto;
+  transition: width .3s ease;
+}
+
+.vjs-playlist-container > * + * {
+  margin-top: 10px;
+}
+.vjs-playlist-chapter {
+  font-size: 16px;
+} 
+.vjs-playlist-item {
+  cursor: pointer;
+  font-size: 14px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+}
+.vjs-playlist-item.active {
+  border-color: var(--el-color-primary);
+}
