@@ -17,9 +17,9 @@ import '@smallwei/avue/lib/index.css';
 /* install glob components */
 import installGlobComponents from "@/components/install";
 
-import VConsole from 'vconsole';
+// import VConsole from 'vconsole';
 
-const vConsole = new VConsole();
+// const vConsole = new VConsole();
 
 const app = createApp(App)
 

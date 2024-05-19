@@ -227,6 +227,24 @@ export const staticRouter: RouteRecordRaw[] = [
         }]
       },
       {
+        path: '/html2canvas',
+        name: 'html2canvas',
+        meta: {
+          title: 'html2canvas',
+          menu: true,
+        },
+        component: () => import("@/views/html2canvas.vue"),
+      },
+      {
+        path: '/dom-to-image',
+        name: 'dom-to-image',
+        component: () => import("@/views/dom-to-image.vue"),
+        meta: {
+          title: 'dom-to-image',
+          menu: true,
+        }
+      },
+      {
         path: '/test',
         name: 'test',
         component: () => import("@/views/test/index"),
