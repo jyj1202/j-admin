@@ -47,10 +47,15 @@ const dialogVisible = ref(false)
 const imgSrc = ref('')
 const isShow = ref(false)
 
-const generateDom = () => {
+const generateDom = async () => {
   const clonedTarget = targetRef.value!.cloneNode(true) as HTMLElement
   const clonedAdded = toAddedRef.value!.cloneNode(true) as HTMLElement
-  containerRef.value?.append(clonedTarget, clonedAdded)
+  const url = 'https://pinia.vuejs.org/zh/'
+  const imgUrl = await QRcode.toDataURL(url)
+  const imgEl = document.createElement('img')
+  imgEl.src = imgUrl
+  containerRef.value?.classList.add('flex', 'flex-col', 'items-center', 'space-y-5')
+  containerRef.value?.append(clonedTarget, clonedAdded, imgEl)
   isShow.value = true
 }
 

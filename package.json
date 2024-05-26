@@ -42,7 +42,8 @@
     "video.js": "^8.12.0",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4",
-    "vuedraggable": "^4.1.0"
+    "vuedraggable": "^4.1.0",
+    "xgplayer": "^3.0.18"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",

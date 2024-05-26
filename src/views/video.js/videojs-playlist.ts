@@ -1,5 +1,3 @@
-// @ts-ignore
-
 import videojs from "video.js";
 
 const Plugin = videojs.getPlugin('plugin');
@@ -19,55 +17,17 @@ class PageFullscreenToggle extends Button {
   constructor(player, options) {
     super(player, options);
     this.addClass('vjs-pageFullscreen-icon-enter');
-    this.bindOrientation()
-  }
-
-  bindOrientation() {
-    window.addEventListener('resize', (e) => {
-      console.log(orientation, 'orientation');
-      if (orientation == 'landscape-primary') {
-        this.pageFullscreen = true
-        this.player_.addClass('vjs-horizontal')
-      }
-      
-      // if (this.pageFullscreen) return
-      // if (screen.orientation) {
-      //   // 如果浏览器支持 screen.orientation，则使用它
-      //   if (screen.orientation.type.includes('landscape')) {
-      //       // 处理横屏情况
-      //       console.log("处于横屏状态---");
-      //       this.pageFullscreen = true
-      //       this.player_.addClass('vjs-horizontal')
-      //   } else {
-      //     // 处理非横屏情况
-      //     console.log("不处于横屏状态---");
-      //     this.pageFullscreen = false
-      //     this.player_.removeClass('vjs-horizontal')
-      //   }
-      //   this.player_.trigger('pageFullscreenChange', this.pageFullscreen)
-      //   this.setFullScreenIcon()
-      // }
-      // else {
-      //     // 否则，尝试使用 window.orientation 或 window.innerWidth 和 window.innerHeight
-      //     if (window.orientation === 90 || window.orientation === -90 || window.innerWidth > window.innerHeight) {
-      //         // 处理横屏情况
-      //         console.log("处于横屏状态");
-      //         this.isHorizontal = true
-      //         this.player.addClass('vjs-horizontal')
-      //     } else {
-      //         // 处理非横屏情况
-      //         console.log("不处于横屏状态");
-      //         this.isHorizontal = false
-      //         this.player.removeClass('vjs-horizontal')
-      //       }
-      // }
-    })
   }
 
   handleClick(e: Event) {
     this.pageFullscreen = !this.pageFullscreen
     this.setFullScreenIcon()
-    this.player_.toggleClass('vjs-pageFullscreen', this.pageFullscreen)
+    // this.player_.toggleClass('vjs-pageFullscreen', this.pageFullscreen)
+    if (this.pageFullscreen) {
+      this.player_.enterFullWindow()
+    } else {
+      this.player_.exitFullWindow()
+    }
     this.player_.trigger('pageFullscreenChange', this.pageFullscreen)
   }
 

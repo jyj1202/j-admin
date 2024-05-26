@@ -227,6 +227,23 @@ export const staticRouter: RouteRecordRaw[] = [
         }]
       },
       {
+        path: '/xgplayer',
+        name: 'xgplayer',
+        meta: {
+          title: 'xgplayer',
+          menu: true,
+        },
+        children: [{
+          path: '/xgplayer/player-list',
+          name: 'xgplayer-player-list',
+          component: () => import("@/views/xgplayer/player-list.vue"),
+          meta: {
+            title: 'player list',
+            menu: true,
+          }
+        }]
+      },
+      {
         path: '/html2canvas',
         name: 'html2canvas',
         meta: {

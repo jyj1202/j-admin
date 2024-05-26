@@ -35,7 +35,7 @@
   transform: none;
 }
 
-@media screen and (orientation: landscape) {
+/* @media screen and (orientation: landscape) {
   .video-js, .video-js .vjs-horizontal {
     position: fixed;
     left: 0;
@@ -48,8 +48,7 @@
     transform-origin: initial;
     transform: none;
   }
-}
-
+} */
 
 .vjs-playlist-modal {
   /* display: none; */
