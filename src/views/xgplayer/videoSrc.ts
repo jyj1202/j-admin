@@ -44,15 +44,13 @@ const video6 = {
 
 const videoList1 = [video1, video2, video3]
 const videoList2 = [video4, video5, video6]
-const videoListData = [{
+const videoListData: {label: string; chapter?: boolean; src?: string}[] = [{
   label: '章节1',
   chapter: true,
-  children: videoList1
-}, {
+}, ...videoList1, {
   label: '章节2',
-  chapter: true,
-  children: videoList2
-}]
+  chapter: true
+}, ...videoList2]
 
 export {
   video1,

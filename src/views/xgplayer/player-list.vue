@@ -13,7 +13,7 @@ import "xgplayer/dist/index.min.css";
 // import volume from 'xgplayer/dist/controls/volume';
 // import playbackRate from 'xgplayer/dist/controls/playbackRate';
 import { videoListData } from "./videoSrc";
-import { PlayListButton, PlayListDrawer } from './plugin'
+import { PlaylistButton, PlaylistDrawer } from './plugin'
 import "./plugin.css";
 
 const playerContainerRef = ref<HTMLDivElement>()
@@ -25,10 +25,13 @@ let player = null
 onMounted(() => {
   initPlayer(playerContainerRef.value!)
 })
+
+const urlList = videoListData.filter(i => i.src).map(i => i.src)
+
 function initPlayer(playerContainer: HTMLDivElement) {
   player = new XgPlayer({
     el: playerContainer,
-    url: videoListData[0]?.children[0].src,
+    url: videoListData[1].src,
     playsinline: true,
     // fitVideoSize: 'fixWidth',
     fluid: true, // 流式布局
@@ -38,13 +41,10 @@ function initPlayer(playerContainer: HTMLDivElement) {
       useCssFullscreen: true // 全屏按钮将会调用页面内全屏
     },
     // rotate: true,
-    // ignores: ['fullscreen', 'volume'],
-    // playNext: {
-    //     urlList: [
-    //       '/video2.mp4',
-    //       '/video3.mp4',
-    //     ],
-    // },
+    ignores: ['volume'],
+    playNext: {
+        urlList: urlList,
+    },
     lastPlayTime: 5, //视频起播时间（单位：秒）
     lastPlayTimeHideDelay: 5, //提示文字展示时长（单位：秒）
     // controls: false,
@@ -54,12 +54,12 @@ function initPlayer(playerContainer: HTMLDivElement) {
     // controls: true,
     // controlPlugins: [volume, playbackRate],
     // playbackRate: [0.5, 0.75, 1, 1.5, 2],
-    plugins: [PlayListButton, PlayListDrawer],  // 配置参数注册插件
+    // plugins: [PlaylistButton, PlaylistDrawer],  // 配置参数注册插件
   })
-  player.registerPlugin(PlayListButton, {
+  player.registerPlugin(PlaylistButton, {
     index: 1
   })
-  player.registerPlugin(PlayListDrawer, {
+  player.registerPlugin(PlaylistDrawer, {
     playlist: videoListData
   })
 

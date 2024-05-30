@@ -11,7 +11,6 @@
 import videojs from "video.js";
 import "video.js/dist/video-js.css";
 import "./videojs-playlist.css"
-import Player from "video.js/dist/types/player";
 import { onMounted, ref, onBeforeUnmount } from "vue";
 import { video1, videoListData } from "./videoSrc";
 import { PlayListPlugin } from "./videojs-playlist";
@@ -22,7 +21,7 @@ videojs.registerPlugin('playListPlugin', PlayListPlugin)
 
 
 const videoPlayer = ref<HTMLVideoElement>()
-let vPlayer: Player|null = null
+let vPlayer: any = null
 
 interface ListItem {label: string; src: string; poster: string; chapter?: boolean;}
 
