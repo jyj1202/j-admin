@@ -4,6 +4,7 @@ import App from './App.vue'
 import router from './router'
 import pinia from '@/stores'
 import '@/styles/index.scss'
+import 'animate.css';
 /* vite-plugin-svg-icons */
 import 'virtual:svg-icons-register'
 /* element */

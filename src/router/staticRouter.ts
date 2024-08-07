@@ -262,6 +262,23 @@ export const staticRouter: RouteRecordRaw[] = [
         }
       },
       {
+        path: '/animation',
+        name: 'animation',
+        meta: {
+          title: 'animation',
+          menu: true,
+        },
+        children: [{
+          path: '/animation/fragment',
+          name: 'animation-fragment',
+          component: () => import("@/views/animation/fragment/index.vue"),
+          meta: {
+            title: 'fragment',
+            menu: true,
+          }
+        }]
+      },
+      {
         path: '/test',
         name: 'test',
         component: () => import("@/views/test/index"),
