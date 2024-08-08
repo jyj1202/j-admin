@@ -1,7 +1,7 @@
 <template>
-  <div class="h-full root relative" :style="{backgroundColor: currentData.bgc}">
+  <div class="root relative py-20" :style="{backgroundColor: currentData.bgc}">
     <!-- <el-button @click="changeAnimal">切换</el-button> -->
-    <el-icon class="arrow-left cursor-pointer" size="30px" @click="changeAnimal(0)"><ArrowLeftBold /></el-icon>
+    <el-icon class="arrow-left cursor-pointer" size="7vw" @click="changeAnimal(0)"><ArrowLeftBold /></el-icon>
     <div class="animal-container">
       <template v-for="(item, index) in currentData.styleArr" :key="index">
         <div
@@ -14,8 +14,8 @@
         ></div>
       </template>
     </div>
-    <el-icon class="arrow-right cursor-pointer" @click="changeAnimal(1)" size="30px"><ArrowRightBold /></el-icon>
-    <h2 v-show="toggled" class="animal-name text-center animate__animated animate__fadeInUp text-4xl">{{ currentData.name }}</h2>
+    <el-icon class="arrow-right cursor-pointer" @click="changeAnimal(1)" size="7vw"><ArrowRightBold /></el-icon>
+    <h2 v-show="toggled" class="animal-name text-center animate__animated animate__fadeInUp">{{ currentData.name }}</h2>
   </div>
 </template>
 
@@ -55,25 +55,26 @@ const changeAnimal = (type: 0|1) => {
     -moz-animation: scratchy 0.253s linear forwards infinite;
     animation: scratchy 0.253s linear forwards infinite;
     color: #fff;
+    font-size: 5vw;
   }
   .arrow-left {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 20px;
+    left: 2%;
     z-index: 9;
   }
   .arrow-right {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 20px;
+    right: 2%;
     z-index: 9;
   }
 }
 .animal-container {
-  height: 600px;
   position: relative;
+  height: 60vw;
 
   .clip-item {
     position: absolute;
