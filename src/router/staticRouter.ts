@@ -279,6 +279,23 @@ export const staticRouter: RouteRecordRaw[] = [
         }]
       },
       {
+        path: '/mini-package',
+        name: 'mini-package',
+        meta: {
+          title: 'mini-package',
+          menu: true,
+        },
+        children: [{
+          path: '/mini-package/mitt',
+          name: 'mini-package-mitt',
+          component: () => import("@/views/mini-package/mitt/index.vue"),
+          meta: {
+            title: 'mitt',
+            menu: true,
+          }
+        }]
+      },
+      {
         path: '/test',
         name: 'test',
         component: () => import("@/views/test/index"),

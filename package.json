@@ -34,6 +34,7 @@
     "element-plus": "^2.3.12",
     "file-saver": "^2.0.5",
     "html2canvas": "^1.4.1",
+    "mitt": "^3.0.1",
     "monaco-editor": "^0.44.0",
     "pinia": "^2.1.6",
     "pinia-plugin-persistedstate": "^3.2.0",
