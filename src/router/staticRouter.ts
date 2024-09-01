@@ -276,6 +276,14 @@ export const staticRouter: RouteRecordRaw[] = [
             title: 'fragment',
             menu: true,
           }
+        }, {
+          path: '/animation/gpt2',
+          name: 'animation-gpt2',
+          component: () => import("@/views/animation/gpt2/index.vue"),
+          meta: {
+            title: 'gpt2',
+            menu: true,
+          }
         }]
       },
       {
