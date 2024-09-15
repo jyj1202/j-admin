@@ -287,6 +287,23 @@ export const staticRouter: RouteRecordRaw[] = [
         }]
       },
       {
+        path: '/optimization',
+        name: 'optimization',
+        meta: {
+          title: 'optimization',
+          menu: true,
+        },
+        children: [{
+          path: '/optimization/img-lazy-load',
+          name: 'optimization-img-lazy-load',
+          component: () => import("@/views/optimization/img-lazy-load/index.vue"),
+          meta: {
+            title: 'img lazy load',
+            menu: true,
+          }
+        },]
+      },
+      {
         path: '/mini-package',
         name: 'mini-package',
         meta: {

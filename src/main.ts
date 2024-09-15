@@ -17,6 +17,7 @@ import Avue from '@smallwei/avue';
 import '@smallwei/avue/lib/index.css';
 /* install glob components */
 import installGlobComponents from "@/components/install";
+import { vLazyImg } from "@/directives/lazyImg";
 
 // import VConsole from 'vconsole';
 
@@ -29,6 +30,7 @@ app.use(router)
   .use(ElementPlus)
   .use(Avue)
   .use(installGlobComponents)
+  .use(vLazyImg)
 
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
   app.component(key, component)
