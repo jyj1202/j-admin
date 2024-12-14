@@ -12,9 +12,6 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import 'element-plus/theme-chalk/dark/css-vars.css'
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
-/* install avue */
-import Avue from '@smallwei/avue';
-import '@smallwei/avue/lib/index.css';
 /* install glob components */
 import installGlobComponents from "@/components/install";
 import { vLazyImg } from "@/directives/lazyImg";
@@ -28,7 +25,6 @@ const app = createApp(App)
 app.use(router)
   .use(pinia)
   .use(ElementPlus)
-  .use(Avue)
   .use(installGlobComponents)
   .use(vLazyImg)
 

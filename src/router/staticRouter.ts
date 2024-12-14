@@ -29,14 +29,6 @@ export const staticRouter: RouteRecordRaw[] = [
         }
       },
       {
-        path: '/avue',
-        name: 'avue',
-        component: () => import("@/views/avue/index.vue"),
-        meta: {
-
-        }
-      },
-      {
         path: '/j-form',
         name: 'j-form',
         component: () => import("@/views/j-form/index.vue"),
@@ -119,6 +111,15 @@ export const staticRouter: RouteRecordRaw[] = [
           component: () => import("@/views/j-components/select-tree/index.vue"),
           meta: {
             title: 'select tree',
+            menu: true,
+          }
+        },
+        {
+          path: '/j-components/snake-graph',
+          name: 'snake-graph',
+          component: () => import("@/views/j-components/snake-graph/index.vue"),
+          meta: {
+            title: 'snake graph',
             menu: true,
           }
         },
