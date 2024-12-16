@@ -1,5 +1,6 @@
 <template>
   <div>
+    playlist功能只做了移动端，请在移动端模式下查看
     <div class="xgplayer-container" ref="playerContainerRef"></div>
 
     <!-- <el-button type="primary" @click="fullscreenPlayer">fullscreen</el-button> -->
@@ -13,8 +14,8 @@ import "xgplayer/dist/index.min.css";
 // import volume from 'xgplayer/dist/controls/volume';
 // import playbackRate from 'xgplayer/dist/controls/playbackRate';
 import { videoListData } from "./videoSrc";
-import { PlaylistButton, PlaylistDrawer } from './plugin'
-import "./plugin.css";
+import { PlaylistButton, PlaylistDrawer } from './playlist'
+import "./playlist.css";
 
 const playerContainerRef = ref<HTMLDivElement>()
 
@@ -36,7 +37,7 @@ function initPlayer(playerContainer: HTMLDivElement) {
     // fitVideoSize: 'fixWidth',
     fluid: true, // 流式布局
     // width: '100%',
-    cssFullscreen: true,
+    cssFullscreen: false,
     fullscreen: {
       useCssFullscreen: true // 全屏按钮将会调用页面内全屏
     },
