@@ -242,6 +242,14 @@ export const staticRouter: RouteRecordRaw[] = [
             title: 'player list',
             menu: true,
           }
+        }, {
+          path: '/xgplayer/progress-dot',
+          name: 'xgplayer-progress-dot',
+          component: () => import("@/views/xgplayer/progress-dot.vue"),
+          meta: {
+            title: 'progress-dot',
+            menu: true,
+          }
         }]
       },
       {
