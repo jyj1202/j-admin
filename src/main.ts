@@ -15,6 +15,8 @@ import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 /* install glob components */
 import installGlobComponents from "@/components/install";
 import { vLazyImg } from "@/directives/lazyImg";
+import 'aplayer/dist/APlayer.min.css';
+import APlayer from 'aplayer';
 
 // import VConsole from 'vconsole';
 
@@ -33,3 +35,27 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
 }
 
 app.mount('#app')
+
+new APlayer({
+  container: document.getElementById('aplayer'),
+  fixed: true,
+  order: 'random',
+  loop: 'all',
+  autoplay: true,
+  audio: [
+      {
+          name: 'MerryChristmasMr_Lawrence',
+          url: '/MerryChristmasMr_Lawrence.ogg',
+          cover: 'https://p2.music.126.net/PywoXPKK3AjseU0Wx9wdXw==/109951167267731534.jpg?param=130y130',
+          theme: '#ebd0c2',
+          artist: 'artist',
+      },
+      {
+          name: 'ありがとう',
+          url: '/kokia.mp3',
+          cover: '/kokia.jpg',
+          theme: '#46718b',
+          artist: 'kokia',
+      }
+  ]
+});
