@@ -67,7 +67,7 @@ function init(el: HTMLElement,
 }
 
 const cb = (inlineSize: number, reSize: (colNum: number) => void) => {
-  const colNum = Math.floor(inlineSize / 150);
+  const colNum = Math.max(Math.floor(inlineSize / 150), 1);
   reSize(colNum)
 }
 
