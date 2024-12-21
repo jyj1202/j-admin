@@ -132,7 +132,7 @@ provide(getEmitKey, emit)
 provide(JCrudOptionKey, readonly(props.option)) // 若提供的是非字符串值会导致错误
 provide(getPropKey, getProp)
 
-const elTableRef = ref<TableInstance|null>()
+const elTableRef = ref<TableInstance>()
 provide(getElTableRefKey, elTableRef)
 
 

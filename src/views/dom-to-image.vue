@@ -30,9 +30,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import QRcode from 'qrcode'
 import domtoimage from 'dom-to-image';
-import {  } from "file-saver";
 
 const targetRef = ref<HTMLElement>()
 const toAddedRef = ref<HTMLElement>()

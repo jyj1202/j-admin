@@ -120,6 +120,9 @@ importers:
       '@types/d3':
         specifier: ^7.4.3
         version: 7.4.3
+      '@types/dom-to-image':
+        specifier: ^2.6.7
+        version: 2.6.7
       '@types/jsdom':
         specifier: ^21.1.1
         version: 21.1.1
@@ -135,6 +138,9 @@ importers:
       '@types/node':
         specifier: ^18.17.5
         version: 18.17.5
+      '@types/qrcode':
+        specifier: ^1.5.5
+        version: 1.5.5
       '@types/sortablejs':
         specifier: ^1.15.7
         version: 1.15.7
@@ -858,6 +864,9 @@ packages:
   '@types/debug@4.1.12':
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
 
+  '@types/dom-to-image@2.6.7':
+    resolution: {integrity: sha512-me5VbCv+fcXozblWwG13krNBvuEOm6kA5xoa4RrjDJCNFOZSWR3/QLtOXimBHk1Fisq69Gx3JtOoXtg1N1tijg==}
+
   '@types/estree@1.0.1':
     resolution: {integrity: sha512-LG4opVs2ANWZ1TJoKc937iMmNstM/d0ae1vNbnBvBhqCSezgVUOzcLCqbI5elV8Vy6WKwKjaqR+zO9VKirBBCA==}
 
@@ -905,6 +914,9 @@ packages:
 
   '@types/normalize-package-data@2.4.1':
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
+
+  '@types/qrcode@1.5.5':
+    resolution: {integrity: sha512-CdfBi/e3Qk+3Z/fXYShipBT13OJ2fDO2Q2w5CIP5anLTLIndQG9z6P1cnm+8zCWSpm5dnxMFd/uREtb0EXuQzg==}
 
   '@types/semver@7.5.1':
     resolution: {integrity: sha512-cJRQXpObxfNKkFAZbJl2yjWtJCqELQIdShsogr1d2MilP8dKD9TE/nEKHkJgUNHdGKCQaf9HbIynuV2csLGVLg==}
@@ -5452,6 +5464,8 @@ snapshots:
     dependencies:
       '@types/ms': 0.7.34
 
+  '@types/dom-to-image@2.6.7': {}
+
   '@types/estree@1.0.1': {}
 
   '@types/geojson@7946.0.13': {}
@@ -5496,6 +5510,10 @@ snapshots:
   '@types/node@20.4.7': {}
 
   '@types/normalize-package-data@2.4.1': {}
+
+  '@types/qrcode@1.5.5':
+    dependencies:
+      '@types/node': 18.17.5
 
   '@types/semver@7.5.1': {}
 

@@ -37,7 +37,7 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
 app.mount('#app')
 
 new APlayer({
-  container: document.getElementById('aplayer'),
+  container: document.getElementById('aplayer')!,
   fixed: true,
   order: 'random',
   loop: 'all',
