@@ -61,7 +61,7 @@ export class PlaylistButton extends Plugin {
 }
 
 export class PlaylistDrawer extends Plugin {
-  playlist = []
+  playlist: {videoId: string, src: string}[] = []
   // 插件的名称，将作为插件实例的唯一key值
   static get pluginName() {
     return 'PlaylistDrawer'

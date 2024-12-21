@@ -44,15 +44,15 @@ new APlayer({
   autoplay: true,
   audio: [
       {
-          name: 'MerryChristmasMr_Lawrence',
-          url: '/MerryChristmasMr_Lawrence.ogg',
+          name: 'Merry Christmas Mr.Lawrence',
+          url: new URL('/MerryChristmasMr_Lawrence.ogg', import.meta.url).href,
           cover: 'https://p2.music.126.net/PywoXPKK3AjseU0Wx9wdXw==/109951167267731534.jpg?param=130y130',
           theme: '#ebd0c2',
-          artist: 'artist',
+          artist: '坂本 龍一',
       },
       {
           name: 'ありがとう',
-          url: '/kokia.mp3',
+          url: new URL('/kokia.mp3', import.meta.url).href,
           cover: '/kokia.jpg',
           theme: '#46718b',
           artist: 'kokia',
