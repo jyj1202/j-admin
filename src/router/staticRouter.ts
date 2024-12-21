@@ -29,14 +29,6 @@ export const staticRouter: RouteRecordRaw[] = [
         }
       },
       {
-        path: '/avue',
-        name: 'avue',
-        component: () => import("@/views/avue/index.vue"),
-        meta: {
-
-        }
-      },
-      {
         path: '/j-form',
         name: 'j-form',
         component: () => import("@/views/j-form/index.vue"),
@@ -119,6 +111,15 @@ export const staticRouter: RouteRecordRaw[] = [
           component: () => import("@/views/j-components/select-tree/index.vue"),
           meta: {
             title: 'select tree',
+            menu: true,
+          }
+        },
+        {
+          path: '/j-components/snake-graph',
+          name: 'snake-graph',
+          component: () => import("@/views/j-components/snake-graph/index.vue"),
+          meta: {
+            title: 'snake graph',
             menu: true,
           }
         },
@@ -205,6 +206,125 @@ export const staticRouter: RouteRecordRaw[] = [
           component: () => import("@/views/utility-functions/useLock.vue"),
           meta: {
             title: 'useLock',
+            menu: true,
+          }
+        }]
+      },
+      {
+        path: '/video.js',
+        name: 'video.js',
+        meta: {
+          title: 'video.js',
+          menu: true,
+        },
+        children: [{
+          path: '/video.js/player-list',
+          name: 'video.js-player-list',
+          component: () => import("@/views/video.js/player-list.vue"),
+          meta: {
+            title: 'player list',
+            menu: true,
+          }
+        }]
+      },
+      {
+        path: '/xgplayer',
+        name: 'xgplayer',
+        meta: {
+          title: 'xgplayer',
+          menu: true,
+        },
+        children: [{
+          path: '/xgplayer/player-list',
+          name: 'xgplayer-player-list',
+          component: () => import("@/views/xgplayer/player-list.vue"),
+          meta: {
+            title: 'player list',
+            menu: true,
+          }
+        }, {
+          path: '/xgplayer/progress-dot',
+          name: 'xgplayer-progress-dot',
+          component: () => import("@/views/xgplayer/progress-dot.vue"),
+          meta: {
+            title: 'progress-dot',
+            menu: true,
+          }
+        }]
+      },
+      {
+        path: '/html2canvas',
+        name: 'html2canvas',
+        meta: {
+          title: 'html2canvas',
+          menu: true,
+        },
+        component: () => import("@/views/html2canvas.vue"),
+      },
+      {
+        path: '/dom-to-image',
+        name: 'dom-to-image',
+        component: () => import("@/views/dom-to-image.vue"),
+        meta: {
+          title: 'dom-to-image',
+          menu: true,
+        }
+      },
+      {
+        path: '/animation',
+        name: 'animation',
+        meta: {
+          title: 'animation',
+          menu: true,
+        },
+        children: [{
+          path: '/animation/fragment',
+          name: 'animation-fragment',
+          component: () => import("@/views/animation/fragment/index.vue"),
+          meta: {
+            title: 'fragment',
+            menu: true,
+          }
+        }, {
+          path: '/animation/gpt2',
+          name: 'animation-gpt2',
+          component: () => import("@/views/animation/gpt2/index.vue"),
+          meta: {
+            title: 'gpt2',
+            menu: true,
+          }
+        }]
+      },
+      {
+        path: '/optimization',
+        name: 'optimization',
+        meta: {
+          title: 'optimization',
+          menu: true,
+        },
+        children: [{
+          path: '/optimization/img-lazy-load',
+          name: 'optimization-img-lazy-load',
+          component: () => import("@/views/optimization/img-lazy-load/index.vue"),
+          meta: {
+            title: 'img lazy load',
+            menu: true,
+          }
+        },]
+      },
+      {
+        path: '/mini-package',
+        name: 'mini-package',
+        meta: {
+          title: 'mini-package',
+          menu: true,
+        },
+        children: [{
+          path: '/mini-package/mitt',
+          name: 'mini-package-mitt',
+          component: () => import("@/views/mini-package/mitt/index.vue"),
+          meta: {
+            title: 'mitt',
             menu: true,
           }
         }]

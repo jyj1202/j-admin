@@ -14,8 +14,8 @@ declare namespace Menu {
 
   interface MenuOption {
     path: string;
-    // name?: string;
-    // component?: string | (() => Promise<unknown>);
+    name?: string;
+    component?: string | (() => Promise<unknown>);
     // redirect?: string;
     meta: MetaProps;
     children?: MenuOption[];

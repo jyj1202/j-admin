@@ -1,5 +1,5 @@
 <template>
-  <el-container class="h-screen">
+  <el-container class="h-screen overflow-hidden">
     <el-aside class="flex flex-col border-r h-full" :class="[settingStore.isCollapse ? 'w-64' : 'w-250']">
       <div class="flex flex-col h-full">
         <div class="logo flex items-center justify-center space-x-2 border-b">

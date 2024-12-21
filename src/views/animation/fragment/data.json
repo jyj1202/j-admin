@@ -1,0 +1,4262 @@
+[
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(20.8099% 50.9512%, 25.1608% 52.1474%, 12.3524% 53.9583%)",
+              "backgroundColor": "rgb(44, 50, 61)"
+          },
+          {
+              "clipPath": "polygon(15.3913% 48.1584%, 35.2975% 49.9123%, 25.5074% 52.3575%)",
+              "backgroundColor": "rgb(99, 103, 111)"
+          },
+          {
+              "clipPath": "polygon(23.1513% 44.384%, 35.4911% 49.688%, 25.3509% 48.8588%)",
+              "backgroundColor": "rgb(15, 22, 34)"
+          },
+          {
+              "clipPath": "polygon(25.0436% 52.3884%, 51.16% 46.5013%, 29.5162% 54.4163%)",
+              "backgroundColor": "rgb(15, 22, 34)"
+          },
+          {
+              "clipPath": "polygon(27.7814% 46.6884%, 47.6345% 33.5516%, 50.3198% 46.6401%)",
+              "backgroundColor": "rgb(49, 55, 65)"
+          },
+          {
+              "clipPath": "polygon(27.7372% 46.7008%, 51.7893% 46.6515%, 35.301% 50.2218%)",
+              "backgroundColor": "rgb(49, 55, 65)"
+          },
+          {
+              "clipPath": "polygon(29.697% 43.6904%, 47.4934% 33.9908%, 48.9885% 40.9962%)",
+              "backgroundColor": "rgb(37, 43, 54)"
+          },
+          {
+              "clipPath": "polygon(29.2% 54.5%, 62.9% 42%, 54.3% 65.9%)",
+              "backgroundColor": "rgb(37, 43, 54)"
+          },
+          {
+              "clipPath": "polygon(47.6% 33.6%, 62.9% 42.1%, 50.36% 46.9%)",
+              "backgroundColor": "rgb(60, 66, 76)"
+          },
+          {
+              "clipPath": "polygon(47.7% 33.7%, 65% 36.1%, 62.9% 42.3%)",
+              "backgroundColor": "rgb(77, 82, 91)"
+          },
+          {
+              "clipPath": "polygon(44.7% 33.5%, 62% 23.7%, 65.2% 36.3%)",
+              "backgroundColor": "rgb(54, 59, 70)"
+          },
+          {
+              "clipPath": "polygon(62% 45%, 45% 61.5%, 54.5% 66%)",
+              "backgroundColor": "rgb(32, 38, 50)"
+          },
+          {
+              "clipPath": "polygon(54% 76%, 56.5% 87%, 56% 78%)",
+              "backgroundColor": "rgb(94, 99, 107)"
+          },
+          {
+              "clipPath": "polygon(52% 64.7%, 54.2% 78%, 54.35% 65.86%)",
+              "backgroundColor": "rgb(54, 59, 70)"
+          },
+          {
+              "clipPath": "polygon(57.9% 62%, 54.2% 78%, 54.33% 65.7%)",
+              "backgroundColor": "rgb(15, 22, 34)"
+          },
+          {
+              "clipPath": "polygon(58.4% 87%, 54.2% 78%, 55% 74%)",
+              "backgroundColor": "rgb(55, 61, 71)"
+          },
+          {
+              "clipPath": "polygon(49.5% 47.3%, 62.5% 42.2%, 64% 44.1%)",
+              "backgroundColor": "rgb(15, 22, 34)"
+          },
+          {
+              "clipPath": "polygon(65.2% 35.4%, 63.5% 55.8%, 54.2% 66.1%)",
+              "backgroundColor": "rgb(23, 29, 41)"
+          },
+          {
+              "clipPath": "polygon(61.5% 24%, 74% 14%, 65.1% 36.6%)",
+              "backgroundColor": "rgb(23, 29, 41)"
+          },
+          {
+              "clipPath": "polygon(78.6% 21.5%, 73.95% 14%, 65% 36.6%)",
+              "backgroundColor": "rgb(37, 43, 54)"
+          },
+          {
+              "clipPath": "polygon(78.57% 21.5%, 63.44% 56%, 65% 36.4%)",
+              "backgroundColor": "rgb(29, 36, 47)"
+          },
+          {
+              "clipPath": "polygon(78.5% 21.4%, 63.42% 56%, 79.9% 23.74%)",
+              "backgroundColor": "rgb(23, 29, 41)"
+          },
+          {
+              "clipPath": "polygon(78.5% 21.5%, 88.8% 22%, 79.9% 23.8%)",
+              "backgroundColor": "rgb(15, 22, 34)"
+          },
+          {
+              "clipPath": "polygon(77% 21.5%, 88.8% 22.05%, 86.3% 19.35%)",
+              "backgroundColor": "rgb(37, 43, 54)"
+          },
+          {
+              "clipPath": "polygon(78.5% 21.5%, 80.2% 17%, 86.5% 19.4%)",
+              "backgroundColor": "rgb(51, 57, 67)"
+          },
+          {
+              "clipPath": "polygon(78.5% 21.5%, 80.3% 17%, 73.9% 14%)",
+              "backgroundColor": "rgb(66, 71, 81)"
+          },
+          {
+              "clipPath": "polygon(76.25% 18%, 74.5% 22.5%, 78.6% 21.5%)",
+              "backgroundColor": "rgb(15, 22, 34)"
+          },
+          {
+              "clipPath": "polygon(76.25% 17.9%, 75.35% 20%, 76.8% 18.8%)",
+              "backgroundColor": "rgb(162, 167, 168)"
+          },
+          {
+              "clipPath": "polygon(61.7% 44.7%, 64.4% 44%, 65.1% 36.2%)",
+              "backgroundColor": "rgb(15, 22, 34)"
+          },
+          {
+              "clipPath": "polygon(78.5% 21.5%, 76.3% 23.7%, 74.6% 22.5%)",
+              "backgroundColor": "rgb(15, 22, 34)"
+          },
+          {
+              "clipPath": "polygon(87% 70.5%, 85% 89%, 83% 89%)",
+              "backgroundColor": "rgb(15, 124, 88)"
+          },
+          {
+              "clipPath": "polygon(81% 73.5%, 85% 92%, 83% 92%)",
+              "backgroundColor": "rgb(20, 170, 120)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(20, 170, 120)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "夏威夷乌鸦",
+      "bgc": "rgb(132, 165, 221)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(46.7% 81.357%, 30.3% 44.071%, 39.6% 36.643%)",
+              "backgroundColor": "rgb(44, 44, 38)"
+          },
+          {
+              "clipPath": "polygon(45.9% 77.214%, 39.6% 37.214%, 47.9% 46.071%)",
+              "backgroundColor": "rgb(19, 23, 13)"
+          },
+          {
+              "clipPath": "polygon(39.3% 36.929%, 54.2% 16.786%, 47.9% 46.214%)",
+              "backgroundColor": "rgb(58, 59, 46)"
+          },
+          {
+              "clipPath": "polygon(39.6% 41.071%, 47.1% 26.357%, 41.3% 45.929%)",
+              "backgroundColor": "rgb(212, 230, 213)"
+          },
+          {
+              "clipPath": "polygon(24.4% 26.357%, 35.7% 6.5%, 35.7% 17.5%)",
+              "backgroundColor": "rgb(135, 137, 109)"
+          },
+          {
+              "clipPath": "polygon(43.3% 34.5%, 47.3% 26.357%, 35.7% 17.5%)",
+              "backgroundColor": "rgb(183, 195, 173)"
+          },
+          {
+              "clipPath": "polygon(24.3% 26.357%, 35.7% 17.5%, 28.3% 34.214%)",
+              "backgroundColor": "rgb(170, 180, 161)"
+          },
+          {
+              "clipPath": "polygon(24.3% 26.357%, 31.9% 40.929%, 30.3% 45.214%)",
+              "backgroundColor": "rgb(160, 164, 153)"
+          },
+          {
+              "clipPath": "polygon(28.3% 34.071%, 35.7% 17.5%, 35.8% 48.929%)",
+              "backgroundColor": "rgb(22, 25, 25)"
+          },
+          {
+              "clipPath": "polygon(35.7% 17.5%, 43.3% 34.357%, 35.8% 48.643%)",
+              "backgroundColor": "rgb(40, 42, 39)"
+          },
+          {
+              "clipPath": "polygon(30.2% 45.357%, 35.7% 29.071%, 35.8% 48.786%)",
+              "backgroundColor": "rgb(180, 188, 161)"
+          },
+          {
+              "clipPath": "polygon(35.7% 29.071%, 41.4% 45.929%, 35.7% 48.786%)",
+              "backgroundColor": "rgb(193, 211, 187)"
+          },
+          {
+              "clipPath": "polygon(31.7% 40.786%, 39.4% 41.214%, 35.7% 44.071%)",
+              "backgroundColor": "rgb(126, 92, 104)"
+          },
+          {
+              "clipPath": "polygon(30.7% 40.929%, 35.8% 28.8%, 35.95% 42.929%)",
+              "backgroundColor": "rgb(80, 84, 83)"
+          },
+          {
+              "clipPath": "polygon(35.7% 29.071%, 40.8% 40.786%, 35.8% 42.929%)",
+              "backgroundColor": "rgb(64, 68, 69)"
+          },
+          {
+              "clipPath": "polygon(31.8% 25.786%, 35.7% 23.929%, 40% 25.786%)",
+              "backgroundColor": "rgb(68, 71, 61)"
+          },
+          {
+              "clipPath": "polygon(31.8% 25.786%, 39.9% 25.786%, 35.7% 29.071%)",
+              "backgroundColor": "rgb(0, 0, 0)"
+          },
+          {
+              "clipPath": "polygon(35.6% 17.357%, 35.7% 6.2%, 47.2% 26.357%)",
+              "backgroundColor": "rgb(110, 111, 81)"
+          },
+          {
+              "clipPath": "polygon(35.8% 6.5%, 54.7% 16.071%, 47.2% 26.357%)",
+              "backgroundColor": "rgb(94, 92, 64)"
+          },
+          {
+              "clipPath": "polygon(47.8% 46.2%, 54.23% 16.43%, 58.9% 38.929%)",
+              "backgroundColor": "rgb(91, 87, 58)"
+          },
+          {
+              "clipPath": "polygon(47.9% 45.7%, 52.5% 86.071%, 45% 86.071%)",
+              "backgroundColor": "rgb(59, 56, 37)"
+          },
+          {
+              "clipPath": "polygon(47.8% 46.071%, 58.7% 38.929%, 51.5% 78.5%)",
+              "backgroundColor": "rgb(80, 77, 49)"
+          },
+          {
+              "clipPath": "polygon(65% 14.214%, 74.1% 35.5%, 67.9% 41.5%)",
+              "backgroundColor": "rgb(146, 145, 125)"
+          },
+          {
+              "clipPath": "polygon(54.3% 16.786%, 67.4% 23.643%, 58.7% 39.071%)",
+              "backgroundColor": "rgb(84, 81, 53)"
+          },
+          {
+              "clipPath": "polygon(58.5997% 38.786%, 67.4002% 23.6439%, 67.9998% 41.6436%)",
+              "backgroundColor": "rgb(71, 71, 53)"
+          },
+          {
+              "clipPath": "polygon(58.6058% 38.7165%, 68.0023% 41.5087%, 55.2149% 57.6563%)",
+              "backgroundColor": "rgb(56, 56, 40)"
+          },
+          {
+              "clipPath": "polygon(59.2067% 54.7943%, 62.4282% 70.5841%, 60.2206% 84.0077%)",
+              "backgroundColor": "rgb(19, 23, 13)"
+          },
+          {
+              "clipPath": "polygon(58.7163% 53.0961%, 67.972% 41.4913%, 60.9982% 69.315%)",
+              "backgroundColor": "rgb(37, 42, 30)"
+          },
+          {
+              "clipPath": "polygon(67.8311% 41.7442%, 74.0947% 35.8333%, 66.839% 62.4147%)",
+              "backgroundColor": "rgb(91, 87, 58)"
+          },
+          {
+              "clipPath": "polygon(60.9722% 69.0854%, 67.9042% 41.6045%, 65.8499% 84.378%)",
+              "backgroundColor": "rgb(46, 48, 24)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "西非鬼狒",
+      "bgc": "rgb(135, 196, 163)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(20.35% 45.429%, 22.8% 35.571%, 28.95% 39.286%)",
+              "backgroundColor": "rgb(143, 107, 78)"
+          },
+          {
+              "clipPath": "polygon(20.35% 45.429%, 26.45% 41%, 23.65% 47.429%)",
+              "backgroundColor": "rgb(104, 75, 45)"
+          },
+          {
+              "clipPath": "polygon(22.8% 35.714%, 22.75% 27.857%, 30.05% 29%)",
+              "backgroundColor": "rgb(184, 144, 118)"
+          },
+          {
+              "clipPath": "polygon(25.4% 28.357%, 29.7% 28.929%, 22.8% 35.643%)",
+              "backgroundColor": "rgb(198, 161, 136)"
+          },
+          {
+              "clipPath": "polygon(22.8% 35.714%, 30% 28.857%, 27.95% 40.4%)",
+              "backgroundColor": "rgb(170, 130, 105)"
+          },
+          {
+              "clipPath": "polygon(22.85% 29.143%, 19.35% 24.857%, 22.65% 26.286%)",
+              "backgroundColor": "rgb(222, 201, 191)"
+          },
+          {
+              "clipPath": "polygon(22.75% 27.857%, 25.85% 25.571%, 30.05% 29.286%)",
+              "backgroundColor": "rgb(162, 114, 93)"
+          },
+          {
+              "clipPath": "polygon(29.85% 29%, 34.35% 26.286%, 32.75% 31.143%)",
+              "backgroundColor": "rgb(222, 201, 191)"
+          },
+          {
+              "clipPath": "polygon(23.45% 27.286%, 21.65% 16.143%, 24.95% 26.429%)",
+              "backgroundColor": "rgb(99, 76, 66)"
+          },
+          {
+              "clipPath": "polygon(26.05% 25.857%, 30.15% 19.714%, 28.05% 27.571%)",
+              "backgroundColor": "rgb(99, 76, 66)"
+          },
+          {
+              "clipPath": "polygon(21.75% 16%, 24.95% 4.429%, 22.25% 17.857%)",
+              "backgroundColor": "rgb(49, 43, 52)"
+          },
+          {
+              "clipPath": "polygon(30.05% 19.714%, 34.05% 15.571%, 28.85% 24.429%)",
+              "backgroundColor": "rgb(49, 43, 52)"
+          },
+          {
+              "clipPath": "polygon(33.15% 16.571%, 33.15% 4.429%, 33.95% 15.571%)",
+              "backgroundColor": "rgb(65, 52, 48)"
+          },
+          {
+              "clipPath": "polygon(29.95% 29.143%, 37.15% 42.571%, 27.85% 40%)",
+              "backgroundColor": "rgb(163, 120, 92)"
+          },
+          {
+              "clipPath": "polygon(27.75% 40%, 37.15% 42.429%, 33.8% 53.4%)",
+              "backgroundColor": "rgb(131, 93, 72)"
+          },
+          {
+              "clipPath": "polygon(33.45% 35.857%, 52.05% 38.2%, 37.05% 42.714%)",
+              "backgroundColor": "rgb(131, 93, 72)"
+          },
+          {
+              "clipPath": "polygon(37.2% 42.1%, 38.85% 58.714%, 33.75% 53.429%)",
+              "backgroundColor": "rgb(137, 100, 68)"
+          },
+          {
+              "clipPath": "polygon(37.05% 42.429%, 47.85% 60.714%, 38.75% 58.714%)",
+              "backgroundColor": "rgb(163, 120, 92)"
+          },
+          {
+              "clipPath": "polygon(37.05% 42.571%, 52.05% 38.143%, 47.85% 60.714%)",
+              "backgroundColor": "rgb(153, 110, 80)"
+          },
+          {
+              "clipPath": "polygon(38.85% 58.571%, 43.45% 59.571%, 36.65% 76.286%)",
+              "backgroundColor": "rgb(158, 118, 91)"
+          },
+          {
+              "clipPath": "polygon(38.55% 71.571%, 41.95% 85.429%, 36.65% 75.714%)",
+              "backgroundColor": "rgb(118, 86, 58)"
+          },
+          {
+              "clipPath": "polygon(43.85% 59.571%, 47.85% 60.571%, 46.35% 85.714%)",
+              "backgroundColor": "rgb(172, 128, 94)"
+          },
+          {
+              "clipPath": "polygon(47.75% 60.571%, 52% 38.143%, 61.95% 58.143%)",
+              "backgroundColor": "rgb(145, 105, 78)"
+          },
+          {
+              "clipPath": "polygon(51.85% 38.286%, 67.15% 35.714%, 73.65% 47.571%)",
+              "backgroundColor": "rgb(144, 103, 84)"
+          },
+          {
+              "clipPath": "polygon(52.05% 38.286%, 73.65% 47.429%, 61.85% 58.286%)",
+              "backgroundColor": "rgb(162, 120, 92)"
+          },
+          {
+              "clipPath": "polygon(65.8425% 59.1227%, 70.8411% 52.2702%, 73.6392% 74.1175%)",
+              "backgroundColor": "rgb(101, 78, 69)"
+          },
+          {
+              "clipPath": "polygon(61.8599% 58.0712%, 73.5413% 47.3732%, 68.3498% 59.0734%)",
+              "backgroundColor": "rgb(175, 137, 109)"
+          },
+          {
+              "clipPath": "polygon(61.843% 57.918%, 68.3467% 59.0281%, 68.3382% 72.1984%)",
+              "backgroundColor": "rgb(191, 156, 135)"
+          },
+          {
+              "clipPath": "polygon(71.3664% 69.4817%, 73.4911% 73.6894%, 71.2703% 85.2065%)",
+              "backgroundColor": "rgb(180, 132, 97)"
+          },
+          {
+              "clipPath": "polygon(66.3835% 67.9922%, 68.2201% 71.8984%, 62.0998% 85.9531%)",
+              "backgroundColor": "rgb(126, 92, 63)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "亨氏牛羚",
+      "bgc": "rgb(239, 159, 100)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(26.45% 38.071%, 37.65% 37.929%, 26.15% 53.5%)",
+              "backgroundColor": "rgb(221, 217, 216)"
+          },
+          {
+              "clipPath": "polygon(25.65% 38.357%, 41.45% 24.357%, 37.55% 38.071%)",
+              "backgroundColor": "rgb(210, 204, 198)"
+          },
+          {
+              "clipPath": "polygon(26.55% 52.643%, 37.45% 37.929%, 41.25% 62.357%)",
+              "backgroundColor": "rgb(211, 204, 198)"
+          },
+          {
+              "clipPath": "polygon(26.65% 52.786%, 36.55% 59.214%, 34.65% 65.786%)",
+              "backgroundColor": "rgb(127, 117, 118)"
+          },
+          {
+              "clipPath": "polygon(36.25% 59.214%, 41.25% 62.214%, 33.75% 69.643%)",
+              "backgroundColor": "rgb(169, 161, 156)"
+          },
+          {
+              "clipPath": "polygon(33.85% 69.5%, 41.15% 62.214%, 40.15% 72.214%)",
+              "backgroundColor": "rgb(190, 182, 185)"
+          },
+          {
+              "clipPath": "polygon(37.35% 38.071%, 41.15% 24.643%, 48.35% 33.071%)",
+              "backgroundColor": "rgb(218, 210, 205)"
+          },
+          {
+              "clipPath": "polygon(37.25% 38.071%, 48.25% 32.786%, 39.75% 54.071%)",
+              "backgroundColor": "rgb(206, 194, 184)"
+          },
+          {
+              "clipPath": "polygon(40.35% 24.071%, 50.75% 18.214%, 48.25% 32.929%)",
+              "backgroundColor": "rgb(221, 217, 216)"
+          },
+          {
+              "clipPath": "polygon(48.15% 32.643%, 51.75% 49.929%, 40.65% 47.929%)",
+              "backgroundColor": "rgb(190, 182, 185)"
+          },
+          {
+              "clipPath": "polygon(40.75% 47.786%, 51.75% 49.643%, 53.85% 71.214%)",
+              "backgroundColor": "rgb(166, 156, 157)"
+          },
+          {
+              "clipPath": "polygon(48.15% 32.786%, 50.85% 18.214%, 53.15% 28.5%)",
+              "backgroundColor": "rgb(177, 153, 134)"
+          },
+          {
+              "clipPath": "polygon(48.15% 33.071%, 53.05% 28.214%, 54.45% 32.929%)",
+              "backgroundColor": "rgb(93, 70, 51)"
+          },
+          {
+              "clipPath": "polygon(48.25% 32.786%, 55.75% 32.5%, 51.65% 49.929%)",
+              "backgroundColor": "rgb(106, 80, 66)"
+          },
+          {
+              "clipPath": "polygon(55.65% 32.643%, 59.95% 38.643%, 51.65% 49.929%)",
+              "backgroundColor": "rgb(72, 55, 16)"
+          },
+          {
+              "clipPath": "polygon(50.55% 17.643%, 60.25% 13.643%, 53.25% 29.643%)",
+              "backgroundColor": "rgb(143, 109, 93)"
+          },
+          {
+              "clipPath": "polygon(60.05% 13.5%, 69.15% 18.5%, 66.95% 29.786%)",
+              "backgroundColor": "rgb(143, 109, 93)"
+          },
+          {
+              "clipPath": "polygon(51.85% 31.5%, 60.15% 13.643%, 60.05% 38.786%)",
+              "backgroundColor": "rgb(151, 149, 153)"
+          },
+          {
+              "clipPath": "polygon(60.15% 13.643%, 68.55% 31.5%, 60.05% 38.929%)",
+              "backgroundColor": "rgb(221, 210, 204)"
+          },
+          {
+              "clipPath": "polygon(54.05% 30.357%, 56.75% 30.357%, 57.65% 35.214%)",
+              "backgroundColor": "rgb(27, 29, 32)"
+          },
+          {
+              "clipPath": "polygon(54.05% 30.214%, 58.35% 17.643%, 60.15% 32.357%)",
+              "backgroundColor": "rgb(61, 56, 63)"
+          },
+          {
+              "clipPath": "polygon(63.25% 30.786%, 66.35% 30.214%, 62.65% 35.071%)",
+              "backgroundColor": "rgb(27, 29, 32)"
+          },
+          {
+              "clipPath": "polygon(59.95% 32.214%, 61.85% 17.643%, 66.45% 30.357%)",
+              "backgroundColor": "rgb(61, 56, 63)"
+          },
+          {
+              "clipPath": "polygon(58.65% 35.786%, 60.15% 32.214%, 61.45% 35.786%)",
+              "backgroundColor": "rgb(82, 68, 73)"
+          },
+          {
+              "clipPath": "polygon(58.75% 35.786%, 61.45% 35.786%, 60.05% 37.929%)",
+              "backgroundColor": "rgb(22, 18, 13)"
+          },
+          {
+              "clipPath": "polygon(50.5602% 17.6441%, 52.7617% 20.071%, 51.5625% 22.0738%)",
+              "backgroundColor": "rgb(105, 84, 74)"
+          },
+          {
+              "clipPath": "polygon(66.9586% 20.927%, 69.0582% 18.5076%, 68.2565% 23.0711%)",
+              "backgroundColor": "rgb(105, 84, 74)"
+          },
+          {
+              "clipPath": "polygon(60.2061% 38.859%, 67.5908% 32.3383%, 65.5867% 51.8446%)",
+              "backgroundColor": "rgb(198, 178, 171)"
+          },
+          {
+              "clipPath": "polygon(60.3536% 38.8791%, 65.7363% 51.6069%, 60.7754% 55.8929%)",
+              "backgroundColor": "rgb(167, 150, 144)"
+          },
+          {
+              "clipPath": "polygon(60.7491% 55.2146%, 65.6854% 51.1716%, 66.3161% 69.8627%)",
+              "backgroundColor": "rgb(215, 211, 210)"
+          },
+          {
+              "clipPath": "polygon(23.25% 62.071%, 69.15% 68.786%, 24.85% 65.929%)",
+              "backgroundColor": "rgb(106, 80, 66)"
+          },
+          {
+              "clipPath": "polygon(24.85% 65.786%, 68.95% 68.786%, 69.85% 71.643%)",
+              "backgroundColor": "rgb(77, 46, 33)"
+          },
+          {
+              "clipPath": "polygon(69.05% 68.929%, 74.35% 83.214%, 71.95% 83.214%)",
+              "backgroundColor": "rgb(75, 45, 32)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "爪哇懒猴",
+      "bgc": "rgb(155, 127, 230)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(26.8% 72.714%, 28.9% 37.714%, 33.5% 54.286%)",
+              "backgroundColor": "rgb(197, 194, 191)"
+          },
+          {
+              "clipPath": "polygon(26.8% 72.714%, 30.7% 61.571%, 27.8% 85%)",
+              "backgroundColor": "rgb(245, 247, 237)"
+          },
+          {
+              "clipPath": "polygon(28.9% 37.714%, 33.1% 29%, 30.5% 44.5%)",
+              "backgroundColor": "rgb(102, 36, 36)"
+          },
+          {
+              "clipPath": "polygon(30.4% 44.143%, 33.1% 28.857%, 43.3% 38%)",
+              "backgroundColor": "rgb(50, 29, 33)"
+          },
+          {
+              "clipPath": "polygon(30.4% 44%, 43.3% 37.714%, 33.3% 54.857%)",
+              "backgroundColor": "rgb(60, 40, 50)"
+          },
+          {
+              "clipPath": "polygon(33.2% 54.714%, 42.9% 37.857%, 38.1% 60.143%)",
+              "backgroundColor": "rgb(107, 66, 67)"
+          },
+          {
+              "clipPath": "polygon(33.2% 54.571%, 38.1% 59.857%, 33.4% 75.429%)",
+              "backgroundColor": "rgb(205, 202, 195)"
+          },
+          {
+              "clipPath": "polygon(33.4% 75.286%, 35.6% 68%, 37.2% 84.143%)",
+              "backgroundColor": "rgb(248, 248, 248)"
+          },
+          {
+              "clipPath": "polygon(33.1% 29%, 45.2% 27.714%, 43% 38%)",
+              "backgroundColor": "rgb(80, 39, 45)"
+          },
+          {
+              "clipPath": "polygon(45.2% 27.714%, 55.7% 46%, 38.6% 57.286%)",
+              "backgroundColor": "rgb(84, 53, 57)"
+          },
+          {
+              "clipPath": "polygon(45.1% 27.857%, 57.7% 24.429%, 55.5% 46%)",
+              "backgroundColor": "rgb(50, 29, 39)"
+          },
+          {
+              "clipPath": "polygon(38.6% 57.286%, 55.5% 45.857%, 56% 56%)",
+              "backgroundColor": "rgb(39, 30, 40)"
+          },
+          {
+              "clipPath": "polygon(55.4% 45.857%, 57.7% 24.429%, 63.4% 35%)",
+              "backgroundColor": "rgb(24, 15, 20)"
+          },
+          {
+              "clipPath": "polygon(55.4% 45.857%, 63.4% 34.857%, 59.3% 59.714%)",
+              "backgroundColor": "rgb(30, 30, 38)"
+          },
+          {
+              "clipPath": "polygon(55.4% 45.714%, 59.3% 59.571%, 55.9% 58%)",
+              "backgroundColor": "rgb(28, 22, 22)"
+          },
+          {
+              "clipPath": "polygon(51.6% 56.429%, 55.8% 56.143%, 53.2% 69.571%)",
+              "backgroundColor": "rgb(197, 194, 191)"
+          },
+          {
+              "clipPath": "polygon(52.3% 61.857%, 54.9% 81.714%, 51.4% 81.857%)",
+              "backgroundColor": "rgb(242, 242, 242)"
+          },
+          {
+              "clipPath": "polygon(55.9% 58%, 59.4% 59.286%, 58.7% 83.714%)",
+              "backgroundColor": "rgb(242, 242, 242)"
+          },
+          {
+              "clipPath": "polygon(57.6% 24.571%, 69.1% 18.143%, 68.8% 24.714%)",
+              "backgroundColor": "rgb(83, 52, 56)"
+          },
+          {
+              "clipPath": "polygon(57.6% 24.429%, 74.9% 24.714%, 63.4% 35.143%)",
+              "backgroundColor": "rgb(54, 33, 39)"
+          },
+          {
+              "clipPath": "polygon(63.3% 35%, 71.8% 27%, 61.8% 44.429%)",
+              "backgroundColor": "rgb(10, 12, 12)"
+          },
+          {
+              "clipPath": "polygon(68.8% 24.714%, 69.2% 18.143%, 74.1% 32%)",
+              "backgroundColor": "rgb(197, 194, 191)"
+          },
+          {
+              "clipPath": "polygon(69.1% 18%, 72.6% 14%, 74.1% 31.857%)",
+              "backgroundColor": "rgb(214, 210, 212)"
+          },
+          {
+              "clipPath": "polygon(73.4% 16.286%, 77.5% 11%, 76.6% 17.429%)",
+              "backgroundColor": "rgb(90, 63, 68)"
+          },
+          {
+              "clipPath": "polygon(71.4% 20%, 72.6% 14%, 76.7% 20%)",
+              "backgroundColor": "rgb(143, 72, 71)"
+          },
+          {
+              "clipPath": "polygon(71.4953% 19.8672%, 76.7017% 20.0113%, 77.0952% 27.8703%)",
+              "backgroundColor": "rgb(71, 41, 43)"
+          },
+          {
+              "clipPath": "polygon(71.4421% 19.8676%, 73.3129% 22.4397%, 71.6097% 23.1038%)",
+              "backgroundColor": "rgb(2, 6, 33)"
+          },
+          {
+              "clipPath": "polygon(73.265% 22.5617%, 77.0909% 27.9832%, 74.1283% 32.1983%)",
+              "backgroundColor": "rgb(227, 227, 227)"
+          },
+          {
+              "clipPath": "polygon(74.0237% 32.2928%, 77.1206% 27.9781%, 77.3125% 32.3972%)",
+              "backgroundColor": "rgb(41, 46, 70)"
+          },
+          {
+              "clipPath": "polygon(69.1521% 18.8763%, 68.6892% 11.1831%, 71.9202% 15.8089%)",
+              "backgroundColor": "rgb(50, 29, 33)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "㺢㹢狓",
+      "bgc": "rgb(231, 148, 174)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(16.95% 79.214%, 15.95% 80.929%, 23.25% 79.929%)",
+              "backgroundColor": "rgb(221, 171, 188)"
+          },
+          {
+              "clipPath": "polygon(17.85% 58.786%, 22.05% 58.5%, 17.05% 79.214%)",
+              "backgroundColor": "rgb(131, 105, 90)"
+          },
+          {
+              "clipPath": "polygon(16.95% 79.214%, 21.95% 58.214%, 23.5% 79.929%)",
+              "backgroundColor": "rgb(125, 98, 82)"
+          },
+          {
+              "clipPath": "polygon(21.95% 58.643%, 26.85% 58.357%, 23.35% 79.929%)",
+              "backgroundColor": "rgb(105, 82, 64)"
+          },
+          {
+              "clipPath": "polygon(21.95% 58.5%, 26.85% 58.357%, 22.15% 61.214%)",
+              "backgroundColor": "rgb(79, 68, 64)"
+          },
+          {
+              "clipPath": "polygon(16.25% 59.214%, 19.55% 43.786%, 21.15% 49.786%)",
+              "backgroundColor": "rgb(131, 105, 90)"
+          },
+          {
+              "clipPath": "polygon(16.15% 59.071%, 24.35% 41.786%, 26.85% 58.5%)",
+              "backgroundColor": "rgb(142, 117, 102)"
+          },
+          {
+              "clipPath": "polygon(26.75% 59.5%, 24.35% 43.214%, 33.05% 55.071%)",
+              "backgroundColor": "rgb(123, 99, 84)"
+          },
+          {
+              "clipPath": "polygon(26.75% 58.5%, 29.8% 79.8%, 23.75% 77.071%)",
+              "backgroundColor": "rgb(133, 107, 92)"
+          },
+          {
+              "clipPath": "polygon(20.55% 58.929%, 27.45% 55.5%, 27.25% 58.643%)",
+              "backgroundColor": "rgb(162, 135, 122)"
+          },
+          {
+              "clipPath": "polygon(26.7% 58.3%, 36.05% 71.929%, 29.55% 78.643%)",
+              "backgroundColor": "rgb(121, 99, 87)"
+          },
+          {
+              "clipPath": "polygon(24.35% 43.357%, 31.45% 32.643%, 33.2% 55.5%)",
+              "backgroundColor": "rgb(105, 86, 73)"
+          },
+          {
+              "clipPath": "polygon(31.4% 35.214%, 47.05% 21.929%, 42.7% 49.929%)",
+              "backgroundColor": "rgb(106, 86, 68)"
+          },
+          {
+              "clipPath": "polygon(46.25% 26.786%, 65.85% 19.5%, 42.65% 49.929%)",
+              "backgroundColor": "rgb(75, 62, 50)"
+          },
+          {
+              "clipPath": "polygon(42.15% 50.071%, 65.25% 20.214%, 62.05% 40.929%)",
+              "backgroundColor": "rgb(66, 50, 37)"
+          },
+          {
+              "clipPath": "polygon(41.6% 50.071%, 61.95% 40.86%, 67.75% 55.471%)",
+              "backgroundColor": "rgb(72, 56, 39)"
+          },
+          {
+              "clipPath": "polygon(41.85% 50.071%, 67.5% 55.171%, 49.75% 62.071%)",
+              "backgroundColor": "rgb(59, 49, 42)"
+          },
+          {
+              "clipPath": "polygon(33.05% 55.271%, 31.55% 35.357%, 44.35% 48.929%)",
+              "backgroundColor": "rgb(114, 94, 76)"
+          },
+          {
+              "clipPath": "polygon(26.75% 58.5%, 44.25% 48.929%, 35.45% 71.214%)",
+              "backgroundColor": "rgb(134, 110, 99)"
+          },
+          {
+              "clipPath": "polygon(35.45% 71.071%, 43.25% 51.43%, 43.99% 70.071%)",
+              "backgroundColor": "rgb(98, 78, 67)"
+          },
+          {
+              "clipPath": "polygon(43.15% 51.643%, 49.85% 61.929%, 43.85% 70.071%)",
+              "backgroundColor": "rgb(110, 92, 74)"
+          },
+          {
+              "clipPath": "polygon(38.35% 70.6%, 43.75% 69.929%, 37.85% 84.5%)",
+              "backgroundColor": "rgb(62, 54, 44)"
+          },
+          {
+              "clipPath": "polygon(43.75% 69.929%, 48.55% 63.5%, 44.85% 84.786%)",
+              "backgroundColor": "rgb(76, 65, 55)"
+          },
+          {
+              "clipPath": "polygon(49.65% 61.929%, 67.45% 55.071%, 61.15% 62.643%)",
+              "backgroundColor": "rgb(48, 44, 36)"
+          },
+          {
+              "clipPath": "polygon(61.95% 40.9%, 65.2% 20.214%, 80.15% 43.271%)",
+              "backgroundColor": "rgb(77, 59, 45)"
+          },
+          {
+              "clipPath": "polygon(61.8576% 40.7928%, 80.1524% 43.0652%, 67.356% 55.0725%)",
+              "backgroundColor": "rgb(83, 64, 48)"
+          },
+          {
+              "clipPath": "polygon(67.3575% 54.9204%, 79.9838% 43.0042%, 76.6556% 76.9035%)",
+              "backgroundColor": "rgb(77, 58, 41)"
+          },
+          {
+              "clipPath": "polygon(65.1259% 20.4076%, 74.9696% 24.0746%, 80.7151% 45.076%)",
+              "backgroundColor": "rgb(62, 53, 46)"
+          },
+          {
+              "clipPath": "polygon(77.1522% 70.9017%, 79.8305% 43.946%, 78.9555% 84.7816%)",
+              "backgroundColor": "rgb(58, 48, 33)"
+          },
+          {
+              "clipPath": "polygon(73.5693% 68.9384%, 76.2532% 75.1307%, 73.634% 84.4049%)",
+              "backgroundColor": "rgb(62, 53, 46)"
+          },
+          {
+              "clipPath": "polygon(87% 70.5%, 85% 89%, 83% 89%)",
+              "backgroundColor": "rgb(15, 124, 88)"
+          },
+          {
+              "clipPath": "polygon(81% 73.5%, 85% 92%, 83% 92%)",
+              "backgroundColor": "rgb(20, 170, 120)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(20, 170, 120)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "草原西貒",
+      "bgc": "rgb(244, 105, 107)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(15.1% 69.071%, 18% 56.929%, 20% 74.5%)",
+              "backgroundColor": "rgb(71, 63, 52)"
+          },
+          {
+              "clipPath": "polygon(17.9% 56.929%, 36.4% 52.071%, 20% 74.5%)",
+              "backgroundColor": "rgb(120, 110, 91)"
+          },
+          {
+              "clipPath": "polygon(15.2% 57.5%, 18% 56.786%, 16.4% 63.643%)",
+              "backgroundColor": "rgb(143, 133, 116)"
+          },
+          {
+              "clipPath": "polygon(17.9% 56.786%, 18.4% 61.214%, 16.4% 63.5%)",
+              "backgroundColor": "rgb(143, 133, 116)"
+          },
+          {
+              "clipPath": "polygon(17.8% 57.214%, 18.9% 36.786%, 30.7% 41.786%)",
+              "backgroundColor": "rgb(180, 166, 150)"
+          },
+          {
+              "clipPath": "polygon(17.8% 57.071%, 30.5% 41.786%, 36.3% 52.071%)",
+              "backgroundColor": "rgb(143, 133, 116)"
+          },
+          {
+              "clipPath": "polygon(22.6% 55.786%, 27.5% 53.071%, 26.7% 58.214%)",
+              "backgroundColor": "rgb(172, 161, 145)"
+          },
+          {
+              "clipPath": "polygon(18.7% 41.643%, 13.7% 33.929%, 20.5% 37.357%)",
+              "backgroundColor": "rgb(143, 133, 116)"
+          },
+          {
+              "clipPath": "polygon(28.6% 62.5%, 36.2% 51.929%, 40.6% 59.357%)",
+              "backgroundColor": "rgb(70, 62, 51)"
+          },
+          {
+              "clipPath": "polygon(28.6% 62.5%, 37.2% 60.071%, 24.4% 79.786%)",
+              "backgroundColor": "rgb(49, 39, 32)"
+          },
+          {
+              "clipPath": "polygon(24.3% 79.786%, 31.9% 68.071%, 29.7% 82.071%)",
+              "backgroundColor": "rgb(71, 63, 52)"
+          },
+          {
+              "clipPath": "polygon(20.4% 37.5%, 36.5% 20.643%, 49.5% 21.786%)",
+              "backgroundColor": "rgb(179, 165, 149)"
+          },
+          {
+              "clipPath": "polygon(20.4% 37.357%, 49.4% 21.643%, 44.4% 48.071%)",
+              "backgroundColor": "rgb(143, 133, 116)"
+          },
+          {
+              "clipPath": "polygon(30.4% 41.786%, 44.6% 47.786%, 40.4% 59.5%)",
+              "backgroundColor": "rgb(119, 109, 90)"
+          },
+          {
+              "clipPath": "polygon(26.1% 39.786%, 34.6% 36.786%, 29% 43.643%)",
+              "backgroundColor": "rgb(97, 88, 68)"
+          },
+          {
+              "clipPath": "polygon(44.3% 47.786%, 49.4% 21.5%, 72% 45.357%)",
+              "backgroundColor": "rgb(151, 140, 127)"
+          },
+          {
+              "clipPath": "polygon(44.4% 47.643%, 71.8% 44.929%, 49.8% 60.5%)",
+              "backgroundColor": "rgb(120, 113, 97)"
+          },
+          {
+              "clipPath": "polygon(40.4% 59.214%, 44.5% 47.786%, 50% 60.357%)",
+              "backgroundColor": "rgb(103, 93, 73)"
+          },
+          {
+              "clipPath": "polygon(40.3% 59.214%, 49.9% 60.214%, 49.5% 85.357%)",
+              "backgroundColor": "rgb(69, 65, 51)"
+          },
+          {
+              "clipPath": "polygon(44.2% 70.357%, 49.5% 85.357%, 41.9% 85.214%)",
+              "backgroundColor": "rgb(50, 48, 45)"
+          },
+          {
+              "clipPath": "polygon(49.3% 21.643%, 72.9% 17.214%, 71.8% 45.5%)",
+              "backgroundColor": "rgb(177, 163, 148)"
+          },
+          {
+              "clipPath": "polygon(49.7% 60.071%, 71.8% 44.9%, 71.5% 65.7%)",
+              "backgroundColor": "rgb(89, 80, 65)"
+          },
+          {
+              "clipPath": "polygon(49.7% 60.071%, 71.4% 65.4%, 59.2% 67.071%)",
+              "backgroundColor": "rgb(71, 63, 52)"
+          },
+          {
+              "clipPath": "polygon(71.6% 45.214%, 72.8% 17.214%, 85% 31.214%)",
+              "backgroundColor": "rgb(143, 133, 116)"
+          },
+          {
+              "clipPath": "polygon(71.4996% 45.0709%, 85.1997% 31.0725%, 77.6993% 54.9293%)",
+              "backgroundColor": "rgb(97, 88, 68)"
+          },
+          {
+              "clipPath": "polygon(77.3834% 54.6474%, 85.0925% 31.2451%, 79.5984% 58.0922%)",
+              "backgroundColor": "rgb(71, 63, 52)"
+          },
+          {
+              "clipPath": "polygon(71.2637% 65.4859%, 71.6154% 45.1707%, 79.551% 57.9945%)",
+              "backgroundColor": "rgb(55, 48, 32)"
+          },
+          {
+              "clipPath": "polygon(71.1374% 65.4057%, 79.5166% 57.9295%, 72.6115% 79.2467%)",
+              "backgroundColor": "rgb(71, 63, 52)"
+          },
+          {
+              "clipPath": "polygon(70.8526% 84.2988%, 77.261% 65.026%, 79.6809% 84.2036%)",
+              "backgroundColor": "rgb(50, 48, 45)"
+          },
+          {
+              "clipPath": "polygon(83.6773% 38.2901%, 84.9984% 31.7158%, 89.231% 52.1013%)",
+              "backgroundColor": "rgb(41, 34, 22)"
+          },
+          {
+              "clipPath": "polygon(24% 73.5%, 23% 74.5%, 13% 66%)",
+              "backgroundColor": "rgb(15, 124, 88)"
+          },
+          {
+              "clipPath": "polygon(23% 76.5%, 14% 65.5%, 15% 64%)",
+              "backgroundColor": "rgb(20, 170, 120)"
+          },
+          {
+              "clipPath": "polygon(26% 75.5%, 27% 90%, 25.5% 90%)",
+              "backgroundColor": "rgb(20, 170, 120)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "苏门答腊犀牛",
+      "bgc": "rgb(99, 197, 171)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(29.3% 35.214%, 38.4% 57.3%, 28.6% 54.357%)",
+              "backgroundColor": "rgb(173, 163, 145)"
+          },
+          {
+              "clipPath": "polygon(28.6% 34.643%, 49.4% 40.357%, 38.3% 57.214%)",
+              "backgroundColor": "rgb(148, 136, 118)"
+          },
+          {
+              "clipPath": "polygon(37.4% 27.643%, 48.9% 40.643%, 29.4% 35.071%)",
+              "backgroundColor": "rgb(161, 143, 115)"
+          },
+          {
+              "clipPath": "polygon(37.5% 27.929%, 63.9% 42.214%, 48.8% 40.786%)",
+              "backgroundColor": "rgb(173, 158, 134)"
+          },
+          {
+              "clipPath": "polygon(25.7% 25.214%, 31.6% 32.786%, 30.1% 43.071%)",
+              "backgroundColor": "rgb(214, 216, 214)"
+          },
+          {
+              "clipPath": "polygon(22.7% 26.929%, 25.7% 25.214%, 30% 43.071%)",
+              "backgroundColor": "rgb(117, 115, 108)"
+          },
+          {
+              "clipPath": "polygon(25.6% 25.214%, 32.8% 15.643%, 32.9% 34.643%)",
+              "backgroundColor": "rgb(163, 151, 139)"
+          },
+          {
+              "clipPath": "polygon(32.8% 15.643%, 39.9% 25.214%, 32.7% 34.786%)",
+              "backgroundColor": "rgb(178, 163, 148)"
+          },
+          {
+              "clipPath": "polygon(26.9% 23.5%, 26% 13.643%, 31.2% 17.929%)",
+              "backgroundColor": "rgb(119, 99, 86)"
+          },
+          {
+              "clipPath": "polygon(23.2% 9.5%, 31.2% 17.929%, 25.9% 14.357%)",
+              "backgroundColor": "rgb(40, 40, 33)"
+          },
+          {
+              "clipPath": "polygon(34.5% 17.929%, 42.3% 9.786%, 39.6% 14.5%)",
+              "backgroundColor": "rgb(40, 40, 33)"
+          },
+          {
+              "clipPath": "polygon(34.4% 18.071%, 39.7% 14.214%, 38.6% 23.5%)",
+              "backgroundColor": "rgb(119, 99, 86)"
+          },
+          {
+              "clipPath": "polygon(33.9% 31.929%, 39.9% 25.357%, 35.6% 43.071%)",
+              "backgroundColor": "rgb(214, 216, 214)"
+          },
+          {
+              "clipPath": "polygon(39.9% 25.214%, 42.9% 27.071%, 35.6% 42.929%)",
+              "backgroundColor": "rgb(117, 115, 108)"
+          },
+          {
+              "clipPath": "polygon(28.2% 33.5%, 32.8% 24.786%, 37.3% 33.5%)",
+              "backgroundColor": "rgb(186, 175, 161)"
+          },
+          {
+              "clipPath": "polygon(28.2% 33.5%, 37.3% 33.5%, 32.7% 37.643%)",
+              "backgroundColor": "rgb(228, 220, 216)"
+          },
+          {
+              "clipPath": "polygon(30.4% 32.214%, 35.1% 32.214%, 32.8% 35.214%)",
+              "backgroundColor": "rgb(124, 93, 101)"
+          },
+          {
+              "clipPath": "polygon(29.3% 54.357%, 35.5% 56.357%, 33.8% 84.357%)",
+              "backgroundColor": "rgb(134, 122, 104)"
+          },
+          {
+              "clipPath": "polygon(32.3% 73.5%, 34.2% 85.357%, 29.3% 85.357%)",
+              "backgroundColor": "rgb(153, 139, 119)"
+          },
+          {
+              "clipPath": "polygon(48.9% 40.643%, 44.5% 85.643%, 39.7% 85.643%)",
+              "backgroundColor": "rgb(173, 158, 140)"
+          },
+          {
+              "clipPath": "polygon(38.2% 57.071%, 49% 40.5%, 46.6% 62.357%)",
+              "backgroundColor": "rgb(136, 125, 110)"
+          },
+          {
+              "clipPath": "polygon(48.9% 40.5%, 62.3% 41.929%, 60% 62.357%)",
+              "backgroundColor": "rgb(143, 131, 115)"
+          },
+          {
+              "clipPath": "polygon(48.9% 40.5%, 60.1% 61.786%, 46.6% 62.214%)",
+              "backgroundColor": "rgb(128, 116, 101)"
+          },
+          {
+              "clipPath": "polygon(46.6% 62.1%, 60.1% 61.5%, 59.6% 78.643%)",
+              "backgroundColor": "rgb(119, 107, 93)"
+          },
+          {
+              "clipPath": "polygon(62.2% 42.214%, 76.9% 70.357%, 59.9% 62.5%)",
+              "backgroundColor": "rgb(148, 136, 118)"
+          },
+          {
+              "clipPath": "polygon(56.8971% 60.0779%, 75.8904% 69.6356%, 77.5911% 84.2069%)",
+              "backgroundColor": "rgb(173, 158, 140)"
+          },
+          {
+              "clipPath": "polygon(57.0023% 59.9375%, 77.6744% 84.3711%, 60.2986% 83.759%)",
+              "backgroundColor": "rgb(148, 136, 118)"
+          },
+          {
+              "clipPath": "polygon(59.1258% 74.7539%, 63.5289% 85.4479%, 55.6439% 85.517%)",
+              "backgroundColor": "rgb(168, 154, 137)"
+          },
+          {
+              "clipPath": "polygon(76.817% 77.7022%, 84.1813% 76.0299%, 77.5149% 83.0204%)",
+              "backgroundColor": "rgb(143, 126, 106)"
+          },
+          {
+              "clipPath": "polygon(81.9796% 75.998%, 84.8802% 69.2546%, 84.0729% 75.688%)",
+              "backgroundColor": "rgb(109, 97, 72)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "伊比利亚猞猁",
+      "bgc": "rgb(244, 195, 197)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(32.4% 36.857%, 51.6% 26.857%, 47.2% 46.429%)",
+              "backgroundColor": "rgb(82, 80, 90)"
+          },
+          {
+              "clipPath": "polygon(32.4% 36.857%, 31.1% 27%, 39.1% 38.143%)",
+              "backgroundColor": "rgb(212, 214, 206)"
+          },
+          {
+              "clipPath": "polygon(31.1% 27.143%, 41.6% 23%, 39.1% 38.143%)",
+              "backgroundColor": "rgb(77, 79, 92)"
+          },
+          {
+              "clipPath": "polygon(31% 27.143%, 34.2% 15.429%, 47.1% 20.857%)",
+              "backgroundColor": "rgb(227, 225, 212)"
+          },
+          {
+              "clipPath": "polygon(31.2% 27.143%, 35.3% 19.429%, 41.8% 23.143%)",
+              "backgroundColor": "rgb(204, 209, 208)"
+          },
+          {
+              "clipPath": "polygon(33.5% 35%, 36.4% 25%, 36.9% 32.857%)",
+              "backgroundColor": "rgb(126, 127, 138)"
+          },
+          {
+              "clipPath": "polygon(33.4% 34.714%, 36.8% 32.714%, 39.1% 38.286%)",
+              "backgroundColor": "rgb(58, 60, 72)"
+          },
+          {
+              "clipPath": "polygon(39.1% 38.143%, 41.5% 23%, 43.1% 30.286%)",
+              "backgroundColor": "rgb(47, 48, 58)"
+          },
+          {
+              "clipPath": "polygon(41.5% 22.857%, 47.1% 20.857%, 43% 30.286%)",
+              "backgroundColor": "rgb(204, 207, 204)"
+          },
+          {
+              "clipPath": "polygon(39.1% 38%, 47% 20.714%, 48.4% 30.857%)",
+              "backgroundColor": "rgb(181, 182, 181)"
+          },
+          {
+              "clipPath": "polygon(34.2% 15.429%, 41.3% 12.429%, 47% 20.714%)",
+              "backgroundColor": "rgb(90, 86, 88)"
+          },
+          {
+              "clipPath": "polygon(49.1% 24.786%, 64.1% 13.643%, 56% 32.357%)",
+              "backgroundColor": "rgb(179, 156, 113)"
+          },
+          {
+              "clipPath": "polygon(47.3% 23.143%, 62.1% 13.714%, 48.4% 30.714%)",
+              "backgroundColor": "rgb(227, 225, 212)"
+          },
+          {
+              "clipPath": "polygon(20% 67.5%, 35.4% 38.786%, 39.7% 52.5%)",
+              "backgroundColor": "rgb(208, 194, 161)"
+          },
+          {
+              "clipPath": "polygon(20% 67.357%, 39.7% 52.357%, 23.4% 71.929%)",
+              "backgroundColor": "rgb(167, 139, 115)"
+          },
+          {
+              "clipPath": "polygon(23.3% 71.929%, 39.5% 52.214%, 44.9% 57.5%)",
+              "backgroundColor": "rgb(162, 119, 87)"
+          },
+          {
+              "clipPath": "polygon(35.4% 38.643%, 47.1% 45.929%, 40.6% 55.5%)",
+              "backgroundColor": "rgb(221, 218, 208)"
+          },
+          {
+              "clipPath": "polygon(12.5% 65.929%, 20.1% 67.357%, 18.1% 69.786%)",
+              "backgroundColor": "rgb(36, 47, 58)"
+          },
+          {
+              "clipPath": "polygon(12.6% 77.071%, 19.9% 67.214%, 23.6% 72.071%)",
+              "backgroundColor": "rgb(60, 60, 60)"
+          },
+          {
+              "clipPath": "polygon(40.6% 55.5%, 47% 45.786%, 62.6% 67.357%)",
+              "backgroundColor": "rgb(180, 180, 169)"
+          },
+          {
+              "clipPath": "polygon(51.5% 26.786%, 65.6% 43.214%, 61.8% 67.214%)",
+              "backgroundColor": "rgb(126, 119, 116)"
+          },
+          {
+              "clipPath": "polygon(46.9% 45.929%, 51.5% 27.071%, 58.4% 46.643%)",
+              "backgroundColor": "rgb(167, 161, 156)"
+          },
+          {
+              "clipPath": "polygon(47% 45.929%, 58.3% 46.357%, 61.9% 67.214%)",
+              "backgroundColor": "rgb(149, 146, 140)"
+          },
+          {
+              "clipPath": "polygon(51.1% 49.643%, 56.4% 54.786%, 49.1% 64.5%)",
+              "backgroundColor": "rgb(167, 145, 111)"
+          },
+          {
+              "clipPath": "polygon(49.1% 64.357%, 56.2% 54.643%, 51% 74.5%)",
+              "backgroundColor": "rgb(158, 127, 81)"
+          },
+          {
+              "clipPath": "polygon(51.0114% 74.2059%, 56.2143% 54.5114%, 59.5115% 69.7798%)",
+              "backgroundColor": "rgb(146, 112, 60)"
+          },
+          {
+              "clipPath": "polygon(58.2129% 64.3527%, 64.4479% 62.1776%, 59.5514% 69.76%)",
+              "backgroundColor": "rgb(46, 43, 48)"
+          },
+          {
+              "clipPath": "polygon(65.124% 34.0423%, 70.2411% 40.0907%, 65.86% 56.221%)",
+              "backgroundColor": "rgb(174, 155, 117)"
+          },
+          {
+              "clipPath": "polygon(65.8773% 47.8153%, 68.5345% 51.7632%, 66.3029% 57.5092%)",
+              "backgroundColor": "rgb(50, 47, 53)"
+          },
+          {
+              "clipPath": "polygon(63.2983% 9.2084%, 66.2513% 12.0935%, 64.8268% 18.9838%)",
+              "backgroundColor": "rgb(50, 40, 40)"
+          },
+          {
+              "clipPath": "polygon(56.6% 84%, 66.5% 63.143%, 65% 84%)",
+              "backgroundColor": "rgb(90, 67, 49)"
+          },
+          {
+              "clipPath": "polygon(61.5% 74%, 61.2% 22.714%, 66.4% 63.286%)",
+              "backgroundColor": "rgb(69, 57, 47)"
+          },
+          {
+              "clipPath": "polygon(66.4% 63.286%, 64.2% 4.571%, 58.8% 5.286%)",
+              "backgroundColor": "rgb(95, 78, 71)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "冕狐猴",
+      "bgc": "rgb(151, 132, 237)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(11.1% 81.286%, 13.9% 80.286%, 13.9% 74.429%)",
+              "backgroundColor": "rgb(38, 35, 39)"
+          },
+          {
+              "clipPath": "polygon(9.6% 71.3%, 11.2% 81.2%, 13.95% 74.571%)",
+              "backgroundColor": "rgb(60, 54, 66)"
+          },
+          {
+              "clipPath": "polygon(9.6% 71.6%, 13.8% 74.571%, 18% 65.7%)",
+              "backgroundColor": "rgb(38, 35, 39)"
+          },
+          {
+              "clipPath": "polygon(9.55% 71.8%, 17.9% 65.857%, 11.7% 56.286%)",
+              "backgroundColor": "rgb(46, 44, 49)"
+          },
+          {
+              "clipPath": "polygon(11.7% 56.5%, 17.9% 66%, 16.5% 46.143%)",
+              "backgroundColor": "rgb(55, 52, 62)"
+          },
+          {
+              "clipPath": "polygon(17.8% 65.7%, 15.6% 70.714%, 26.2% 61.286%)",
+              "backgroundColor": "rgb(23, 23, 26)"
+          },
+          {
+              "clipPath": "polygon(16.44% 45.8%, 17.7% 65.857%, 26.4% 61.429%)",
+              "backgroundColor": "rgb(38, 35, 39)"
+          },
+          {
+              "clipPath": "polygon(16.4% 46.143%, 26.2% 61.429%, 26.4% 36%)",
+              "backgroundColor": "rgb(27, 27, 30)"
+          },
+          {
+              "clipPath": "polygon(13.8% 41.857%, 16.5% 41%, 17.4% 47.429%)",
+              "backgroundColor": "rgb(19, 18, 21)"
+          },
+          {
+              "clipPath": "polygon(26.3% 36%, 26.1% 61.429%, 34.3% 63.4%)",
+              "backgroundColor": "rgb(38, 35, 39)"
+          },
+          {
+              "clipPath": "polygon(26.2% 36.05%, 45.7% 40.29%, 34% 63.429%)",
+              "backgroundColor": "rgb(47, 43, 54)"
+          },
+          {
+              "clipPath": "polygon(26.3% 36.143%, 42.8% 27%, 44.8% 40.429%)",
+              "backgroundColor": "rgb(38, 37, 41)"
+          },
+          {
+              "clipPath": "polygon(44.7% 40.429%, 33.9% 63.429%, 47.9% 61.429%)",
+              "backgroundColor": "rgb(23, 22, 25)"
+          },
+          {
+              "clipPath": "polygon(33.9% 63.286%, 30.2% 78%, 48% 61.2%)",
+              "backgroundColor": "rgb(41, 40, 44)"
+          },
+          {
+              "clipPath": "polygon(30.2% 77.857%, 35.6% 72.7%, 32.6% 88%)",
+              "backgroundColor": "rgb(19, 18, 21)"
+          },
+          {
+              "clipPath": "polygon(40.5% 68.143%, 47.9% 61.286%, 46.1% 77.857%)",
+              "backgroundColor": "rgb(4, 8, 8)"
+          },
+          {
+              "clipPath": "polygon(40.5% 68%, 43.4% 84.857%, 46.1% 77.6%)",
+              "backgroundColor": "rgb(38, 35, 39)"
+          },
+          {
+              "clipPath": "polygon(42.25% 77.714%, 37.6% 85.286%, 43.45% 84.714%)",
+              "backgroundColor": "rgb(19, 18, 21)"
+          },
+          {
+              "clipPath": "polygon(42.7% 27%, 47.8% 61.429%, 59.2% 41.571%)",
+              "backgroundColor": "rgb(198, 207, 221)"
+          },
+          {
+              "clipPath": "polygon(42.7% 27%, 59.1% 41.571%, 71.5% 25.857%)",
+              "backgroundColor": "rgb(220, 230, 240)"
+          },
+          {
+              "clipPath": "polygon(59.1% 41.429%, 49.3% 58.571%, 65% 62.143%)",
+              "backgroundColor": "rgb(188, 194, 205)"
+          },
+          {
+              "clipPath": "polygon(49.5% 58.429%, 47.9% 61.429%, 64.9% 62.143%)",
+              "backgroundColor": "rgb(41, 40, 44)"
+          },
+          {
+              "clipPath": "polygon(59.1% 41.3%, 71.5% 25.857%, 64.9% 62.143%)",
+              "backgroundColor": "rgb(206, 215, 229)"
+          },
+          {
+              "clipPath": "polygon(71.5% 25.857%, 64.9% 62.143%, 89.3% 43.429%)",
+              "backgroundColor": "rgb(220, 230, 240)"
+          },
+          {
+              "clipPath": "polygon(83.9% 63.571%, 82.4% 86.286%, 86.5% 86.286%)",
+              "backgroundColor": "rgb(48, 43, 43)"
+          },
+          {
+              "clipPath": "polygon(74.3935% 57.7181%, 85.5914% 77.8442%, 83.0943% 57.003%)",
+              "backgroundColor": "rgb(0, 0, 0)"
+          },
+          {
+              "clipPath": "polygon(64.9% 62.1019%, 89.2851% 43.3128%, 86.1713% 56.2993%)",
+              "backgroundColor": "rgb(27, 27, 30)"
+          },
+          {
+              "clipPath": "polygon(70.7025% 60.4109%, 79.807% 77.7107%, 79.8207% 57.8506%)",
+              "backgroundColor": "rgb(41, 40, 44)"
+          },
+          {
+              "clipPath": "polygon(76.0644% 70.5399%, 73.0871% 86.4696%, 79.8684% 77.5801%)",
+              "backgroundColor": "rgb(25, 25, 27)"
+          },
+          {
+              "clipPath": "polygon(88.5969% 45.03%, 87.5644% 50.294%, 92.543% 47.8882%)",
+              "backgroundColor": "rgb(47, 47, 50)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "马来貘",
+      "bgc": "rgb(254, 197, 79)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(26.4% 36.714%, 40% 31%, 30.6% 44%)",
+              "backgroundColor": "rgb(137, 57, 38)"
+          },
+          {
+              "clipPath": "polygon(30.6% 43.571%, 40% 31%, 41.1% 50.857%)",
+              "backgroundColor": "rgb(55, 10, 2)"
+          },
+          {
+              "clipPath": "polygon(30.6% 43.286%, 41.1% 50.714%, 27.9% 85%)",
+              "backgroundColor": "rgb(53, 26, 22)"
+          },
+          {
+              "clipPath": "polygon(15.7% 50.857%, 25.8% 35.143%, 25.3% 48.429%)",
+              "backgroundColor": "rgb(192, 104, 74)"
+          },
+          {
+              "clipPath": "polygon(18.6% 46.429%, 16.2% 37.429%, 23.1% 39.429%)",
+              "backgroundColor": "rgb(218, 209, 186)"
+          },
+          {
+              "clipPath": "polygon(15.6% 50.714%, 25.4% 48.286%, 25.9% 62.143%)",
+              "backgroundColor": "rgb(235, 222, 205)"
+          },
+          {
+              "clipPath": "polygon(22% 49.143%, 25.3% 48.3%, 19.8% 55.286%)",
+              "backgroundColor": "rgb(96, 49, 34)"
+          },
+          {
+              "clipPath": "polygon(25.2% 48.429%, 25.8% 35%, 36.2% 52.143%)",
+              "backgroundColor": "rgb(137, 67, 56)"
+          },
+          {
+              "clipPath": "polygon(25.2% 48.286%, 36.1% 52.143%, 25.8% 62%)",
+              "backgroundColor": "rgb(249, 240, 226)"
+          },
+          {
+              "clipPath": "polygon(25.2% 48.3%, 28.4% 49.3%, 31.7% 56.429%)",
+              "backgroundColor": "rgb(96, 49, 34)"
+          },
+          {
+              "clipPath": "polygon(25.5% 56.571%, 27.8% 59.857%, 23.9% 60%)",
+              "backgroundColor": "rgb(5, 5, 5)"
+          },
+          {
+              "clipPath": "polygon(28.3% 39.286%, 35.7% 37%, 33.6% 47.714%)",
+              "backgroundColor": "rgb(218, 199, 157)"
+          },
+          {
+              "clipPath": "polygon(29.6% 62.286%, 41% 50.571%, 36.2% 85.429%)",
+              "backgroundColor": "rgb(34, 11, 17)"
+          },
+          {
+              "clipPath": "polygon(39.9% 31%, 50.9% 46.857%, 41% 50.99%)",
+              "backgroundColor": "rgb(99, 41, 13)"
+          },
+          {
+              "clipPath": "polygon(40.9% 50.857%, 50.9% 46.857%, 39% 65.143%)",
+              "backgroundColor": "rgb(83, 23, 10)"
+          },
+          {
+              "clipPath": "polygon(39.9% 31%, 49.9% 30.143%, 50.8% 47%)",
+              "backgroundColor": "rgb(148, 67, 31)"
+          },
+          {
+              "clipPath": "polygon(38.9% 65%, 50.9% 46.6%, 61.1% 66.143%)",
+              "backgroundColor": "rgb(61, 15, 8)"
+          },
+          {
+              "clipPath": "polygon(38.9% 65.143%, 44.4% 56.7%, 50.5% 65.714%)",
+              "backgroundColor": "rgb(25, 15, 13)"
+          },
+          {
+              "clipPath": "polygon(50.4% 65.6%, 56.2% 57.143%, 61% 66.4%)",
+              "backgroundColor": "rgb(25, 15, 13)"
+          },
+          {
+              "clipPath": "polygon(50.8% 47%, 49.7% 30.143%, 63.8% 37%)",
+              "backgroundColor": "rgb(124, 48, 15)"
+          },
+          {
+              "clipPath": "polygon(49.6% 30.143%, 63.7% 37%, 60.5% 39.571%)",
+              "backgroundColor": "rgb(166, 70, 43)"
+          },
+          {
+              "clipPath": "polygon(50.8% 46.857%, 63.7% 36.857%, 68.2% 51.8%)",
+              "backgroundColor": "rgb(104, 33, 12)"
+          },
+          {
+              "clipPath": "polygon(50.9% 46.714%, 68.1% 51.714%, 61.1% 66.286%)",
+              "backgroundColor": "rgb(114, 43, 18)"
+          },
+          {
+              "clipPath": "polygon(50.5% 65.571%, 61% 66.286%, 53.1% 87.286%)",
+              "backgroundColor": "rgb(46, 22, 22)"
+          },
+          {
+              "clipPath": "polygon(54.5% 83.429%, 59.6% 69.857%, 59.6% 83.714%)",
+              "backgroundColor": "rgb(10, 10, 13)"
+          },
+          {
+              "clipPath": "polygon(61.103% 66.123%, 68.0993% 51.6984%, 71.3989% 63.1197%)",
+              "backgroundColor": "rgb(79, 25, 4)"
+          },
+          {
+              "clipPath": "polygon(64.9032% 40.8161%, 81.5738% 57.1991%, 71.2996% 63.189%)",
+              "backgroundColor": "rgb(98, 27, 21)"
+          },
+          {
+              "clipPath": "polygon(71.2796% 62.957%, 81.4392% 56.9518%, 84.6301% 69.6122%)",
+              "backgroundColor": "rgb(98, 27, 21)"
+          },
+          {
+              "clipPath": "polygon(71.3692% 62.6222%, 84.5723% 69.2754%, 78.345% 74.9593%)",
+              "backgroundColor": "rgb(27, 21, 23)"
+          },
+          {
+              "clipPath": "polygon(71.3744% 77.8405%, 84.5424% 69.1964%, 79.2321% 80.7977%)",
+              "backgroundColor": "rgb(45, 32, 34)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "小熊猫",
+      "bgc": "rgb(152, 191, 246)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(24.6% 27.143%, 32.8% 33.1%, 25.8% 38.4%)",
+              "backgroundColor": "rgb(248, 241, 232)"
+          },
+          {
+              "clipPath": "polygon(25.8% 38.286%, 32.7% 33.286%, 30.1% 39.429%)",
+              "backgroundColor": "rgb(188, 174, 146)"
+          },
+          {
+              "clipPath": "polygon(29.9% 39.143%, 32.6% 33%, 33.45% 44.1%)",
+              "backgroundColor": "rgb(12, 13, 8)"
+          },
+          {
+              "clipPath": "polygon(32.5% 33%, 43.3% 30.857%, 33.4% 44.15%)",
+              "backgroundColor": "rgb(25, 25, 25)"
+          },
+          {
+              "clipPath": "polygon(33.4% 44.1%, 40.3% 34.6%, 53.4% 41.1%)",
+              "backgroundColor": "rgb(34, 38, 39)"
+          },
+          {
+              "clipPath": "polygon(40.1% 34.714%, 43.1% 31%, 45.8% 37.714%)",
+              "backgroundColor": "rgb(25, 25, 25)"
+          },
+          {
+              "clipPath": "polygon(33.4% 44%, 53.4% 41%, 60.8% 58.429%)",
+              "backgroundColor": "rgb(20, 20, 20)"
+          },
+          {
+              "clipPath": "polygon(42% 28.5%, 53.2% 40.857%, 45.6% 37.429%)",
+              "backgroundColor": "rgb(185, 187, 176)"
+          },
+          {
+              "clipPath": "polygon(42.1% 28.571%, 48.7% 27.143%, 53.3% 41.1%)",
+              "backgroundColor": "rgb(248, 241, 232)"
+          },
+          {
+              "clipPath": "polygon(37.5% 60%, 50% 43.1%, 51.7% 51.857%)",
+              "backgroundColor": "rgb(193, 189, 180)"
+          },
+          {
+              "clipPath": "polygon(50% 43.2%, 54.6% 45.429%, 51.6% 52%)",
+              "backgroundColor": "rgb(248, 241, 232)"
+          },
+          {
+              "clipPath": "polygon(37.5% 60%, 50% 43.3%, 46% 46%)",
+              "backgroundColor": "rgb(180, 180, 170)"
+          },
+          {
+              "clipPath": "polygon(37.5% 60%, 39.6% 58.857%, 46.4% 77%)",
+              "backgroundColor": "rgb(145, 142, 135)"
+          },
+          {
+              "clipPath": "polygon(38.5% 61.7%, 46.3% 76.857%, 44.4% 79.286%)",
+              "backgroundColor": "rgb(114, 114, 114)"
+          },
+          {
+              "clipPath": "polygon(42.1% 81.429%, 46.3% 77%, 42.7% 89.571%)",
+              "backgroundColor": "rgb(222, 191, 171)"
+          },
+          {
+              "clipPath": "polygon(46.4% 54.571%, 49.8% 52.571%, 45% 70.429%)",
+              "backgroundColor": "rgb(114, 114, 114)"
+          },
+          {
+              "clipPath": "polygon(45% 70.286%, 46.5% 64.714%, 48.7% 88.143%)",
+              "backgroundColor": "rgb(135, 132, 125)"
+          },
+          {
+              "clipPath": "polygon(48.7% 27.143%, 66.1% 38.857%, 53.2% 41%)",
+              "backgroundColor": "rgb(34, 38, 39)"
+          },
+          {
+              "clipPath": "polygon(48.7% 27.2%, 57% 28.714%, 66.1% 38.97%)",
+              "backgroundColor": "rgb(54, 56, 55)"
+          },
+          {
+              "clipPath": "polygon(53.2% 40.857%, 66.15% 38.75%, 60.8% 58.571%)",
+              "backgroundColor": "rgb(30, 30, 30)"
+          },
+          {
+              "clipPath": "polygon(62.7% 51.286%, 66.1% 38.7%, 69.3% 47.286%)",
+              "backgroundColor": "rgb(12, 13, 8)"
+          },
+          {
+              "clipPath": "polygon(66.02% 38.67%, 72.5% 40.714%, 69.2% 47.286%)",
+              "backgroundColor": "rgb(6, 6, 6)"
+          },
+          {
+              "clipPath": "polygon(66.1% 38.8%, 71.3% 32.714%, 72.5% 40.8%)",
+              "backgroundColor": "rgb(23, 20, 13)"
+          },
+          {
+              "clipPath": "polygon(69.7% 34.429%, 67.3% 25.143%, 71.4% 32.857%)",
+              "backgroundColor": "rgb(196, 192, 183)"
+          },
+          {
+              "clipPath": "polygon(67.3% 25.143%, 68.2% 20.143%, 71.3% 32.714%)",
+              "backgroundColor": "rgb(248, 241, 232)"
+          },
+          {
+              "clipPath": "polygon(67.2918% 25.1552%, 66.6006% 19.7253%, 69.2085% 15.4478%)",
+              "backgroundColor": "rgb(190, 190, 190)"
+          },
+          {
+              "clipPath": "polygon(66.569% 19.6296%, 67.9995% 12.2066%, 71.0976% 12.9429%)",
+              "backgroundColor": "rgb(170, 170, 170)"
+          },
+          {
+              "clipPath": "polygon(66.5308% 19.701%, 67.3111% 12.4782%, 68.3756% 12.6864%)",
+              "backgroundColor": "rgb(203, 189, 176)"
+          },
+          {
+              "clipPath": "polygon(67.3029% 12.8168%, 67.7422% 11.4631%, 71.0914% 13.0493%)",
+              "backgroundColor": "rgb(200, 200, 200)"
+          },
+          {
+              "clipPath": "polygon(69.2066% 15.9135%, 71.1816% 13.1906%, 73.4744% 15.2436%)",
+              "backgroundColor": "rgb(216, 77, 80)"
+          },
+          {
+              "clipPath": "polygon(67% 60.5%, 65% 79%, 63% 79%)",
+              "backgroundColor": "rgb(15, 124, 88)"
+          },
+          {
+              "clipPath": "polygon(61% 63.5%, 65% 82%, 63% 82%)",
+              "backgroundColor": "rgb(20, 170, 120)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(20, 170, 120)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "索马里鸵鸟",
+      "bgc": "rgb(222, 137, 172)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(19.15% 16.5%, 37.25% 25.643%, 46.55% 47.929%)",
+              "backgroundColor": "rgb(59, 45, 40)"
+          },
+          {
+              "clipPath": "polygon(19.15% 16.5%, 26.9% 50.929%, 29.25% 34.3%)",
+              "backgroundColor": "rgb(59, 45, 40)"
+          },
+          {
+              "clipPath": "polygon(19.05% 16.5%, 29% 34.3%, 36.4% 27.5%)",
+              "backgroundColor": "rgb(228, 110, 57)"
+          },
+          {
+              "clipPath": "polygon(29% 34.214%, 36.3% 27.4%, 46.6% 48.2%)",
+              "backgroundColor": "rgb(251, 145, 60)"
+          },
+          {
+              "clipPath": "polygon(28.9% 34.1%, 46.55% 48.214%, 26.85% 50.929%)",
+              "backgroundColor": "rgb(66, 60, 50)"
+          },
+          {
+              "clipPath": "polygon(26.75% 50.786%, 46.55% 48.071%, 46.05% 52.643%)",
+              "backgroundColor": "rgb(48, 32, 29)"
+          },
+          {
+              "clipPath": "polygon(31.25% 52.5%, 45.95% 52.786%, 32.65% 64.786%)",
+              "backgroundColor": "rgb(238, 133, 72)"
+          },
+          {
+              "clipPath": "polygon(31.15% 52.5%, 45.95% 52.929%, 38.05% 57.643%)",
+              "backgroundColor": "rgb(239, 186, 107)"
+          },
+          {
+              "clipPath": "polygon(35.45% 60.5%, 36.45% 61.214%, 35.35% 62.071%)",
+              "backgroundColor": "rgb(35, 38, 38)"
+          },
+          {
+              "clipPath": "polygon(32.55% 64.643%, 45.85% 52.929%, 38.45% 70.214%)",
+              "backgroundColor": "rgb(202, 101, 50)"
+          },
+          {
+              "clipPath": "polygon(47.55% 46.786%, 50.15% 44.071%, 43.15% 67.071%)",
+              "backgroundColor": "rgb(59, 45, 40)"
+          },
+          {
+              "clipPath": "polygon(50.15% 44.071%, 50.35% 48.643%, 43.25% 66.643%)",
+              "backgroundColor": "rgb(35, 18, 12)"
+          },
+          {
+              "clipPath": "polygon(48.85% 48.071%, 48.25% 52.214%, 47.15% 51.643%)",
+              "backgroundColor": "rgb(220, 176, 80)"
+          },
+          {
+              "clipPath": "polygon(48.25% 46.214%, 48.25% 44.786%, 50.15% 44.071%)",
+              "backgroundColor": "rgb(98, 86, 77)"
+          },
+          {
+              "clipPath": "polygon(50.15% 44.071%, 51.25% 46.643%, 50.25% 47.786%)",
+              "backgroundColor": "rgb(98, 86, 77)"
+          },
+          {
+              "clipPath": "polygon(49.15% 44.357%, 46.75% 28.643%, 49.85% 44.214%)",
+              "backgroundColor": "rgb(7, 4, 1)"
+          },
+          {
+              "clipPath": "polygon(50.45% 44.643%, 62.15% 38.214%, 50.75% 45.357%)",
+              "backgroundColor": "rgb(7, 4, 1)"
+          },
+          {
+              "clipPath": "polygon(46.85% 57.357%, 42.95% 75.357%, 38.95% 72.643%)",
+              "backgroundColor": "rgb(230, 161, 91)"
+          },
+          {
+              "clipPath": "polygon(38.95% 72.643%, 42.95% 75.357%, 39.75% 77.071%)",
+              "backgroundColor": "rgb(59, 45, 40)"
+          },
+          {
+              "clipPath": "polygon(45.45% 56.5%, 46.95% 57.357%, 39.05% 72.643%)",
+              "backgroundColor": "rgb(252, 204, 103)"
+          },
+          {
+              "clipPath": "polygon(48.45% 54.214%, 58.95% 69.214%, 51.95% 76.214%)",
+              "backgroundColor": "rgb(233, 130, 71)"
+          },
+          {
+              "clipPath": "polygon(48.35% 54.214%, 58.95% 69.071%, 51.65% 65.786%)",
+              "backgroundColor": "rgb(238, 185, 107)"
+          },
+          {
+              "clipPath": "polygon(48.45% 54.214%, 51.95% 76.214%, 45.05% 74.214%)",
+              "backgroundColor": "rgb(202, 101, 50)"
+          },
+          {
+              "clipPath": "polygon(51.05% 70.071%, 51.85% 70.357%, 51.25% 71.929%)",
+              "backgroundColor": "rgb(35, 38, 38)"
+          },
+          {
+              "clipPath": "polygon(48.3509% 54.213%, 50.351% 49.9283%, 62.7506% 72.7852%)",
+              "backgroundColor": "rgb(48, 32, 29)"
+          },
+          {
+              "clipPath": "polygon(50.4624% 50.0504%, 67.8507% 42.9085%, 86.5416% 53.9047%)",
+              "backgroundColor": "rgb(57, 44, 39)"
+          },
+          {
+              "clipPath": "polygon(50.4996% 50.006%, 67.7572% 45.1417%, 69.866% 57.4154%)",
+              "backgroundColor": "rgb(247, 143, 59)"
+          },
+          {
+              "clipPath": "polygon(50.43% 49.9402%, 69.8986% 57.181%, 62.6932% 72.561%)",
+              "backgroundColor": "rgb(58, 53, 44)"
+          },
+          {
+              "clipPath": "polygon(67.6788% 45.2169%, 86.4868% 53.663%, 69.9561% 57.2464%)",
+              "backgroundColor": "rgb(228, 110, 57)"
+          },
+          {
+              "clipPath": "polygon(69.7663% 56.9883%, 86.5784% 53.5948%, 62.8255% 72.2632%)",
+              "backgroundColor": "rgb(59, 45, 40)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "鸟翼蝶",
+      "bgc": "rgb(155, 122, 213)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(21.25% 73%, 22.95% 58.143%, 26.75% 85.286%)",
+              "backgroundColor": "rgb(48, 26, 2)"
+          },
+          {
+              "clipPath": "polygon(24.45% 65.571%, 29.95% 85.286%, 23.25% 72.571%)",
+              "backgroundColor": "rgb(73, 49, 6)"
+          },
+          {
+              "clipPath": "polygon(23.25% 72.714%, 19.45% 41.857%, 28.85% 51.857%)",
+              "backgroundColor": "rgb(147, 105, 60)"
+          },
+          {
+              "clipPath": "polygon(19.45% 42%, 23.65% 28%, 28.85% 52%)",
+              "backgroundColor": "rgb(169, 125, 78)"
+          },
+          {
+              "clipPath": "polygon(23.55% 28.286%, 37.45% 35.857%, 28.85% 51.857%)",
+              "backgroundColor": "rgb(191, 141, 86)"
+          },
+          {
+              "clipPath": "polygon(22.45% 27.714%, 30.75% 16.143%, 42.85% 21.286%)",
+              "backgroundColor": "rgb(188, 134, 78)"
+          },
+          {
+              "clipPath": "polygon(22.45% 27.571%, 42.85% 21.143%, 48.35% 42.143%)",
+              "backgroundColor": "rgb(168, 118, 71)"
+          },
+          {
+              "clipPath": "polygon(28.75% 51.857%, 37.35% 35.857%, 42.95% 51.571%)",
+              "backgroundColor": "rgb(150, 99, 54)"
+          },
+          {
+              "clipPath": "polygon(29.95% 16.143%, 36.25% 11%, 42.85% 21.143%)",
+              "backgroundColor": "rgb(190, 158, 116)"
+          },
+          {
+              "clipPath": "polygon(37.15% 35.857%, 48.35% 42%, 42.95% 51.429%)",
+              "backgroundColor": "rgb(110, 72, 41)"
+          },
+          {
+              "clipPath": "polygon(42.75% 21.143%, 61.95% 33%, 48.25% 42.143%)",
+              "backgroundColor": "rgb(178, 125, 72)"
+          },
+          {
+              "clipPath": "polygon(42.75% 21.143%, 50.85% 16.143%, 61.95% 33%)",
+              "backgroundColor": "rgb(185, 149, 102)"
+          },
+          {
+              "clipPath": "polygon(42.75% 51.429%, 48.35% 42%, 47.25% 66.714%)",
+              "backgroundColor": "rgb(71, 50, 44)"
+          },
+          {
+              "clipPath": "polygon(48.25% 42.143%, 54.55% 63.286%, 47.13% 66.857%)",
+              "backgroundColor": "rgb(49, 30, 15)"
+          },
+          {
+              "clipPath": "polygon(47.45% 66.571%, 50.65% 65%, 49.05% 85.571%)",
+              "backgroundColor": "rgb(114, 79, 56)"
+          },
+          {
+              "clipPath": "polygon(51.15% 64.571%, 54.25% 63.143%, 53.05% 85.429%)",
+              "backgroundColor": "rgb(83, 56, 32)"
+          },
+          {
+              "clipPath": "polygon(48% 41.75%, 56.25% 48.7%, 55.05% 65.571%)",
+              "backgroundColor": "rgb(82, 42, 16)"
+          },
+          {
+              "clipPath": "polygon(48.15% 42%, 61.95% 33%, 61.35% 53.429%)",
+              "backgroundColor": "rgb(100, 66, 45)"
+          },
+          {
+              "clipPath": "polygon(61.85% 32.857%, 71.75% 42.571%, 60.65% 55.4%)",
+              "backgroundColor": "rgb(126, 81, 48)"
+          },
+          {
+              "clipPath": "polygon(61.85% 32.9%, 65.95% 24.286%, 71.15% 29.143%)",
+              "backgroundColor": "rgb(124, 85, 49)"
+          },
+          {
+              "clipPath": "polygon(61.85% 32.857%, 70.95% 29%, 71.45% 43.143%)",
+              "backgroundColor": "rgb(102, 64, 21)"
+          },
+          {
+              "clipPath": "polygon(61.35% 54.429%, 71.55% 42.714%, 63.35% 63.857%)",
+              "backgroundColor": "rgb(81, 58, 45)"
+          },
+          {
+              "clipPath": "polygon(62.75% 64.429%, 71.35% 42.714%, 72.25% 58.429%)",
+              "backgroundColor": "rgb(97, 69, 46)"
+          },
+          {
+              "clipPath": "polygon(70.85% 29%, 76.65% 48.143%, 71.85% 60.143%)",
+              "backgroundColor": "rgb(145, 96, 50)"
+          },
+          {
+              "clipPath": "polygon(70.8498% 29.1429%, 75.8504% 32.1434%, 77.2496% 51.7139%)",
+              "backgroundColor": "rgb(166, 110, 64)"
+          },
+          {
+              "clipPath": "polygon(65.8518% 24.5898%, 68.6644% 17.5919%, 76.1415% 23.89%)",
+              "backgroundColor": "rgb(160, 117, 85)"
+          },
+          {
+              "clipPath": "polygon(70.0389% 24.3873%, 70.5789% 16.6506%, 76.1736% 24.0743%)",
+              "backgroundColor": "rgb(179, 137, 86)"
+          },
+          {
+              "clipPath": "polygon(65.798% 24.8129%, 79.2365% 23.3777%, 70.9955% 29.3557%)",
+              "backgroundColor": "rgb(214, 198, 175)"
+          },
+          {
+              "clipPath": "polygon(70.946% 29.3082%, 79.3112% 23.4654%, 82.0044% 28.457%)",
+              "backgroundColor": "rgb(195, 176, 145)"
+          },
+          {
+              "clipPath": "polygon(70.9888% 29.3866%, 81.2197% 28.5742%, 75.9675% 33.1207%)",
+              "backgroundColor": "rgb(135, 111, 83)"
+          },
+          {
+              "clipPath": "polygon(81% 31.5%, 80% 32.5%, 78% 21%)",
+              "backgroundColor": "rgb(20, 170, 120)"
+          },
+          {
+              "clipPath": "polygon(76% 75.5%, 77% 90%, 75.5% 90%)",
+              "backgroundColor": "rgb(20, 170, 120)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(20, 170, 120)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "双峰骆驼",
+      "bgc": "rgb(253, 147, 114)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(7.013% 37.714%, 12.812% 34.286%, 26.012% 40%)",
+              "backgroundColor": "rgb(255, 151, 99)"
+          },
+          {
+              "clipPath": "polygon(14.313% 38.714%, 12.313% 48.857%, 14.313% 60.714%)",
+              "backgroundColor": "rgb(2, 172, 150)"
+          },
+          {
+              "clipPath": "polygon(9.112% 62.286%, 28.813% 54.714%, 16.313% 63.286%)",
+              "backgroundColor": "rgb(214, 107, 91)"
+          },
+          {
+              "clipPath": "polygon(14.313% 38.5%, 22.9% 48.429%, 14.25% 60.6%)",
+              "backgroundColor": "rgb(229, 133, 87)"
+          },
+          {
+              "clipPath": "polygon(14.213% 38.429%, 25.912% 39.857%, 22.813% 48.429%)",
+              "backgroundColor": "rgb(237, 142, 91)"
+          },
+          {
+              "clipPath": "polygon(14.313% 60.571%, 22.813% 48.429%, 28.813% 54.857%)",
+              "backgroundColor": "rgb(227, 115, 100)"
+          },
+          {
+              "clipPath": "polygon(22.712% 48.5%, 25.912% 39.714%, 28.7% 54.77%)",
+              "backgroundColor": "rgb(229, 133, 87)"
+          },
+          {
+              "clipPath": "polygon(25.912% 39.85%, 47.713% 44.286%, 28.75% 54.9%)",
+              "backgroundColor": "rgb(8, 218, 159)"
+          },
+          {
+              "clipPath": "polygon(31.712% 41.2%, 31.813% 30.714%, 52.25% 22.8%)",
+              "backgroundColor": "rgb(160, 104, 145)"
+          },
+          {
+              "clipPath": "polygon(29.213% 59%, 31.212% 53.4%, 47.713% 62.3%)",
+              "backgroundColor": "rgb(167, 72, 118)"
+          },
+          {
+              "clipPath": "polygon(31.712% 41.2%, 47.813% 26.286%, 47.713% 44.3%)",
+              "backgroundColor": "rgb(92, 239, 178)"
+          },
+          {
+              "clipPath": "polygon(31.112% 53.429%, 47.813% 44.143%, 47.713% 62.286%)",
+              "backgroundColor": "rgb(0, 194, 144)"
+          },
+          {
+              "clipPath": "polygon(47.713% 26.429%, 56.112% 35.286%, 47.713% 44.286%)",
+              "backgroundColor": "rgb(48, 229, 170)"
+          },
+          {
+              "clipPath": "polygon(47.713% 44.286%, 56.3% 53.143%, 47.713% 62.35%)",
+              "backgroundColor": "rgb(0, 199, 148)"
+          },
+          {
+              "clipPath": "polygon(47.713% 44.286%, 56.112% 35.429%, 56.112% 53.286%)",
+              "backgroundColor": "rgb(0, 204, 151)"
+          },
+          {
+              "clipPath": "polygon(47.713% 26.35%, 52.22% 22.6%, 66.112% 25.7%)",
+              "backgroundColor": "rgb(255, 200, 109)"
+          },
+          {
+              "clipPath": "polygon(47.6% 26.4%, 66.112% 25.714%, 56.012% 35.4%)",
+              "backgroundColor": "rgb(255, 186, 91)"
+          },
+          {
+              "clipPath": "polygon(56.012% 35.286%, 66.1% 25.714%, 68.212% 48%)",
+              "backgroundColor": "rgb(255, 170, 90)"
+          },
+          {
+              "clipPath": "polygon(53.15% 38.35%, 56.012% 35.286%, 68.5% 48.3%)",
+              "backgroundColor": "rgb(88, 60, 62)"
+          },
+          {
+              "clipPath": "polygon(52.812% 44.6%, 53.212% 38.286%, 68.5% 48.2%)",
+              "backgroundColor": "rgb(59, 46, 55)"
+          },
+          {
+              "clipPath": "polygon(52.812% 44.54%, 68.4% 48%, 56.112% 53.429%)",
+              "backgroundColor": "rgb(116, 79, 68)"
+          },
+          {
+              "clipPath": "polygon(47.7% 62.286%, 56.15% 53.2%, 65.813% 64.571%)",
+              "backgroundColor": "rgb(248, 104, 38)"
+          },
+          {
+              "clipPath": "polygon(56.012% 53.143%, 68.212% 48%, 65.712% 64.571%)",
+              "backgroundColor": "rgb(250, 118, 55)"
+          },
+          {
+              "clipPath": "polygon(54.012% 70.143%, 57.913% 63.429%, 65.612% 64.5%)",
+              "backgroundColor": "rgb(244, 84, 46)"
+          },
+          {
+              "clipPath": "polygon(66.112% 25.857%, 86.513% 43.571%, 68.112% 48.143%)",
+              "backgroundColor": "rgb(255, 150, 88)"
+          },
+          {
+              "clipPath": "polygon(68.1009% 47.8697%, 86.4964% 43.4381%, 65.5943% 64.6209%)",
+              "backgroundColor": "rgb(250, 134, 55)"
+          },
+          {
+              "clipPath": "polygon(65.6864% 64.2827%, 81.9753% 48.0004%, 85.465% 53.316%)",
+              "backgroundColor": "rgb(186, 105, 75)"
+          },
+          {
+              "clipPath": "polygon(75.0165% 43.7938%, 76.6438% 40.9763%, 79.7221% 42.7303%)",
+              "backgroundColor": "rgb(50, 164, 240)"
+          },
+          {
+              "clipPath": "polygon(81.8384% 48.0539%, 86.2575% 43.8194%, 88.1742% 47.8617%)",
+              "backgroundColor": "rgb(50, 164, 240)"
+          },
+          {
+              "clipPath": "polygon(81.3757% 47.6198%, 86.4367% 50.1451%, 84.7648% 52.8597%)",
+              "backgroundColor": "rgb(0, 120, 161)"
+          },
+          {
+              "clipPath": "polygon(95% 18.5%, 95.5% 22%, 97% 20%)",
+              "backgroundColor": "rgba(255, 255, 255, 0)"
+          },
+          {
+              "clipPath": "polygon(91.67% 9.5%, 92.3% 8.4%, 92.7% 9.7%)",
+              "backgroundColor": "rgba(255, 255, 255, 0.28)"
+          },
+          {
+              "clipPath": "polygon(87.75% 35.5%, 89.4% 37%, 89.1% 34.5%)",
+              "backgroundColor": "rgba(255, 255, 255, 0.98)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "虹彩鹦嘴鱼",
+      "bgc": "rgb(204, 197, 227)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(28.35% 15.214%, 31.45% 10.2%, 31.7% 19.5%)",
+              "backgroundColor": "rgb(186, 162, 132)"
+          },
+          {
+              "clipPath": "polygon(31.35% 10.214%, 34.25% 17.5%, 31.45% 19.357%)",
+              "backgroundColor": "rgb(158, 133, 107)"
+          },
+          {
+              "clipPath": "polygon(31.35% 10.357%, 36.15% 3.357%, 38.95% 12.071%)",
+              "backgroundColor": "rgb(71, 60, 50)"
+          },
+          {
+              "clipPath": "polygon(31.35% 10.14%, 38.85% 11.929%, 34.05% 17.643%)",
+              "backgroundColor": "rgb(77, 65, 53)"
+          },
+          {
+              "clipPath": "polygon(34.05% 17.5%, 38.75% 11.786%, 41.15% 17.643%)",
+              "backgroundColor": "rgb(48, 41, 34)"
+          },
+          {
+              "clipPath": "polygon(36.05% 3.5%, 41.55% 2.357%, 38.85% 12.214%)",
+              "backgroundColor": "rgb(86, 69, 51)"
+          },
+          {
+              "clipPath": "polygon(38.75% 12.071%, 41.25% 2.929%, 50.65% 13.5%)",
+              "backgroundColor": "rgb(64, 52, 41)"
+          },
+          {
+              "clipPath": "polygon(38.75% 11.9%, 49.9% 13.357%, 41.05% 17.643%)",
+              "backgroundColor": "rgb(52, 42, 31)"
+          },
+          {
+              "clipPath": "polygon(41.15% 2.929%, 51.55% 8.786%, 49.65% 13.5%)",
+              "backgroundColor": "rgb(77, 65, 53)"
+          },
+          {
+              "clipPath": "polygon(41.05% 17.357%, 49.65% 13.357%, 53.35% 42.357%)",
+              "backgroundColor": "rgb(44, 35, 23)"
+          },
+          {
+              "clipPath": "polygon(48.65% 18.5%, 50.25% 8.214%, 59.35% 18.214%)",
+              "backgroundColor": "rgb(71, 60, 50)"
+          },
+          {
+              "clipPath": "polygon(41.1% 17.3%, 53.55% 42.214%, 45.05% 46.643%)",
+              "backgroundColor": "rgb(36, 32, 23)"
+          },
+          {
+              "clipPath": "polygon(41.85% 19.357%, 45.25% 21.357%, 45.75% 28.643%)",
+              "backgroundColor": "rgb(163, 116, 49)"
+          },
+          {
+              "clipPath": "polygon(45.15% 21.214%, 48.75% 18.5%, 45.65% 28.5%)",
+              "backgroundColor": "rgb(203, 154, 87)"
+          },
+          {
+              "clipPath": "polygon(48.5% 18.5%, 58.65% 18.03%, 61.45% 27.99%)",
+              "backgroundColor": "rgb(76, 66, 55)"
+          },
+          {
+              "clipPath": "polygon(58.05% 25.357%, 62.45% 48.4%, 52.35% 62.9%)",
+              "backgroundColor": "rgb(53, 45, 37)"
+          },
+          {
+              "clipPath": "polygon(48.55% 18.5%, 61.05% 27.5%, 60.55% 42.357%)",
+              "backgroundColor": "rgb(85, 71, 56)"
+          },
+          {
+              "clipPath": "polygon(42.6% 27.929%, 44.4% 41.214%, 38.45% 45.214%)",
+              "backgroundColor": "rgb(38, 36, 32)"
+          },
+          {
+              "clipPath": "polygon(35.05% 44.5%, 40.4% 37.357%, 37.55% 53.214%)",
+              "backgroundColor": "rgb(64, 52, 41)"
+          },
+          {
+              "clipPath": "polygon(45.05% 46.357%, 56.05% 40.786%, 52.55% 62.786%)",
+              "backgroundColor": "rgb(41, 36, 24)"
+          },
+          {
+              "clipPath": "polygon(48.65% 18.643%, 60.25% 41.786%, 53.15% 41.929%)",
+              "backgroundColor": "rgb(72, 58, 46)"
+          },
+          {
+              "clipPath": "polygon(45.15% 46.357%, 52.65% 62.643%, 42.68% 61.2%)",
+              "backgroundColor": "rgb(54, 47, 32)"
+          },
+          {
+              "clipPath": "polygon(46.65% 58.643%, 53.25% 41.643%, 60.35% 41.643%)",
+              "backgroundColor": "rgb(80, 65, 53)"
+          },
+          {
+              "clipPath": "polygon(42.65% 60.929%, 52.65% 62.5%, 45.45% 74.071%)",
+              "backgroundColor": "rgb(48, 41, 23)"
+          },
+          {
+              "clipPath": "polygon(42.75% 60.929%, 48.05% 84.786%, 42.75% 84.786%)",
+              "backgroundColor": "rgb(58, 50, 43)"
+          },
+          {
+              "clipPath": "polygon(45.4646% 73.7774%, 52.5633% 62.0671%, 53.9619% 66.4961%)",
+              "backgroundColor": "rgb(41, 37, 27)"
+          },
+          {
+              "clipPath": "polygon(52.4234% 62.5592%, 62.4635% 48.2246%, 60.6132% 68.8559%)",
+              "backgroundColor": "rgb(76, 62, 50)"
+          },
+          {
+              "clipPath": "polygon(52.5708% 62.3559%, 60.7873% 68.7221%, 58.5664% 79.7767%)",
+              "backgroundColor": "rgb(52, 44, 39)"
+          },
+          {
+              "clipPath": "polygon(60.5298% 68.3479%, 60.8787% 85.9279%, 56.6937% 86.1852%)",
+              "backgroundColor": "rgb(58, 50, 46)"
+          },
+          {
+              "clipPath": "polygon(28.4412% 15.3821%, 29.1799% 14.0307%, 29.8069% 16.7183%)",
+              "backgroundColor": "rgb(76, 62, 50)"
+          },
+          {
+              "clipPath": "polygon(31.25% 18.214%, 32.05% 17.071%, 30.8% 12.786%)",
+              "backgroundColor": "rgb(241, 169, 226)"
+          },
+          {
+              "clipPath": "polygon(31.25% 18.214%, 32.05% 17.071%, 30.8% 12.786%)",
+              "backgroundColor": "rgb(241, 169, 226)"
+          },
+          {
+              "clipPath": "polygon(31.25% 18.214%, 32.05% 17.071%, 30.8% 12.786%)",
+              "backgroundColor": "rgb(241, 169, 226)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "马来熊",
+      "bgc": "rgb(151, 135, 234)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(16.8% 56.143%, 21.4% 54.143%, 19.1% 60%)",
+              "backgroundColor": "rgb(39, 39, 41)"
+          },
+          {
+              "clipPath": "polygon(21.4% 54.143%, 24.8% 60.143%, 19% 60%)",
+              "backgroundColor": "rgb(167, 42, 52)"
+          },
+          {
+              "clipPath": "polygon(21.4% 54.143%, 27.5% 54.857%, 24.7% 60.286%)",
+              "backgroundColor": "rgb(196, 51, 74)"
+          },
+          {
+              "clipPath": "polygon(24.7% 60.143%, 27.5% 54.9%, 29.4% 59.429%)",
+              "backgroundColor": "rgb(16, 31, 31)"
+          },
+          {
+              "clipPath": "polygon(27.4% 54.8%, 34.3% 59.6%, 29.3% 59.4%)",
+              "backgroundColor": "rgb(44, 41, 45)"
+          },
+          {
+              "clipPath": "polygon(27.4% 54.857%, 32% 54.143%, 34.2% 59.8%)",
+              "backgroundColor": "rgb(60, 58, 66)"
+          },
+          {
+              "clipPath": "polygon(31.9% 54.143%, 37.8% 54.571%, 34.02% 59.6%)",
+              "backgroundColor": "rgb(39, 39, 41)"
+          },
+          {
+              "clipPath": "polygon(34% 59.571%, 37.6% 54.571%, 39.8% 58.857%)",
+              "backgroundColor": "rgb(186, 34, 58)"
+          },
+          {
+              "clipPath": "polygon(37.5% 54.571%, 43.9% 56.429%, 39.7% 58.857%)",
+              "backgroundColor": "rgb(196, 48, 74)"
+          },
+          {
+              "clipPath": "polygon(37.5% 54.571%, 48% 54.714%, 43.5% 56.571%)",
+              "backgroundColor": "rgb(222, 76, 99)"
+          },
+          {
+              "clipPath": "polygon(39.7% 58.857%, 43.5% 56.429%, 47.5% 59.429%)",
+              "backgroundColor": "rgb(154, 42, 60)"
+          },
+          {
+              "clipPath": "polygon(43.4% 56.429%, 47.99% 54.714%, 50.4% 56.6%)",
+              "backgroundColor": "rgb(187, 41, 58)"
+          },
+          {
+              "clipPath": "polygon(43.4% 56.286%, 50.4% 56.429%, 47.4% 59.571%)",
+              "backgroundColor": "rgb(197, 47, 73)"
+          },
+          {
+              "clipPath": "polygon(48% 54.714%, 56.1% 53.857%, 50.3% 56.571%)",
+              "backgroundColor": "rgb(222, 76, 99)"
+          },
+          {
+              "clipPath": "polygon(47.4% 59.429%, 50.3% 56.429%, 53.4% 58.714%)",
+              "backgroundColor": "rgb(141, 35, 59)"
+          },
+          {
+              "clipPath": "polygon(50.3% 56.429%, 56.1% 53.857%, 53.4% 58.857%)",
+              "backgroundColor": "rgb(188, 45, 64)"
+          },
+          {
+              "clipPath": "polygon(53.3% 58.7%, 56% 54%, 60.3% 58.714%)",
+              "backgroundColor": "rgb(167, 42, 52)"
+          },
+          {
+              "clipPath": "polygon(55.8% 54%, 64.3% 54.571%, 60.3% 58.714%)",
+              "backgroundColor": "rgb(222, 60, 88)"
+          },
+          {
+              "clipPath": "polygon(60.2% 58.714%, 64.2% 54.571%, 75.5% 59.2%)",
+              "backgroundColor": "rgb(24, 27, 31)"
+          },
+          {
+              "clipPath": "polygon(64.3% 54.65%, 65.6% 51.429%, 77.5% 54%)",
+              "backgroundColor": "rgb(69, 66, 75)"
+          },
+          {
+              "clipPath": "polygon(64% 54.6%, 78.3% 53.714%, 75.4% 59.26%)",
+              "backgroundColor": "rgb(45, 44, 53)"
+          },
+          {
+              "clipPath": "polygon(70.7% 59%, 71.5% 59.143%, 66.5% 71.143%)",
+              "backgroundColor": "rgb(38, 38, 36)"
+          },
+          {
+              "clipPath": "polygon(73.6% 59%, 74.9% 59.1%, 71.9% 68.714%)",
+              "backgroundColor": "rgb(51, 62, 78)"
+          },
+          {
+              "clipPath": "polygon(72.3% 67.429%, 79.4% 78.429%, 71.9% 68.857%)",
+              "backgroundColor": "rgb(29, 33, 36)"
+          },
+          {
+              "clipPath": "polygon(75.4% 56.286%, 76.4% 51.857%, 79.9% 54.143%)",
+              "backgroundColor": "rgb(129, 41, 37)"
+          },
+          {
+              "clipPath": "polygon(75.3902% 56.1375%, 79.8921% 54.1415%, 78.3896% 58.4368%)",
+              "backgroundColor": "rgb(59, 15, 19)"
+          },
+          {
+              "clipPath": "polygon(38.6404% 19.09%, 69.4876% 53.7138%, 41.5462% 30.939%)",
+              "backgroundColor": "rgb(109, 155, 159)"
+          },
+          {
+              "clipPath": "polygon(57.4098% 28.7974%, 69.4641% 53.837%, 62.3896% 44.3115%)",
+              "backgroundColor": "rgb(154, 191, 194)"
+          },
+          {
+              "clipPath": "polygon(44.6709% 29.418%, 51.4742% 10.4493%, 62.4606% 44.6545%)",
+              "backgroundColor": "rgb(128, 177, 180)"
+          },
+          {
+              "clipPath": "polygon(44.6584% 29.6459%, 40.2007% 10.6086%, 51.6033% 10.9795%)",
+              "backgroundColor": "rgb(154, 191, 194)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "大红细蟌",
+      "bgc": "rgb(246, 143, 111)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(38.65% 66%, 40.75% 84.429%, 47.85% 70%)",
+              "backgroundColor": "rgb(0, 0, 0)"
+          },
+          {
+              "clipPath": "polygon(38.65% 66.143%, 47.85% 70%, 54.65% 46.286%)",
+              "backgroundColor": "rgb(20, 20, 20)"
+          },
+          {
+              "clipPath": "polygon(38.15% 57.857%, 33.65% 84.571%, 52.75% 51%)",
+              "backgroundColor": "rgb(45, 45, 49)"
+          },
+          {
+              "clipPath": "polygon(44.65% 39.571%, 36.85% 59.429%, 52.85% 50.857%)",
+              "backgroundColor": "rgb(55, 56, 58)"
+          },
+          {
+              "clipPath": "polygon(45.85% 41.4%, 52.75% 50.857%, 55.2% 38.286%)",
+              "backgroundColor": "rgb(41, 41, 46)"
+          },
+          {
+              "clipPath": "polygon(47.55% 27.143%, 41.25% 45.714%, 55.05% 38.429%)",
+              "backgroundColor": "rgb(70, 70, 73)"
+          },
+          {
+              "clipPath": "polygon(40.75% 84.571%, 52.35% 85%, 49.05% 89.857%)",
+              "backgroundColor": "rgb(30, 29, 33)"
+          },
+          {
+              "clipPath": "polygon(46.95% 81.714%, 58.95% 81.143%, 55.75% 85.571%)",
+              "backgroundColor": "rgb(30, 29, 33)"
+          },
+          {
+              "clipPath": "polygon(47.55% 27.143%, 61.15% 21.714%, 55.05% 38.429%)",
+              "backgroundColor": "rgb(216, 216, 221)"
+          },
+          {
+              "clipPath": "polygon(47.55% 27.143%, 48.25% 13.143%, 50.55% 25.857%)",
+              "backgroundColor": "rgb(171, 171, 181)"
+          },
+          {
+              "clipPath": "polygon(48.25% 13.143%, 53.85% 7.857%, 49.05% 17.714%)",
+              "backgroundColor": "rgb(204, 206, 205)"
+          },
+          {
+              "clipPath": "polygon(49.05% 17.714%, 52.15% 11.286%, 50.55% 25.857%)",
+              "backgroundColor": "rgb(28, 28, 30)"
+          },
+          {
+              "clipPath": "polygon(52.15% 11.286%, 53.65% 7.714%, 59.65% 10.571%)",
+              "backgroundColor": "rgb(250, 249, 250)"
+          },
+          {
+              "clipPath": "polygon(52.1% 11.4%, 59.8% 10.5%, 57.65% 15.7%)",
+              "backgroundColor": "rgb(181, 128, 167)"
+          },
+          {
+              "clipPath": "polygon(52.05% 11.286%, 60.55% 18%, 50.45% 25.857%)",
+              "backgroundColor": "rgb(50, 50, 60)"
+          },
+          {
+              "clipPath": "polygon(50.45% 25.857%, 60.45% 17.857%, 61.15% 21.714%)",
+              "backgroundColor": "rgb(20, 20, 20)"
+          },
+          {
+              "clipPath": "polygon(57.65% 15.714%, 59.75% 10.571%, 66.75% 14.571%)",
+              "backgroundColor": "rgb(60, 54, 62)"
+          },
+          {
+              "clipPath": "polygon(57.5% 15.6%, 66.75% 14.571%, 60.45% 18%)",
+              "backgroundColor": "rgb(0, 0, 0)"
+          },
+          {
+              "clipPath": "polygon(55.25% 41%, 57.05% 74.429%, 47.95% 69.857%)",
+              "backgroundColor": "rgb(167, 166, 161)"
+          },
+          {
+              "clipPath": "polygon(61.45% 15.143%, 62.95% 12.429%, 62.65% 15%)",
+              "backgroundColor": "rgb(114, 102, 114)"
+          },
+          {
+              "clipPath": "polygon(61.45% 15.143%, 62.65% 15%, 62.95% 16.571%)",
+              "backgroundColor": "rgb(78, 67, 75)"
+          },
+          {
+              "clipPath": "polygon(54.95% 38.429%, 61.15% 21.714%, 64.15% 32.429%)",
+              "backgroundColor": "rgb(242, 242, 242)"
+          },
+          {
+              "clipPath": "polygon(55.05% 38.286%, 64.05% 32.429%, 53.25% 48.143%)",
+              "backgroundColor": "rgb(20, 20, 20)"
+          },
+          {
+              "clipPath": "polygon(55.35% 45%, 64% 32.429%, 64% 37.143%)",
+              "backgroundColor": "rgb(62, 60, 64)"
+          },
+          {
+              "clipPath": "polygon(55.45% 45%, 64.05% 37%, 63.75% 51.286%)",
+              "backgroundColor": "rgb(204, 206, 205)"
+          },
+          {
+              "clipPath": "polygon(55.4524% 44.8676%, 63.7494% 51.1502%, 57.052% 74.4259%)",
+              "backgroundColor": "rgb(191, 194, 193)"
+          },
+          {
+              "clipPath": "polygon(59.5687% 65.6699%, 63.0784% 53.5877%, 65.4547% 73.3986%)",
+              "backgroundColor": "rgb(0, 0, 0)"
+          },
+          {
+              "clipPath": "polygon(59.6847% 48.1825%, 61.122% 49.1985%, 59.9711% 50.2502%)",
+              "backgroundColor": "rgb(41, 41, 46)"
+          },
+          {
+              "clipPath": "polygon(40.832% 84.4986%, 48.0743% 69.6569%, 57.2711% 74.372%)",
+              "backgroundColor": "rgb(132, 129, 125)"
+          },
+          {
+              "clipPath": "polygon(41.1302% 84.386%, 57.2126% 74.3094%, 51.8804% 81.8803%)",
+              "backgroundColor": "rgb(117, 110, 96)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "黑脚企鹅",
+      "bgc": "rgb(60, 202, 209)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(14.4% 77.429%, 22.2% 61.143%, 23.9% 63.429%)",
+              "backgroundColor": "rgb(124, 110, 105)"
+          },
+          {
+              "clipPath": "polygon(14.4% 77.286%, 20.5% 68.143%, 15.7% 77.429%)",
+              "backgroundColor": "rgb(99, 91, 83)"
+          },
+          {
+              "clipPath": "polygon(22.2% 61.286%, 29.9% 46.857%, 23.8% 63.571%)",
+              "backgroundColor": "rgb(94, 70, 72)"
+          },
+          {
+              "clipPath": "polygon(23.5% 63.7%, 30% 46.7%, 33.5% 55.6%)",
+              "backgroundColor": "rgb(60, 38, 40)"
+          },
+          {
+              "clipPath": "polygon(23.6% 63.571%, 33.4% 55.429%, 32.3% 64.286%)",
+              "backgroundColor": "rgb(36, 24, 26)"
+          },
+          {
+              "clipPath": "polygon(23.6% 63.429%, 26.9% 63.714%, 19.9% 69.286%)",
+              "backgroundColor": "rgb(19, 18, 20)"
+          },
+          {
+              "clipPath": "polygon(24.8% 60.571%, 26% 57.429%, 27.2% 58.571%)",
+              "backgroundColor": "rgb(23, 23, 21)"
+          },
+          {
+              "clipPath": "polygon(29.9% 46.714%, 40.9% 53.857%, 33.3% 55.429%)",
+              "backgroundColor": "rgb(67, 45, 50)"
+          },
+          {
+              "clipPath": "polygon(33.2% 55.286%, 40.7% 53.75%, 32.1% 64.143%)",
+              "backgroundColor": "rgb(51, 31, 31)"
+          },
+          {
+              "clipPath": "polygon(29.8% 46.857%, 40.5% 41.857%, 40.7% 53.857%)",
+              "backgroundColor": "rgb(81, 56, 56)"
+          },
+          {
+              "clipPath": "polygon(49.4% 80.77%, 50.8% 69.05%, 42.1% 68.286%)",
+              "backgroundColor": "rgb(29, 20, 20)"
+          },
+          {
+              "clipPath": "polygon(40.5% 53.714%, 45.2% 69.286%, 31.8% 64.4%)",
+              "backgroundColor": "rgb(64, 39, 41)"
+          },
+          {
+              "clipPath": "polygon(32.8% 54%, 34.3% 53.571%, 34.1% 57%)",
+              "backgroundColor": "rgb(203, 192, 182)"
+          },
+          {
+              "clipPath": "polygon(26% 77.286%, 36% 72%, 29.4% 84.143%)",
+              "backgroundColor": "rgb(36, 24, 26)"
+          },
+          {
+              "clipPath": "polygon(32.1% 64.286%, 45.2% 69.286%, 26% 77.429%)",
+              "backgroundColor": "rgb(81, 56, 56)"
+          },
+          {
+              "clipPath": "polygon(40.4% 53.99%, 54.2% 34%, 55.9% 48.857%)",
+              "backgroundColor": "rgb(84, 60, 62)"
+          },
+          {
+              "clipPath": "polygon(40.4% 54.1%, 40.4% 43.571%, 54.2% 34.1%)",
+              "backgroundColor": "rgb(74, 50, 50)"
+          },
+          {
+              "clipPath": "polygon(40.5% 53.857%, 55.7% 48.571%, 54.6% 61.143%)",
+              "backgroundColor": "rgb(65, 40, 40)"
+          },
+          {
+              "clipPath": "polygon(40.4% 53.7%, 54.8% 61.1%, 45.1% 69.286%)",
+              "backgroundColor": "rgb(72, 51, 48)"
+          },
+          {
+              "clipPath": "polygon(45% 69.4%, 54.3% 60.7%, 62.2% 71.1%)",
+              "backgroundColor": "rgb(43, 33, 36)"
+          },
+          {
+              "clipPath": "polygon(55.7% 48.571%, 54.1% 34.143%, 70.1% 42.714%)",
+              "backgroundColor": "rgb(68, 46, 46)"
+          },
+          {
+              "clipPath": "polygon(55.6% 48.429%, 68.1% 57.93%, 54.5% 61.286%)",
+              "backgroundColor": "rgb(54, 36, 36)"
+          },
+          {
+              "clipPath": "polygon(55.5% 48.5%, 69.4% 42.857%, 67.95% 57.99%)",
+              "backgroundColor": "rgb(59, 37, 36)"
+          },
+          {
+              "clipPath": "polygon(54.5% 61.143%, 67.9% 57.857%, 65.1% 75.3%)",
+              "backgroundColor": "rgb(65, 40, 40)"
+          },
+          {
+              "clipPath": "polygon(48.6998% 66%, 50.6004% 67.5703%, 47.0006% 67.5705%)",
+              "backgroundColor": "rgb(202, 191, 181)"
+          },
+          {
+              "clipPath": "polygon(60.3862% 66.5509%, 62.5969% 65.8434%, 61.1826% 68.1298%)",
+              "backgroundColor": "rgb(203, 192, 182)"
+          },
+          {
+              "clipPath": "polygon(69.2342% 42.8543%, 77.7502% 62.2054%, 67.8766% 57.6921%)",
+              "backgroundColor": "rgb(43, 33, 36)"
+          },
+          {
+              "clipPath": "polygon(67.7489% 57.362%, 77.8605% 62.0902%, 64.8674% 75.1641%)",
+              "backgroundColor": "rgb(49, 35, 36)"
+          },
+          {
+              "clipPath": "polygon(64.8158% 74.9619%, 77.6237% 62.1276%, 66.6374% 83.8606%)",
+              "backgroundColor": "rgb(36, 24, 26)"
+          },
+          {
+              "clipPath": "polygon(64.8787% 74.7295%, 66.754% 83.5766%, 62.9335% 83.8567%)",
+              "backgroundColor": "rgb(66, 42, 45)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "原针鼹属",
+      "bgc": "rgb(223, 188, 148)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(9.75% 39.337%, 10.65% 33.194%, 21.65% 33.337%)",
+              "backgroundColor": "rgb(233, 221, 178)"
+          },
+          {
+              "clipPath": "polygon(9.75% 39.194%, 21.35% 33.194%, 23.45% 43.194%)",
+              "backgroundColor": "rgb(206, 191, 130)"
+          },
+          {
+              "clipPath": "polygon(9.75% 39.051%, 23.45% 43.051%, 9.35% 45.48%)",
+              "backgroundColor": "rgb(210, 200, 149)"
+          },
+          {
+              "clipPath": "polygon(14.95% 40.48%, 17.65% 41.337%, 13.75% 43.051%)",
+              "backgroundColor": "rgb(35, 31, 32)"
+          },
+          {
+              "clipPath": "polygon(9.35% 45.766%, 10.95% 55.051%, 9.25% 51.051%)",
+              "backgroundColor": "rgb(211, 234, 221)"
+          },
+          {
+              "clipPath": "polygon(9.35% 45.337%, 12.75% 44.908%, 10.95% 55.051%)",
+              "backgroundColor": "rgb(219, 219, 96)"
+          },
+          {
+              "clipPath": "polygon(11.95% 49.766%, 12.75% 45.051%, 20.85% 56.337%)",
+              "backgroundColor": "rgb(156, 156, 109)"
+          },
+          {
+              "clipPath": "polygon(12.7% 44.908%, 23.35% 43.1%, 20.9% 56.194%)",
+              "backgroundColor": "rgb(219, 208, 149)"
+          },
+          {
+              "clipPath": "polygon(10.65% 33.337%, 34.45% 18.48%, 21.35% 33.337%)",
+              "backgroundColor": "rgb(118, 177, 102)"
+          },
+          {
+              "clipPath": "polygon(21.35% 33.337%, 32.95% 20.051%, 23.45% 43.051%)",
+              "backgroundColor": "rgb(109, 161, 58)"
+          },
+          {
+              "clipPath": "polygon(20.85% 56.337%, 23.55% 43.051%, 35.15% 63.766%)",
+              "backgroundColor": "rgb(147, 156, 66)"
+          },
+          {
+              "clipPath": "polygon(30.85% 25.051%, 44.65% 23.48%, 59.85% 31.194%)",
+              "backgroundColor": "rgb(124, 185, 73)"
+          },
+          {
+              "clipPath": "polygon(30.75% 25.194%, 43.25% 41.908%, 23.35% 43.051%)",
+              "backgroundColor": "rgb(133, 170, 72)"
+          },
+          {
+              "clipPath": "polygon(23.45% 43.1%, 43.33% 41.8%, 39.85% 51.766%)",
+              "backgroundColor": "rgb(105, 159, 67)"
+          },
+          {
+              "clipPath": "polygon(23.45% 43.194%, 39.85% 51.766%, 34.75% 63.48%)",
+              "backgroundColor": "rgb(108, 126, 75)"
+          },
+          {
+              "clipPath": "polygon(33.15% 19.623%, 47.95% 23.623%, 30.85% 25.194%)",
+              "backgroundColor": "rgb(106, 168, 78)"
+          },
+          {
+              "clipPath": "polygon(30.7% 25.1%, 57.95% 30.65%, 43.35% 42.051%)",
+              "backgroundColor": "rgb(112, 170, 72)"
+          },
+          {
+              "clipPath": "polygon(34.75% 63.48%, 39.85% 51.623%, 45.05% 81.766%)",
+              "backgroundColor": "rgb(88, 128, 37)"
+          },
+          {
+              "clipPath": "polygon(37.65% 80.48%, 44.15% 83.194%, 41.95% 84.48%)",
+              "backgroundColor": "rgb(110, 98, 85)"
+          },
+          {
+              "clipPath": "polygon(44.55% 78.051%, 42.55% 88.194%, 45.75% 79.908%)",
+              "backgroundColor": "rgb(109, 113, 97)"
+          },
+          {
+              "clipPath": "polygon(35.95% 86.48%, 44.15% 83.051%, 43.15% 85.48%)",
+              "backgroundColor": "rgb(74, 75, 70)"
+          },
+          {
+              "clipPath": "polygon(42.25% 65.908%, 63.45% 54.051%, 44.75% 81.766%)",
+              "backgroundColor": "rgb(67, 90, 44)"
+          },
+          {
+              "clipPath": "polygon(39.85% 51.766%, 62.85% 48.48%, 42.45% 66.908%)",
+              "backgroundColor": "rgb(86, 113, 43)"
+          },
+          {
+              "clipPath": "polygon(58.35% 49.051%, 69.05% 43.908%, 63.25% 54.337%)",
+              "backgroundColor": "rgb(69, 139, 35)"
+          },
+          {
+              "clipPath": "polygon(42.45% 66.337%, 59.95% 50.766%, 63.25% 54.337%)",
+              "backgroundColor": "rgb(64, 108, 43)"
+          },
+          {
+              "clipPath": "polygon(43.3568% 41.7756%, 58.7589% 49.0528%, 39.769% 51.9129%)",
+              "backgroundColor": "rgb(106, 168, 78)"
+          },
+          {
+              "clipPath": "polygon(43.3734% 41.805%, 58.1838% 30.5382%, 58.6855% 49.0849%)",
+              "backgroundColor": "rgb(87, 149, 79)"
+          },
+          {
+              "clipPath": "polygon(57.947% 30.899%, 70.281% 43.7244%, 58.6091% 49.1025%)",
+              "backgroundColor": "rgb(81, 159, 75)"
+          },
+          {
+              "clipPath": "polygon(63.2094% 54.431%, 68.9687% 44.163%, 70.8791% 51.8466%)",
+              "backgroundColor": "rgb(86, 113, 43)"
+          },
+          {
+              "clipPath": "polygon(63.2825% 54.4943%, 70.7898% 51.9099%, 87.8797% 73.1367%)",
+              "backgroundColor": "rgb(43, 49, 8)"
+          },
+          {
+              "clipPath": "polygon(52.603% 27.924%, 65.003% 27.924%, 57.003% 19.924%)",
+              "backgroundColor": "rgb(255, 255, 255)"
+          },
+          {
+              "clipPath": "polygon(63.603% 27.924%, 75.003% 27.924%, 69.003% 19.924%)",
+              "backgroundColor": "rgb(255, 255, 255)"
+          },
+          {
+              "clipPath": "polygon(56.603% 27.924%, 70.003% 27.924%, 63.003% 17%)",
+              "backgroundColor": "rgb(250, 250, 250)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "鸮鹦鹉",
+      "bgc": "rgb(219, 190, 57)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(32.85% 53.714%, 47.55% 57.714%, 32.05% 70.429%)",
+              "backgroundColor": "rgb(124, 95, 75)"
+          },
+          {
+              "clipPath": "polygon(26.45% 49.286%, 34.65% 68.143%, 31.75% 73.143%)",
+              "backgroundColor": "rgb(144, 123, 114)"
+          },
+          {
+              "clipPath": "polygon(34.6% 68.03%, 52.3% 75.286%, 31.65% 73.143%)",
+              "backgroundColor": "rgb(31, 29, 23)"
+          },
+          {
+              "clipPath": "polygon(34.65% 68.143%, 47.45% 57.8%, 50.6% 65.6%)",
+              "backgroundColor": "rgb(82, 69, 60)"
+          },
+          {
+              "clipPath": "polygon(34.3% 68.1%, 50.6% 65.5%, 52.35% 75.429%)",
+              "backgroundColor": "rgb(51, 49, 40)"
+          },
+          {
+              "clipPath": "polygon(32.95% 54.143%, 52.15% 44%, 47.35% 58%)",
+              "backgroundColor": "rgb(143, 106, 89)"
+          },
+          {
+              "clipPath": "polygon(33.25% 53.857%, 31.65% 30%, 38.95% 47.857%)",
+              "backgroundColor": "rgb(106, 94, 81)"
+          },
+          {
+              "clipPath": "polygon(31.7384% 55.0026%, 42.2816% 42.4078%, 52.4677% 44.0222%)",
+              "backgroundColor": "rgb(154, 117, 91)"
+          },
+          {
+              "clipPath": "polygon(53.3932% 39.2439%, 63.0854% 54.2795%, 47.1529% 58.1818%)",
+              "backgroundColor": "rgb(134, 96, 66)"
+          },
+          {
+              "clipPath": "polygon(41.2744% 42.8218%, 52.1139% 37.4326%, 56.9725% 45.5419%)",
+              "backgroundColor": "rgb(121, 88, 76)"
+          },
+          {
+              "clipPath": "polygon(46.7422% 58.2695%, 62.8848% 54.4364%, 50.3104% 65.9535%)",
+              "backgroundColor": "rgb(102, 80, 64)"
+          },
+          {
+              "clipPath": "polygon(49.3343% 64.7532%, 61.7981% 54.8916%, 50.9685% 75.3072%)",
+              "backgroundColor": "rgb(65, 60, 50)"
+          },
+          {
+              "clipPath": "polygon(60.7635% 53.5538%, 65.7868% 62.8419%, 50.2428% 76.2675%)",
+              "backgroundColor": "rgb(81, 75, 70)"
+          },
+          {
+              "clipPath": "polygon(60.1722% 52.8509%, 71.4373% 40.2074%, 64.996% 65.1522%)",
+              "backgroundColor": "rgb(77, 65, 53)"
+          },
+          {
+              "clipPath": "polygon(49.5152% 37.6469%, 58.2057% 44.1112%, 60.2247% 56.3662%)",
+              "backgroundColor": "rgb(124, 86, 60)"
+          },
+          {
+              "clipPath": "polygon(48.776% 37.9973%, 49.7463% 18.1087%, 61.7717% 46.8943%)",
+              "backgroundColor": "rgb(80, 65, 45)"
+          },
+          {
+              "clipPath": "polygon(45.9334% 21.7712%, 51.7956% 25.3067%, 52.2432% 34.6293%)",
+              "backgroundColor": "rgb(103, 90, 77)"
+          },
+          {
+              "clipPath": "polygon(56.265% 50.0399%, 53.808% 31.9602%, 63.1989% 36.2471%)",
+              "backgroundColor": "rgb(143, 115, 90)"
+          },
+          {
+              "clipPath": "polygon(55.5057% 47.1485%, 60.669% 27.5697%, 65.5417% 47.8795%)",
+              "backgroundColor": "rgb(125, 97, 71)"
+          },
+          {
+              "clipPath": "polygon(54.0394% 33.8861%, 59.3466% 30.5443%, 60.4799% 52.2537%)",
+              "backgroundColor": "rgb(192, 172, 151)"
+          },
+          {
+              "clipPath": "polygon(54.5293% 34.5246%, 60.232% 33.0407%, 55.1888% 59.7553%)",
+              "backgroundColor": "rgb(171, 148, 126)"
+          },
+          {
+              "clipPath": "polygon(59.2133% 34.2789%, 65.9539% 36.006%, 54.2202% 60.7355%)",
+              "backgroundColor": "rgb(159, 139, 114)"
+          },
+          {
+              "clipPath": "polygon(62.1914% 36.0454%, 71.471% 39.3951%, 56.1237% 56.1826%)",
+              "backgroundColor": "rgb(137, 127, 117)"
+          },
+          {
+              "clipPath": "polygon(53.8214% 56.3474%, 71.8761% 41.1975%, 76.4046% 53.0226%)",
+              "backgroundColor": "rgb(110, 98, 79)"
+          },
+          {
+              "clipPath": "polygon(52.9953% 56.8133%, 75.3065% 51.7997%, 57.0531% 60.5509%)",
+              "backgroundColor": "rgb(108, 88, 68)"
+          },
+          {
+              "clipPath": "polygon(57.2821% 61.387%, 76.9497% 52.8059%, 78.6065% 61.8538%)",
+              "backgroundColor": "rgb(105, 88, 64)"
+          },
+          {
+              "clipPath": "polygon(55.5235% 62.007%, 75.6968% 60.7253%, 77.0637% 66.635%)",
+              "backgroundColor": "rgb(172, 140, 87)"
+          },
+          {
+              "clipPath": "polygon(57.2382% 61.8562%, 77.4929% 67.3272%, 72.3518% 72.9529%)",
+              "backgroundColor": "rgb(155, 122, 81)"
+          },
+          {
+              "clipPath": "polygon(57.8547% 66.8297%, 64.8384% 72.2578%, 61.5246% 81.3385%)",
+              "backgroundColor": "rgb(89, 74, 69)"
+          },
+          {
+              "clipPath": "polygon(57.5544% 67.8302%, 74.1642% 76.2383%, 73.4342% 80.3997%)",
+              "backgroundColor": "rgb(171, 136, 94)"
+          },
+          {
+              "clipPath": "polygon(19.85% 40%, 21.65% 43.714%, 19.15% 85%)",
+              "backgroundColor": "rgb(77, 55, 61)"
+          },
+          {
+              "clipPath": "polygon(20.3% 41%, 40.25% 29.3%, 21.6% 43.771%)",
+              "backgroundColor": "rgb(31, 29, 23)"
+          },
+          {
+              "clipPath": "polygon(20.35% 41%, 60.45% 12.714%, 63.45% 15.714%)",
+              "backgroundColor": "rgb(77, 55, 61)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "侏三趾树懒",
+      "bgc": "rgb(253, 172, 180)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(16.45% 78.8%, 17.1% 72.9%, 22.75% 68.1%)",
+              "backgroundColor": "rgb(98, 73, 66)"
+          },
+          {
+              "clipPath": "polygon(16.95% 73.5%, 20.95% 57.357%, 24.55% 57.786%)",
+              "backgroundColor": "rgb(153, 129, 88)"
+          },
+          {
+              "clipPath": "polygon(16.95% 73.071%, 24.35% 57.5%, 22.75% 68.214%)",
+              "backgroundColor": "rgb(122, 88, 82)"
+          },
+          {
+              "clipPath": "polygon(22.65% 68.071%, 24.25% 57.643%, 28.05% 72.786%)",
+              "backgroundColor": "rgb(98, 73, 66)"
+          },
+          {
+              "clipPath": "polygon(16.36% 78.8%, 22.7% 68.1%, 28.2% 72.8%)",
+              "backgroundColor": "rgb(70, 56, 48)"
+          },
+          {
+              "clipPath": "polygon(17.95% 77.8%, 23.95% 74.929%, 19.65% 79.214%)",
+              "backgroundColor": "rgb(36, 27, 2)"
+          },
+          {
+              "clipPath": "polygon(24.55% 59.071%, 27.75% 51.071%, 28.05% 72.786%)",
+              "backgroundColor": "rgb(62, 55, 48)"
+          },
+          {
+              "clipPath": "polygon(21.75% 57.214%, 26.45% 49.071%, 24.75% 63.071%)",
+              "backgroundColor": "rgb(187, 163, 118)"
+          },
+          {
+              "clipPath": "polygon(31.65% 73.071%, 40.25% 73.214%, 26.75% 84.786%)",
+              "backgroundColor": "rgb(89, 76, 63)"
+          },
+          {
+              "clipPath": "polygon(42.65% 73.071%, 47.25% 69.929%, 46.95% 84.214%)",
+              "backgroundColor": "rgb(109, 99, 90)"
+          },
+          {
+              "clipPath": "polygon(27.95% 72.786%, 50.05% 67.929%, 44.45% 73.357%)",
+              "backgroundColor": "rgb(226, 200, 124)"
+          },
+          {
+              "clipPath": "polygon(27.55% 48.786%, 33.45% 72.3%, 27.9% 72.929%)",
+              "backgroundColor": "rgb(170, 152, 115)"
+          },
+          {
+              "clipPath": "polygon(27.55% 48.929%, 31.55% 41.643%, 33.45% 72.214%)",
+              "backgroundColor": "rgb(196, 180, 146)"
+          },
+          {
+              "clipPath": "polygon(31.65% 43.214%, 38.75% 70.929%, 33.35% 72.357%)",
+              "backgroundColor": "rgb(159, 136, 98)"
+          },
+          {
+              "clipPath": "polygon(31.65% 43.214%, 44.15% 71.071%, 38.55% 70.929%)",
+              "backgroundColor": "rgb(170, 152, 115)"
+          },
+          {
+              "clipPath": "polygon(31.65% 43.214%, 36.65% 37.357%, 44.1% 71%)",
+              "backgroundColor": "rgb(195, 176, 141)"
+          },
+          {
+              "clipPath": "polygon(36.65% 37.357%, 50.05% 67.643%, 44.15% 71.071%)",
+              "backgroundColor": "rgb(159, 136, 98)"
+          },
+          {
+              "clipPath": "polygon(37.35% 38.929%, 42.05% 33.786%, 49.25% 65.929%)",
+              "backgroundColor": "rgb(145, 122, 91)"
+          },
+          {
+              "clipPath": "polygon(42.35% 35.357%, 47.45% 31.5%, 49.35% 66.357%)",
+              "backgroundColor": "rgb(171, 141, 110)"
+          },
+          {
+              "clipPath": "polygon(47.5% 33.357%, 51.45% 31.214%, 49.4% 66.7%)",
+              "backgroundColor": "rgb(194, 161, 120)"
+          },
+          {
+              "clipPath": "polygon(51.25% 33.214%, 56.25% 31.786%, 49.45% 66.643%)",
+              "backgroundColor": "rgb(208, 179, 131)"
+          },
+          {
+              "clipPath": "polygon(55.75% 33.929%, 62.85% 33.929%, 49.45% 66.5%)",
+              "backgroundColor": "rgb(216, 195, 155)"
+          },
+          {
+              "clipPath": "polygon(62.05% 35.5%, 73.45% 41.071%, 50.95% 62.786%)",
+              "backgroundColor": "rgb(214, 183, 129)"
+          },
+          {
+              "clipPath": "polygon(50.95% 62.643%, 72.75% 41.786%, 80.05% 57.071%)",
+              "backgroundColor": "rgb(197, 164, 122)"
+          },
+          {
+              "clipPath": "polygon(51.05% 62.643%, 78.75% 57.214%, 54.75% 67.786%)",
+              "backgroundColor": "rgb(171, 141, 110)"
+          },
+          {
+              "clipPath": "polygon(54.6532% 67.788%, 78.6486% 57.212%, 80.2437% 67.3589%)",
+              "backgroundColor": "rgb(158, 135, 98)"
+          },
+          {
+              "clipPath": "polygon(54.5905% 67.7582%, 79.0537% 67.3493%, 79.9383% 74.4662%)",
+              "backgroundColor": "rgb(126, 107, 76)"
+          },
+          {
+              "clipPath": "polygon(54.7519% 67.615%, 78.5604% 74.0252%, 72.3725% 79.6039%)",
+              "backgroundColor": "rgb(98, 75, 65)"
+          },
+          {
+              "clipPath": "polygon(56.8763% 69.2002%, 61.9723% 73.0181%, 59.4874% 83.5443%)",
+              "backgroundColor": "rgb(81, 65, 58)"
+          },
+          {
+              "clipPath": "polygon(54.8889% 67.5822%, 72.8842% 78.9301%, 72.2672% 82.468%)",
+              "backgroundColor": "rgb(198, 157, 94)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "巴西三带犰狳",
+      "bgc": "rgb(237, 185, 72)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(23.96% 44.643%, 21.9% 50.643%, 25.5% 49.357%)",
+              "backgroundColor": "rgb(72, 52, 72)"
+          },
+          {
+              "clipPath": "polygon(23.86% 44.643%, 28.6% 36.7%, 25.7% 50.5%)",
+              "backgroundColor": "rgb(57, 39, 61)"
+          },
+          {
+              "clipPath": "polygon(23.3% 39.643%, 28.5% 36.929%, 23.9% 44.643%)",
+              "backgroundColor": "rgb(79, 64, 83)"
+          },
+          {
+              "clipPath": "polygon(21.3% 35.4%, 28.6% 36.86%, 23.4% 40.214%)",
+              "backgroundColor": "rgb(58, 45, 62)"
+          },
+          {
+              "clipPath": "polygon(18.9% 24.786%, 28.67% 36.99%, 21.3% 35.5%)",
+              "backgroundColor": "rgb(72, 52, 72)"
+          },
+          {
+              "clipPath": "polygon(18.9% 24.929%, 26.15% 17.643%, 23% 30.071%)",
+              "backgroundColor": "rgb(87, 70, 99)"
+          },
+          {
+              "clipPath": "polygon(22.9% 30%, 26.1% 17.643%, 33.95% 27.786%)",
+              "backgroundColor": "rgb(72, 54, 74)"
+          },
+          {
+              "clipPath": "polygon(23% 29.929%, 33.7% 27.643%, 28.56% 36.95%)",
+              "backgroundColor": "rgb(51, 36, 55)"
+          },
+          {
+              "clipPath": "polygon(26.1% 17.7%, 34.3% 14.214%, 33.87% 27.8%)",
+              "backgroundColor": "rgb(85, 64, 84)"
+          },
+          {
+              "clipPath": "polygon(33.8% 12.786%, 40.6% 19.929%, 33.9% 27.643%)",
+              "backgroundColor": "rgb(93, 77, 99)"
+          },
+          {
+              "clipPath": "polygon(33.8% 27.643%, 40.9% 18.5%, 44.7% 24.214%)",
+              "backgroundColor": "rgb(85, 64, 84)"
+          },
+          {
+              "clipPath": "polygon(33.8% 27.643%, 45.2% 22.929%, 48.4% 33.357%)",
+              "backgroundColor": "rgb(76, 56, 77)"
+          },
+          {
+              "clipPath": "polygon(33.9% 27.643%, 48.6% 32.214%, 40.1% 41.357%)",
+              "backgroundColor": "rgb(68, 51, 68)"
+          },
+          {
+              "clipPath": "polygon(33.9% 27.643%, 46.9% 54.8%, 36.3% 41.357%)",
+              "backgroundColor": "rgb(85, 64, 84)"
+          },
+          {
+              "clipPath": "polygon(40.2% 41.171%, 48.7% 31.357%, 51.4% 43.214%)",
+              "backgroundColor": "rgb(63, 45, 66)"
+          },
+          {
+              "clipPath": "polygon(40.2% 41.071%, 51.8% 42.357%, 44.4% 49.786%)",
+              "backgroundColor": "rgb(57, 38, 58)"
+          },
+          {
+              "clipPath": "polygon(44.4% 49.786%, 51.8% 41.214%, 56.2% 54.071%)",
+              "backgroundColor": "rgb(48, 32, 53)"
+          },
+          {
+              "clipPath": "polygon(36.2% 41.071%, 46.7% 54.4%, 39.9% 55.2%)",
+              "backgroundColor": "rgb(96, 77, 100)"
+          },
+          {
+              "clipPath": "polygon(44.4% 49.643%, 56.3% 53.214%, 49.5% 60.929%)",
+              "backgroundColor": "rgb(57, 39, 61)"
+          },
+          {
+              "clipPath": "polygon(50.7% 59.5%, 56.6% 51.929%, 59.7% 59.643%)",
+              "backgroundColor": "rgb(48, 32, 53)"
+          },
+          {
+              "clipPath": "polygon(50.6% 59.357%, 60% 58.929%, 56% 65.9%)",
+              "backgroundColor": "rgb(42, 25, 44)"
+          },
+          {
+              "clipPath": "polygon(56% 65.786%, 59.8% 57.929%, 63.7% 61.357%)",
+              "backgroundColor": "rgb(36, 23, 35)"
+          },
+          {
+              "clipPath": "polygon(55.8% 65.8%, 63.7% 61.2%, 61.1% 72%)",
+              "backgroundColor": "rgb(31, 22, 25)"
+          },
+          {
+              "clipPath": "polygon(39.9% 55.071%, 46.6% 54.357%, 61.1% 72.071%)",
+              "backgroundColor": "rgb(79, 64, 83)"
+          },
+          {
+              "clipPath": "polygon(61.05% 71.99%, 63.8% 60.214%, 67.5% 64.643%)",
+              "backgroundColor": "rgb(19, 16, 31)"
+          },
+          {
+              "clipPath": "polygon(61.0975% 71.9224%, 75.7007% 53.2223%, 67.3084% 71.2173%)",
+              "backgroundColor": "rgb(65, 49, 59)"
+          },
+          {
+              "clipPath": "polygon(75.5619% 53.3665%, 80.9911% 63.3724%, 73.8799% 56.9574%)",
+              "backgroundColor": "rgb(65, 49, 59)"
+          },
+          {
+              "clipPath": "polygon(78.4351% 61.1152%, 80.9799% 63.3905%, 77.5994% 70.5262%)",
+              "backgroundColor": "rgb(52, 42, 56)"
+          },
+          {
+              "clipPath": "polygon(73.519% 67.3846%, 78.0933% 66.0524%, 77.5979% 70.5442%)",
+              "backgroundColor": "rgb(73, 59, 68)"
+          },
+          {
+              "clipPath": "polygon(75.1368% 62.428%, 75.7791% 66.9938%, 73.7203% 67.6387%)",
+              "backgroundColor": "rgb(13, 10, 21)"
+          },
+          {
+              "clipPath": "polygon(62.1% 17.214%, 64.7% 15.643%, 78.4% 64.071%)",
+              "backgroundColor": "rgb(104, 96, 42)"
+          },
+          {
+              "clipPath": "polygon(67.3% 32.071%, 78.6% 64.214%, 78.1% 71.5%)",
+              "backgroundColor": "rgb(67, 66, 39)"
+          },
+          {
+              "clipPath": "polygon(78.4% 64.214%, 80.4% 85.643%, 76.9% 85.786%)",
+              "backgroundColor": "rgb(73, 66, 33)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "南非海马",
+      "bgc": "rgb(153, 136, 205)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(11.3% 31.5%, 12.8% 27.357%, 13.9% 32.357%)",
+              "backgroundColor": "rgb(244, 194, 100)"
+          },
+          {
+              "clipPath": "polygon(21.4% 35.357%, 21.3% 24.214%, 26.2% 32.071%)",
+              "backgroundColor": "rgb(83, 162, 69)"
+          },
+          {
+              "clipPath": "polygon(12.8% 27.214%, 21.4% 24.214%, 22% 28.7%)",
+              "backgroundColor": "rgb(131, 202, 101)"
+          },
+          {
+              "clipPath": "polygon(12.8% 27.214%, 21.9% 28.357%, 13.9% 32.214%)",
+              "backgroundColor": "rgb(112, 186, 88)"
+          },
+          {
+              "clipPath": "polygon(13.6% 32.35%, 22% 28.214%, 21.4% 35.4%)",
+              "backgroundColor": "rgb(60, 174, 88)"
+          },
+          {
+              "clipPath": "polygon(12.5% 31.786%, 21.4% 35.4%, 17.7% 37.929%)",
+              "backgroundColor": "rgb(165, 207, 180)"
+          },
+          {
+              "clipPath": "polygon(17.7% 37.929%, 26.2% 32.071%, 27.4% 34.071%)",
+              "backgroundColor": "rgb(192, 213, 218)"
+          },
+          {
+              "clipPath": "polygon(17.7% 37.9%, 27.4% 34%, 27.5% 43.8%)",
+              "backgroundColor": "rgb(67, 157, 86)"
+          },
+          {
+              "clipPath": "polygon(21.15% 24.15%, 39.7% 37.214%, 26.1% 31.929%)",
+              "backgroundColor": "rgb(118, 181, 72)"
+          },
+          {
+              "clipPath": "polygon(21.3% 24.214%, 34.7% 31.071%, 39.8% 37.357%)",
+              "backgroundColor": "rgb(29, 46, 30)"
+          },
+          {
+              "clipPath": "polygon(26.1% 31.929%, 39.8% 37.357%, 27.4% 34.214%)",
+              "backgroundColor": "rgb(231, 238, 240)"
+          },
+          {
+              "clipPath": "polygon(27.3% 34.071%, 39.8% 37.357%, 37.7% 47.5%)",
+              "backgroundColor": "rgb(95, 188, 96)"
+          },
+          {
+              "clipPath": "polygon(27.35% 34.1%, 37.85% 47.5%, 27.5% 51%)",
+              "backgroundColor": "rgb(60, 174, 88)"
+          },
+          {
+              "clipPath": "polygon(27.5% 50.929%, 37.7% 47.5%, 35.8% 57.357%)",
+              "backgroundColor": "rgb(66, 165, 74)"
+          },
+          {
+              "clipPath": "polygon(14.2% 41.5%, 20.2% 41.5%, 24% 46.929%)",
+              "backgroundColor": "rgb(55, 142, 50)"
+          },
+          {
+              "clipPath": "polygon(17.7% 37.929%, 29% 44.643%, 24.7% 48.929%)",
+              "backgroundColor": "rgb(94, 200, 87)"
+          },
+          {
+              "clipPath": "polygon(24.8% 48.929%, 28.9% 44.5%, 34.9% 52.5%)",
+              "backgroundColor": "rgb(99, 219, 123)"
+          },
+          {
+              "clipPath": "polygon(30.5% 50.929%, 35% 52.643%, 23.4% 54.929%)",
+              "backgroundColor": "rgb(94, 200, 87)"
+          },
+          {
+              "clipPath": "polygon(35.7% 57.357%, 39.8% 37.214%, 38.5% 59.7%)",
+              "backgroundColor": "rgb(192, 213, 218)"
+          },
+          {
+              "clipPath": "polygon(39.8% 37.214%, 53.4% 49.929%, 55.5% 57.5%)",
+              "backgroundColor": "rgb(29, 46, 30)"
+          },
+          {
+              "clipPath": "polygon(39.8% 37.214%, 51.65% 50.6%, 39.1% 47.786%)",
+              "backgroundColor": "rgb(138, 211, 109)"
+          },
+          {
+              "clipPath": "polygon(39.15% 47.65%, 51.5% 50.5%, 38.4% 59.643%)",
+              "backgroundColor": "rgb(81, 195, 86)"
+          },
+          {
+              "clipPath": "polygon(38.4% 59.643%, 51.5% 50.45%, 47.9% 63.214%)",
+              "backgroundColor": "rgb(54, 167, 64)"
+          },
+          {
+              "clipPath": "polygon(47.9% 63.214%, 51.5% 50.357%, 50.7% 63.643%)",
+              "backgroundColor": "rgb(192, 208, 209)"
+          },
+          {
+              "clipPath": "polygon(51.4% 50.214%, 63.4% 71.643%, 50.7% 63.643%)",
+              "backgroundColor": "rgb(68, 175, 60)"
+          },
+          {
+              "clipPath": "polygon(56.0072% 58.4828%, 77.1964% 70.1883%, 84.4944% 78.073%)",
+              "backgroundColor": "rgb(29, 46, 30)"
+          },
+          {
+              "clipPath": "polygon(55.8333% 58.2886%, 76.3838% 71.3772%, 63.4729% 71.6536%)",
+              "backgroundColor": "rgb(81, 195, 86)"
+          },
+          {
+              "clipPath": "polygon(63.3454% 71.4012%, 76.3145% 71.1784%, 77.4637% 76.6167%)",
+              "backgroundColor": "rgb(56, 151, 59)"
+          },
+          {
+              "clipPath": "polygon(76.0226% 71.0223%, 90.4002% 82.3201%, 77.3167% 76.3742%)",
+              "backgroundColor": "rgb(57, 163, 52)"
+          },
+          {
+              "clipPath": "polygon(86.7345% 80.5725%, 99.4465% 83.4263%, 92.3994% 83.6421%)",
+              "backgroundColor": "rgb(81, 195, 86)"
+          },
+          {
+              "clipPath": "polygon(0% 46.3%, 4.85% 36.5%, 46.05% 55.071%)",
+              "backgroundColor": "rgb(69, 60, 55)"
+          },
+          {
+              "clipPath": "polygon(-0.05% 46.214%, 46.85% 55.071%, 52.75% 68.071%)",
+              "backgroundColor": "rgb(52, 45, 30)"
+          },
+          {
+              "clipPath": "polygon(73.65% 84.357%, 38.85% 57.071%, 92.75% 84.214%)",
+              "backgroundColor": "rgb(44, 34, 21)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "斐济鬣蜥蜴",
+      "bgc": "rgb(246, 216, 96)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(23.25% 43.286%, 31.25% 33.571%, 46.85% 36.286%)",
+              "backgroundColor": "rgb(239, 220, 205)"
+          },
+          {
+              "clipPath": "polygon(32.5% 60%, 36.05% 55%, 41.75% 66.857%)",
+              "backgroundColor": "rgb(123, 115, 98)"
+          },
+          {
+              "clipPath": "polygon(23.35% 43.286%, 34.8% 57.5%, 23.45% 56.143%)",
+              "backgroundColor": "rgb(174, 136, 109)"
+          },
+          {
+              "clipPath": "polygon(23.45% 56.143%, 34.66% 57.3%, 22.45% 71.714%)",
+              "backgroundColor": "rgb(215, 197, 164)"
+          },
+          {
+              "clipPath": "polygon(27.85% 65.429%, 33.05% 59.2%, 29.75% 85.857%)",
+              "backgroundColor": "rgb(127, 107, 95)"
+          },
+          {
+              "clipPath": "polygon(23.25% 43.286%, 46.85% 36.286%, 35.05% 57.714%)",
+              "backgroundColor": "rgb(218, 205, 188)"
+          },
+          {
+              "clipPath": "polygon(22.45% 71.714%, 28.3% 64.714%, 24.65% 85.857%)",
+              "backgroundColor": "rgb(242, 225, 197)"
+          },
+          {
+              "clipPath": "polygon(36.55% 54.714%, 46.85% 36.286%, 50.65% 52.286%)",
+              "backgroundColor": "rgb(233, 220, 196)"
+          },
+          {
+              "clipPath": "polygon(36% 54.857%, 50.65% 52.286%, 41.85% 66.857%)",
+              "backgroundColor": "rgb(207, 186, 145)"
+          },
+          {
+              "clipPath": "polygon(41.75% 66.857%, 50.65% 52.143%, 56.05% 64.714%)",
+              "backgroundColor": "rgb(186, 174, 150)"
+          },
+          {
+              "clipPath": "polygon(46.75% 36.429%, 54.35% 33%, 61.25% 36.429%)",
+              "backgroundColor": "rgb(243, 234, 223)"
+          },
+          {
+              "clipPath": "polygon(46.75% 36.429%, 61.15% 36.286%, 50.65% 52.143%)",
+              "backgroundColor": "rgb(235, 225, 203)"
+          },
+          {
+              "clipPath": "polygon(50.4% 52.286%, 61.25% 36.1%, 60.96% 56.143%)",
+              "backgroundColor": "rgb(221, 207, 183)"
+          },
+          {
+              "clipPath": "polygon(59.65% 63.286%, 63.65% 61.714%, 61.05% 86%)",
+              "backgroundColor": "rgb(138, 123, 99)"
+          },
+          {
+              "clipPath": "polygon(50.55% 52.286%, 60.85% 56.143%, 60.55% 75.143%)",
+              "backgroundColor": "rgb(235, 225, 203)"
+          },
+          {
+              "clipPath": "polygon(58.15% 69.714%, 60.45% 75%, 58.95% 85.714%)",
+              "backgroundColor": "rgb(168, 159, 146)"
+          },
+          {
+              "clipPath": "polygon(61.25% 36.429%, 66.25% 60.5%, 60.73% 63%)",
+              "backgroundColor": "rgb(120, 82, 59)"
+          },
+          {
+              "clipPath": "polygon(61.15% 36.286%, 69.75% 23.429%, 73.75% 35.286%)",
+              "backgroundColor": "rgb(162, 120, 92)"
+          },
+          {
+              "clipPath": "polygon(61.15% 36.2%, 73.7% 35.23%, 66.14% 60.7%)",
+              "backgroundColor": "rgb(130, 93, 72)"
+          },
+          {
+              "clipPath": "polygon(73.55% 35.286%, 76.25% 36%, 66.2% 60.429%)",
+              "backgroundColor": "rgb(99, 76, 57)"
+          },
+          {
+              "clipPath": "polygon(69.65% 23.429%, 74.15% 22.429%, 73.75% 35.286%)",
+              "backgroundColor": "rgb(185, 141, 93)"
+          },
+          {
+              "clipPath": "polygon(73.75% 35.286%, 74.15% 20%, 79.55% 28.143%)",
+              "backgroundColor": "rgb(236, 225, 213)"
+          },
+          {
+              "clipPath": "polygon(79.45% 28%, 84.55% 34.286%, 75.95% 32.571%)",
+              "backgroundColor": "rgb(210, 201, 193)"
+          },
+          {
+              "clipPath": "polygon(75.95% 32.571%, 84.45% 34.143%, 84.15% 38.429%)",
+              "backgroundColor": "rgb(180, 171, 160)"
+          },
+          {
+              "clipPath": "polygon(75.95% 32.429%, 83.45% 38%, 73.75% 35.286%)",
+              "backgroundColor": "rgb(175, 164, 145)"
+          },
+          {
+              "clipPath": "polygon(70.6524% 23.296%, 69.9561% 17.7297%, 73.0513% 22.8686%)",
+              "backgroundColor": "rgb(119, 98, 68)"
+          },
+          {
+              "clipPath": "polygon(73.0549% 22.9024%, 67.9779% 7.79528%, 75.3501% 21.7762%)",
+              "backgroundColor": "rgb(81, 76, 73)"
+          },
+          {
+              "clipPath": "polygon(50.6558% 1.93733%, 68.0511% 8.03731%, 69.0301% 10.7591%)",
+              "backgroundColor": "rgb(49, 47, 52)"
+          },
+          {
+              "clipPath": "polygon(39.4604% 8.06482%, 50.8871% 2.07714%, 53.1671% 3.25729%)",
+              "backgroundColor": "rgb(39, 34, 32)"
+          },
+          {
+              "clipPath": "polygon(72.7099% 23.1485%, 77.9639% 16.6634%, 75.3949% 23.0503%)",
+              "backgroundColor": "rgb(200, 192, 185)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(50% 50%, 50% 50%, 50% 50%)",
+              "backgroundColor": "rgb(26, 26, 29)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "弯角剑羚",
+      "bgc": "rgb(121, 187, 181)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(20.25% 49.857%, 30.75% 51.286%, 32.55% 58.714%)",
+              "backgroundColor": "rgb(189, 194, 163)"
+          },
+          {
+              "clipPath": "polygon(26.35% 55.857%, 32.45% 58.714%, 22.95% 70.571%)",
+              "backgroundColor": "rgb(60, 98, 104)"
+          },
+          {
+              "clipPath": "polygon(22.65% 61%, 26.45% 56.286%, 22.95% 70.429%)",
+              "backgroundColor": "rgb(27, 72, 89)"
+          },
+          {
+              "clipPath": "polygon(10.65% 58.714%, 20.05% 52.143%, 30.85% 51.857%)",
+              "backgroundColor": "rgb(98, 114, 111)"
+          },
+          {
+              "clipPath": "polygon(10.55% 58.571%, 30.85% 51.857%, 25.45% 59.143%)",
+              "backgroundColor": "rgb(183, 200, 192)"
+          },
+          {
+              "clipPath": "polygon(17.95% 50.143%, 23.5% 45.1%, 31.05% 52%)",
+              "backgroundColor": "rgb(72, 115, 120)"
+          },
+          {
+              "clipPath": "polygon(23.45% 45.143%, 44.45% 35.571%, 30.85% 52%)",
+              "backgroundColor": "rgb(79, 127, 134)"
+          },
+          {
+              "clipPath": "polygon(30.75% 51.857%, 40.9% 60.95%, 32.35% 58.571%)",
+              "backgroundColor": "rgb(174, 175, 149)"
+          },
+          {
+              "clipPath": "polygon(30.75% 51.857%, 42.15% 53.571%, 40.55% 60.714%)",
+              "backgroundColor": "rgb(162, 163, 144)"
+          },
+          {
+              "clipPath": "polygon(40.55% 60.857%, 42.15% 51.286%, 58.4% 58.429%)",
+              "backgroundColor": "rgb(174, 180, 157)"
+          },
+          {
+              "clipPath": "polygon(40.25% 50.286%, 55.75% 46.571%, 57.85% 58.571%)",
+              "backgroundColor": "rgb(159, 171, 158)"
+          },
+          {
+              "clipPath": "polygon(30.85% 51.857%, 44.45% 35.571%, 43.55% 54.429%)",
+              "backgroundColor": "rgb(64, 113, 119)"
+          },
+          {
+              "clipPath": "polygon(43.45% 54.571%, 44.35% 35.5%, 55.3% 47.714%)",
+              "backgroundColor": "rgb(76, 131, 139)"
+          },
+          {
+              "clipPath": "polygon(44.3% 35.571%, 62.45% 36.714%, 55.15% 47.857%)",
+              "backgroundColor": "rgb(89, 139, 145)"
+          },
+          {
+              "clipPath": "polygon(55.15% 47.714%, 62.5% 36.714%, 66.05% 50.714%)",
+              "backgroundColor": "rgb(57, 103, 111)"
+          },
+          {
+              "clipPath": "polygon(55.65% 47.857%, 65.95% 50.571%, 57.75% 58.571%)",
+              "backgroundColor": "rgb(190, 190, 170)"
+          },
+          {
+              "clipPath": "polygon(57.65% 58.571%, 65.95% 50.571%, 66.85% 55.714%)",
+              "backgroundColor": "rgb(169, 171, 150)"
+          },
+          {
+              "clipPath": "polygon(66% 50.6%, 64.45% 45%, 75.75% 46.429%)",
+              "backgroundColor": "rgb(55, 124, 129)"
+          },
+          {
+              "clipPath": "polygon(64.45% 45.1%, 75.65% 43.714%, 75.65% 46.571%)",
+              "backgroundColor": "rgb(72, 148, 159)"
+          },
+          {
+              "clipPath": "polygon(65.85% 50.571%, 75.8% 46.429%, 75.6% 53.99%)",
+              "backgroundColor": "rgb(43, 72, 74)"
+          },
+          {
+              "clipPath": "polygon(65.85% 50.571%, 80.05% 55.286%, 66.75% 55.714%)",
+              "backgroundColor": "rgb(207, 202, 183)"
+          },
+          {
+              "clipPath": "polygon(55.05% 51.571%, 58.25% 41.429%, 67.05% 41.714%)",
+              "backgroundColor": "rgb(194, 213, 217)"
+          },
+          {
+              "clipPath": "polygon(58.25% 41.571%, 65.85% 21.714%, 67.05% 41.714%)",
+              "backgroundColor": "rgb(173, 196, 186)"
+          },
+          {
+              "clipPath": "polygon(58.25% 41.571%, 60.45% 19.429%, 65.95% 21.857%)",
+              "backgroundColor": "rgb(80, 123, 125)"
+          },
+          {
+              "clipPath": "polygon(60.55% 19.714%, 59.95% 10%, 65.95% 22%)",
+              "backgroundColor": "rgb(19, 48, 47)"
+          },
+          {
+              "clipPath": "polygon(75.5399% 43.7098%, 82.54% 49.8551%, 75.6427% 46.7115%)",
+              "backgroundColor": "rgb(128, 165, 159)"
+          },
+          {
+              "clipPath": "polygon(75.5968% 46.4208%, 82.419% 49.9078%, 75.4258% 53.9936%)",
+              "backgroundColor": "rgb(79, 91, 91)"
+          },
+          {
+              "clipPath": "polygon(75.2796% 53.8936%, 82.2669% 49.9863%, 80.6815% 54.5103%)",
+              "backgroundColor": "rgb(90, 105, 106)"
+          },
+          {
+              "clipPath": "polygon(80.3839% 54.3217%, 82.1444% 49.9577%, 81.788% 56.0374%)",
+              "backgroundColor": "rgb(107, 120, 121)"
+          },
+          {
+              "clipPath": "polygon(77.7905% 47.8695%, 79.1452% 48.662%, 79.1988% 51.5644%)",
+              "backgroundColor": "rgb(29, 53, 58)"
+          },
+          {
+              "clipPath": "polygon(85% 18.5%, 85.5% 22%, 87% 20%)",
+              "backgroundColor": "rgba(255, 255, 255, 0)"
+          },
+          {
+              "clipPath": "polygon(81.67% 9.5%, 82.3% 8.4%, 82.7% 9.7%)",
+              "backgroundColor": "rgba(255, 255, 255, 0)"
+          },
+          {
+              "clipPath": "polygon(77.75% 35.5%, 79.4% 37%, 79.1% 34.5%)",
+              "backgroundColor": "rgba(255, 255, 255, 0)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "肯氏龟",
+      "bgc": "rgb(160, 202, 219)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(43.576% 5.071%, 35.376% 10.5%, 52.676% 9.643%)",
+              "backgroundColor": "rgb(139, 127, 122)"
+          },
+          {
+              "clipPath": "polygon(35.376% 10.5%, 42.176% 15.071%, 52.676% 9.5%)",
+              "backgroundColor": "rgb(117, 97, 75)"
+          },
+          {
+              "clipPath": "polygon(35.376% 10.5%, 32.976% 23.357%, 42.176% 15.071%)",
+              "backgroundColor": "rgb(177, 167, 153)"
+          },
+          {
+              "clipPath": "polygon(42.176% 15.071%, 52.676% 9.5%, 54.976% 21.071%)",
+              "backgroundColor": "rgb(188, 174, 165)"
+          },
+          {
+              "clipPath": "polygon(35.976% 11.786%, 41.176% 11.786%, 42.276% 15.071%)",
+              "backgroundColor": "rgb(211, 203, 199)"
+          },
+          {
+              "clipPath": "polygon(42.176% 15.071%, 43.376% 11.643%, 48.776% 12.5%)",
+              "backgroundColor": "rgb(211, 203, 199)"
+          },
+          {
+              "clipPath": "polygon(32.976% 23.214%, 42.176% 15.071%, 41.776% 23.5%)",
+              "backgroundColor": "rgb(160, 144, 134)"
+          },
+          {
+              "clipPath": "polygon(42.176% 15.071%, 41.776% 23.5%, 54.976% 21.071%)",
+              "backgroundColor": "rgb(91, 88, 82)"
+          },
+          {
+              "clipPath": "polygon(42.176% 15.214%, 40.476% 19.357%, 41.776% 23.5%)",
+              "backgroundColor": "rgb(210, 178, 83)"
+          },
+          {
+              "clipPath": "polygon(42.176% 15.214%, 41.676% 23.357%, 43.876% 19.5%)",
+              "backgroundColor": "rgb(147, 116, 40)"
+          },
+          {
+              "clipPath": "polygon(31.576% 31.929%, 33.576% 28.357%, 35.976% 52.786%)",
+              "backgroundColor": "rgb(182, 172, 166)"
+          },
+          {
+              "clipPath": "polygon(33.576% 28.357%, 44.976% 31.357%, 35.776% 50.786%)",
+              "backgroundColor": "rgb(193, 186, 182)"
+          },
+          {
+              "clipPath": "polygon(32.976% 23.214%, 31.676% 31.929%, 37.176% 21.929%)",
+              "backgroundColor": "rgb(104, 92, 91)"
+          },
+          {
+              "clipPath": "polygon(33.576% 28.357%, 37.176% 21.929%, 38.176% 31.5%)",
+              "backgroundColor": "rgb(79, 75, 76)"
+          },
+          {
+              "clipPath": "polygon(37.176% 21.929%, 41.676% 23.5%, 38.076% 31.643%)",
+              "backgroundColor": "rgb(133, 129, 132)"
+          },
+          {
+              "clipPath": "polygon(41.8% 23.2%, 38.05% 31.5%, 45.2% 31.5%)",
+              "backgroundColor": "rgb(79, 75, 76)"
+          },
+          {
+              "clipPath": "polygon(41.776% 23.5%, 44.976% 31.357%, 48.076% 20.643%)",
+              "backgroundColor": "rgb(133, 129, 132)"
+          },
+          {
+              "clipPath": "polygon(44.976% 31.357%, 35.876% 50.786%, 54.176% 53.643%)",
+              "backgroundColor": "rgb(181, 169, 166)"
+          },
+          {
+              "clipPath": "polygon(35.876% 50.786%, 58.076% 53.929%, 61.476% 73.5%)",
+              "backgroundColor": "rgb(159, 145, 138)"
+          },
+          {
+              "clipPath": "polygon(44.976% 31.357%, 48.1% 20.3%, 48.16% 42.357%)",
+              "backgroundColor": "rgb(105, 99, 96)"
+          },
+          {
+              "clipPath": "polygon(48.076% 20.643%, 48.076% 42.3%, 55% 35.1%)",
+              "backgroundColor": "rgb(65, 67, 67)"
+          },
+          {
+              "clipPath": "polygon(48% 20.643%, 55.03% 20.929%, 54.95% 35.2%)",
+              "backgroundColor": "rgb(76, 75, 72)"
+          },
+          {
+              "clipPath": "polygon(48.1% 42.2%, 57.8% 32.071%, 63.9% 51.3%)",
+              "backgroundColor": "rgb(51, 49, 45)"
+          },
+          {
+              "clipPath": "polygon(55% 20.929%, 54.9% 35.071%, 63.1% 44.357%)",
+              "backgroundColor": "rgb(57, 59, 61)"
+          },
+          {
+              "clipPath": "polygon(55% 20.929%, 63% 44.214%, 61.9% 31.214%)",
+              "backgroundColor": "rgb(40, 38, 40)"
+          },
+          {
+              "clipPath": "polygon(55.0032% 35.0864%, 62.1053% 45.9399%, 60.7005% 41.5168%)",
+              "backgroundColor": "rgb(36, 31, 27)"
+          },
+          {
+              "clipPath": "polygon(48.0599% 42.154%, 66.4016% 76.1886%, 62.8852% 50.7029%)",
+              "backgroundColor": "rgb(23, 22, 25)"
+          },
+          {
+              "clipPath": "polygon(58.9146% 62.392%, 62.9524% 80.0379%, 64.7588% 73.3925%)",
+              "backgroundColor": "rgb(73, 66, 56)"
+          },
+          {
+              "clipPath": "polygon(45.3255% 59.0301%, 41.8826% 63.2296%, 47.2806% 60.9577%)",
+              "backgroundColor": "rgb(108, 77, 52)"
+          },
+          {
+              "clipPath": "polygon(47.3344% 61.0446%, 44.8493% 68.4028%, 49.4396% 63.0335%)",
+              "backgroundColor": "rgb(132, 97, 74)"
+          },
+          {
+              "clipPath": "polygon(23.5% 43.786%, 22.3% 47.5%, 55.8% 69.357%)",
+              "backgroundColor": "rgb(57, 34, 50)"
+          },
+          {
+              "clipPath": "polygon(33% 54.357%, 60.5% 78.643%, 55.8% 69.357%)",
+              "backgroundColor": "rgb(23, 12, 2)"
+          },
+          {
+              "clipPath": "polygon(55.8% 69.214%, 62.5% 84.929%, 67.1% 85.071%)",
+              "backgroundColor": "rgb(46, 26, 31)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "林斑小鸮",
+      "bgc": "rgb(160, 157, 229)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(25.4% 30.6%, 33.5% 32.2%, 25.92% 36.857%)",
+              "backgroundColor": "rgb(254, 221, 71)"
+          },
+          {
+              "clipPath": "polygon(25.85% 36.9%, 35.25% 28.857%, 36.15% 47.714%)",
+              "backgroundColor": "rgb(241, 200, 56)"
+          },
+          {
+              "clipPath": "polygon(25.45% 30.714%, 30.35% 28.286%, 32.1% 32.143%)",
+              "backgroundColor": "rgb(253, 210, 75)"
+          },
+          {
+              "clipPath": "polygon(30.3% 28.2%, 35.35% 28.857%, 31.4% 32.2%)",
+              "backgroundColor": "rgb(243, 229, 103)"
+          },
+          {
+              "clipPath": "polygon(25.95% 36.857%, 36.25% 47.714%, 27.85% 41.714%)",
+              "backgroundColor": "rgb(205, 170, 37)"
+          },
+          {
+              "clipPath": "polygon(30.25% 28.4%, 35.85% 26%, 39.99% 29.686%)",
+              "backgroundColor": "rgb(255, 248, 139)"
+          },
+          {
+              "clipPath": "polygon(35% 29%, 39.85% 29.429%, 43.5% 39.4%)",
+              "backgroundColor": "rgb(253, 210, 75)"
+          },
+          {
+              "clipPath": "polygon(35.15% 29%, 43.45% 39.2%, 36.04% 47.99%)",
+              "backgroundColor": "rgb(228, 186, 45)"
+          },
+          {
+              "clipPath": "polygon(31.25% 35.429%, 35.15% 30%, 37.45% 38%)",
+              "backgroundColor": "rgb(244, 226, 129)"
+          },
+          {
+              "clipPath": "polygon(31.15% 35.571%, 34.55% 33.714%, 37.35% 38.2%)",
+              "backgroundColor": "rgb(58, 57, 59)"
+          },
+          {
+              "clipPath": "polygon(31.15% 35.429%, 37.45% 38.143%, 33.15% 39.714%)",
+              "backgroundColor": "rgb(43, 36, 36)"
+          },
+          {
+              "clipPath": "polygon(32.65% 35.286%, 33.55% 34.857%, 33.15% 36%)",
+              "backgroundColor": "rgb(255, 255, 255)"
+          },
+          {
+              "clipPath": "polygon(39.75% 29.4%, 56.15% 41.857%, 43.35% 39.243%)",
+              "backgroundColor": "rgb(240, 234, 117)"
+          },
+          {
+              "clipPath": "polygon(43.35% 39%, 43.65% 51.571%, 36.15% 47.857%)",
+              "backgroundColor": "rgb(250, 201, 50)"
+          },
+          {
+              "clipPath": "polygon(43.3% 38.7%, 52.55% 56.857%, 43.45% 58%)",
+              "backgroundColor": "rgb(254, 214, 60)"
+          },
+          {
+              "clipPath": "polygon(43.25% 38.857%, 56.15% 41.857%, 52.45% 57%)",
+              "backgroundColor": "rgb(249, 224, 73)"
+          },
+          {
+              "clipPath": "polygon(43.45% 57.857%, 52.55% 56.7%, 53.25% 70.286%)",
+              "backgroundColor": "rgb(230, 191, 43)"
+          },
+          {
+              "clipPath": "polygon(37.45% 50.429%, 53.35% 70.286%, 43.95% 65.143%)",
+              "backgroundColor": "rgb(112, 84, 14)"
+          },
+          {
+              "clipPath": "polygon(36% 47.6657%, 43.75% 51.429%, 38.45% 55%)",
+              "backgroundColor": "rgb(251, 217, 66)"
+          },
+          {
+              "clipPath": "polygon(43.65% 51.429%, 49.35% 63.286%, 38.35% 55%)",
+              "backgroundColor": "rgb(240, 234, 117)"
+          },
+          {
+              "clipPath": "polygon(34.35% 71.571%, 49.35% 73.429%, 41.55% 75.143%)",
+              "backgroundColor": "rgb(44, 41, 36)"
+          },
+          {
+              "clipPath": "polygon(45.35% 60.286%, 49.25% 63.143%, 37.85% 73.286%)",
+              "backgroundColor": "rgb(216, 197, 51)"
+          },
+          {
+              "clipPath": "polygon(37.65% 73.3%, 49.1% 63.143%, 41.75% 75.43%)",
+              "backgroundColor": "rgb(189, 161, 38)"
+          },
+          {
+              "clipPath": "polygon(52.45% 56.9%, 56.05% 41.857%, 67.25% 63.4%)",
+              "backgroundColor": "rgb(254, 236, 99)"
+          },
+          {
+              "clipPath": "polygon(52.45% 56.714%, 67.15% 63.286%, 53.2% 70.3%)",
+              "backgroundColor": "rgb(243, 205, 55)"
+          },
+          {
+              "clipPath": "polygon(61.4456% 66.4222%, 72.8481% 68.1276%, 61.6539% 75.8451%)",
+              "backgroundColor": "rgb(152, 110, 25)"
+          },
+          {
+              "clipPath": "polygon(53.1988% 70.0661%, 67.2549% 63.0774%, 55.2429% 81.6741%)",
+              "backgroundColor": "rgb(249, 219, 53)"
+          },
+          {
+              "clipPath": "polygon(62.3038% 70.5292%, 75.1265% 72.3387%, 55.1892% 81.6314%)",
+              "backgroundColor": "rgb(250, 198, 45)"
+          },
+          {
+              "clipPath": "polygon(75.0268% 72.3477%, 65.9384% 84.1205%, 57.9023% 83.5765%)",
+              "backgroundColor": "rgb(253, 218, 84)"
+          },
+          {
+              "clipPath": "polygon(58.7195% 82.9524%, 65.9695% 84.4022%, 52.7921% 84.0019%)",
+              "backgroundColor": "rgb(24, 13, 19)"
+          },
+          {
+              "clipPath": "polygon(24.35% 68.143%, 56.65% 67.143%, 79.35% 85.714%)",
+              "backgroundColor": "rgb(59, 111, 75)"
+          },
+          {
+              "clipPath": "polygon(24.25% 68.143%, 79.35% 85.714%, 50.35% 87.286%)",
+              "backgroundColor": "rgb(78, 159, 115)"
+          },
+          {
+              "clipPath": "polygon(24.35% 68.143%, 29.25% 71.714%, 27.25% 79%)",
+              "backgroundColor": "rgb(29, 50, 70)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "金色箭毒蛙",
+      "bgc": "rgb(120, 94, 187)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(23.45% 28.071%, 25.15% 15.214%, 28.05% 25.929%)",
+              "backgroundColor": "rgb(185, 89, 23)"
+          },
+          {
+              "clipPath": "polygon(23.35% 28.071%, 30.3% 24.786%, 32.05% 39.67%)",
+              "backgroundColor": "rgb(74, 31, 24)"
+          },
+          {
+              "clipPath": "polygon(25.15% 15.214%, 27.75% 25.929%, 30.85% 18.214%)",
+              "backgroundColor": "rgb(74, 31, 24)"
+          },
+          {
+              "clipPath": "polygon(25.05% 15.214%, 38.65% 12.786%, 30.75% 18.214%)",
+              "backgroundColor": "rgb(226, 135, 45)"
+          },
+          {
+              "clipPath": "polygon(30% 23%, 43.15% 29.357%, 31.85% 39.5%)",
+              "backgroundColor": "rgb(105, 36, 16)"
+          },
+          {
+              "clipPath": "polygon(30.75% 18.071%, 38.7% 12.8%, 33.95% 25.4%)",
+              "backgroundColor": "rgb(157, 62, 22)"
+          },
+          {
+              "clipPath": "polygon(28.25% 19.5%, 30.95% 18.1%, 27.75% 25.786%)",
+              "backgroundColor": "rgb(181, 146, 128)"
+          },
+          {
+              "clipPath": "polygon(27.75% 25.643%, 30.75% 18.214%, 30.15% 24.214%)",
+              "backgroundColor": "rgb(163, 121, 94)"
+          },
+          {
+              "clipPath": "polygon(27.75% 25.7%, 30.15% 24.1%, 30.8% 29.929%)",
+              "backgroundColor": "rgb(48, 31, 25)"
+          },
+          {
+              "clipPath": "polygon(30.75% 18.071%, 34% 25.3%, 30.05% 24.214%)",
+              "backgroundColor": "rgb(130, 92, 65)"
+          },
+          {
+              "clipPath": "polygon(30.15% 24.214%, 34.05% 25.357%, 30.7% 30.071%)",
+              "backgroundColor": "rgb(33, 26, 20)"
+          },
+          {
+              "clipPath": "polygon(30.75% 18.214%, 33.95% 18.786%, 34.05% 25.357%)",
+              "backgroundColor": "rgb(184, 146, 118)"
+          },
+          {
+              "clipPath": "polygon(33.95% 25.214%, 38.65% 12.929%, 42.25% 29.357%)",
+              "backgroundColor": "rgb(127, 45, 19)"
+          },
+          {
+              "clipPath": "polygon(31.85% 39.33%, 47.2% 23.4%, 37.23% 45.35%)",
+              "backgroundColor": "rgb(90, 33, 23)"
+          },
+          {
+              "clipPath": "polygon(23.45% 28.071%, 31.95% 39.357%, 32.05% 52.214%)",
+              "backgroundColor": "rgb(59, 32, 26)"
+          },
+          {
+              "clipPath": "polygon(38.65% 13.071%, 47.25% 23.357%, 41.8% 29.1%)",
+              "backgroundColor": "rgb(185, 89, 23)"
+          },
+          {
+              "clipPath": "polygon(31.85% 39.214%, 51.9% 61.1%, 31.95% 51.929%)",
+              "backgroundColor": "rgb(48, 31, 25)"
+          },
+          {
+              "clipPath": "polygon(47.15% 23.357%, 52.75% 33.071%, 37.1% 45.4%)",
+              "backgroundColor": "rgb(128, 51, 11)"
+          },
+          {
+              "clipPath": "polygon(37.1% 45.3%, 52.75% 32.9%, 52.55% 52.643%)",
+              "backgroundColor": "rgb(156, 63, 16)"
+          },
+          {
+              "clipPath": "polygon(37.15% 45.214%, 52.55% 52.357%, 51.75% 61.071%)",
+              "backgroundColor": "rgb(59, 39, 26)"
+          },
+          {
+              "clipPath": "polygon(42.45% 56.6%, 45.85% 58.1%, 34.15% 63.071%)",
+              "backgroundColor": "rgb(84, 43, 10)"
+          },
+          {
+              "clipPath": "polygon(52.2% 56.357%, 51.75% 60.929%, 40.35% 63.5%)",
+              "backgroundColor": "rgb(180, 93, 28)"
+          },
+          {
+              "clipPath": "polygon(47.15% 23.357%, 59.45% 26.929%, 52.55% 33.214%)",
+              "backgroundColor": "rgb(245, 189, 77)"
+          },
+          {
+              "clipPath": "polygon(52.65% 33.071%, 58.75% 27.357%, 70.35% 37.214%)",
+              "backgroundColor": "rgb(235, 173, 65)"
+          },
+          {
+              "clipPath": "polygon(52.65% 33.071%, 69.05% 36.786%, 52.55% 52.643%)",
+              "backgroundColor": "rgb(220, 144, 34)"
+          },
+          {
+              "clipPath": "polygon(52.5527% 52.6346%, 68.953% 36.7916%, 69.5452% 51.4999%)",
+              "backgroundColor": "rgb(216, 123, 31)"
+          },
+          {
+              "clipPath": "polygon(52.5554% 52.518%, 69.7806% 51.3996%, 51.5954% 61.0462%)",
+              "backgroundColor": "rgb(199, 105, 30)"
+          },
+          {
+              "clipPath": "polygon(51.5788% 60.8198%, 69.6569% 51.3565%, 64.2966% 62.4385%)",
+              "backgroundColor": "rgb(172, 85, 26)"
+          },
+          {
+              "clipPath": "polygon(58.7966% 61.6371%, 64.413% 62.3174%, 64.7894% 84.2978%)",
+              "backgroundColor": "rgb(212, 147, 47)"
+          },
+          {
+              "clipPath": "polygon(64.6118% 78.919%, 76.0898% 82.1304%, 64.8292% 84.1643%)",
+              "backgroundColor": "rgb(190, 115, 27)"
+          },
+          {
+              "clipPath": "polygon(35.75% 62.214%, 45.96% 58%, 43.1% 84.8%)",
+              "backgroundColor": "rgb(106, 70, 63)"
+          },
+          {
+              "clipPath": "polygon(45.95% 57.2%, 54.65% 61.214%, 43% 85%)",
+              "backgroundColor": "rgb(94, 56, 45)"
+          },
+          {
+              "clipPath": "polygon(43.05% 84.786%, 54.75% 60.214%, 52.75% 84.786%)",
+              "backgroundColor": "rgb(79, 50, 32)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "金狮面狨",
+      "bgc": "rgb(253, 174, 212)"
+  },
+  {
+      "styleArr": [
+          {
+              "clipPath": "polygon(9.38% 59.35%, 13.4% 58.95%, 9.28% 61.08%)",
+              "backgroundColor": "rgb(51, 69, 67)"
+          },
+          {
+              "clipPath": "polygon(9.28% 61.08%, 13.25% 58.96%, 11.7% 62.35%)",
+              "backgroundColor": "rgb(17, 22, 25)"
+          },
+          {
+              "clipPath": "polygon(9.389% 59.352%, 14.368% 45.048%, 17.882% 45.693%)",
+              "backgroundColor": "rgb(60, 70, 80)"
+          },
+          {
+              "clipPath": "polygon(9.389% 59.352%, 17.882% 45.693%, 14.684% 54.94%)",
+              "backgroundColor": "rgb(15, 22, 34)"
+          },
+          {
+              "clipPath": "polygon(9.389% 59.352%, 14.684% 54.94%, 13.25% 58.958%)",
+              "backgroundColor": "rgb(217, 234, 223)"
+          },
+          {
+              "clipPath": "polygon(11.705% 62.346%, 13.25% 58.958%, 32.112% 61.716%)",
+              "backgroundColor": "rgb(217, 235, 235)"
+          },
+          {
+              "clipPath": "polygon(13.25% 58.958%, 14.684% 54.94%, 17.827% 55.964%)",
+              "backgroundColor": "rgb(51, 60, 64)"
+          },
+          {
+              "clipPath": "polygon(13.25% 58.958%, 17.827% 55.964%, 15.676% 59.431%)",
+              "backgroundColor": "rgb(28, 37, 41)"
+          },
+          {
+              "clipPath": "polygon(14.684% 54.94%, 17.882% 45.693%, 17.827% 55.964%)",
+              "backgroundColor": "rgb(98, 130, 127)"
+          },
+          {
+              "clipPath": "polygon(15.676% 59.431%, 17.827% 55.964%, 32.112% 61.716%)",
+              "backgroundColor": "rgb(189, 208, 208)"
+          },
+          {
+              "clipPath": "polygon(14.368% 45.048%, 41.129% 30.988%, 17.882% 45.693%)",
+              "backgroundColor": "rgb(39, 53, 55)"
+          },
+          {
+              "clipPath": "polygon(17.882% 45.693%, 41.047% 30.988%, 58.171% 35.479%)",
+              "backgroundColor": "rgb(56, 78, 77)"
+          },
+          {
+              "clipPath": "polygon(17.882% 45.693%, 37.186% 39.103%, 17.827% 55.964%)",
+              "backgroundColor": "rgb(72, 100, 97)"
+          },
+          {
+              "clipPath": "polygon(17.827% 55.964%, 37.131% 39.103%, 33.711% 48.13%)",
+              "backgroundColor": "rgb(98, 130, 127)"
+          },
+          {
+              "clipPath": "polygon(17.827% 55.964%, 33.766% 48.13%, 32.112% 61.716%)",
+              "backgroundColor": "rgb(170, 199, 198)"
+          },
+          {
+              "clipPath": "polygon(25.99% 61.716%, 32.64% 61.368%, 36.91% 70.146%)",
+              "backgroundColor": "rgb(13, 20, 23)"
+          },
+          {
+              "clipPath": "polygon(33.711% 48.13%, 55.276% 61.952%, 32.195% 61.597%)",
+              "backgroundColor": "rgb(217, 235, 235)"
+          },
+          {
+              "clipPath": "polygon(27.107% 55.964%, 39.318% 59.352%, 40.467% 66.772%)",
+              "backgroundColor": "rgb(51, 69, 67)"
+          },
+          {
+              "clipPath": "polygon(27.107% 55.964%, 40.467% 66.772%, 45.128% 74.085%)",
+              "backgroundColor": "rgb(33, 40, 47)"
+          },
+          {
+              "clipPath": "polygon(33.711% 48.13%, 37.076% 39.121%, 59.688% 51.237%)",
+              "backgroundColor": "rgb(115, 153, 152)"
+          },
+          {
+              "clipPath": "polygon(36.414% 33.588%, 47.582% 21.06%, 47.044% 34.533%)",
+              "backgroundColor": "rgb(45, 59, 59)"
+          },
+          {
+              "clipPath": "polygon(33.711% 48.13%, 59.688% 51.237%, 55.276% 61.952%)",
+              "backgroundColor": "rgb(216, 226, 222)"
+          },
+          {
+              "clipPath": "polygon(37.076% 39.121%, 58.171% 35.479%, 55.3% 40.679%)",
+              "backgroundColor": "rgb(65, 85, 85)"
+          },
+          {
+              "clipPath": "polygon(37.076% 39.121%, 55.3% 40.442%, 59.688% 51.237%)",
+              "backgroundColor": "rgb(72, 100, 97)"
+          },
+          {
+              "clipPath": "polygon(55.3011% 40.4415%, 58.172% 35.4785%, 59.6892% 51.236%)",
+              "backgroundColor": "rgb(56, 78, 77)"
+          },
+          {
+              "clipPath": "polygon(58.1907% 35.4717%, 75.1154% 48.2407%, 59.7019% 51.2109%)",
+              "backgroundColor": "rgb(75, 99, 100)"
+          },
+          {
+              "clipPath": "polygon(55.3393% 61.8532%, 59.7357% 51.1768%, 75.127% 48.2068%)",
+              "backgroundColor": "rgb(192, 219, 211)"
+          },
+          {
+              "clipPath": "polygon(58.2855% 35.4138%, 82.8886% 41.2244%, 75.1375% 48.1352%)",
+              "backgroundColor": "rgb(45, 59, 59)"
+          },
+          {
+              "clipPath": "polygon(78.1302% 42.0028%, 85.9094% 38.2338%, 96.3644% 38.7654%)",
+              "backgroundColor": "rgb(54, 82, 85)"
+          },
+          {
+              "clipPath": "polygon(78.3307% 41.7749%, 96.4245% 38.655%, 88.5115% 43.5693%)",
+              "backgroundColor": "rgb(103, 135, 129)"
+          },
+          {
+              "clipPath": "polygon(15% 18.5%, 15.5% 22%, 17% 20%)",
+              "backgroundColor": "rgba(255, 255, 255, 0)"
+          },
+          {
+              "clipPath": "polygon(11.67% 9.5%, 12.3% 8.4%, 12.7% 9.7%)",
+              "backgroundColor": "rgba(255, 255, 255, 0)"
+          },
+          {
+              "clipPath": "polygon(7.75% 35.5%, 9.4% 37%, 9.1% 34.5%)",
+              "backgroundColor": "rgba(255, 255, 255, 0)"
+          },
+          {
+              "clipPath": "polygon(38% 35%, 61% 35%, 70% 57%, 50% 72%, 30% 57%, 30% 57%, 30% 57%, 30% 57%)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+      ],
+      "name": "小头鼠海豚",
+      "bgc": "rgb(100, 214, 226)"
+  }
+]
