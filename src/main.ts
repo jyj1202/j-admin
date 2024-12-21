@@ -53,7 +53,7 @@ new APlayer({
       {
           name: 'ありがとう',
           url: new URL('/kokia.mp3', import.meta.url).href,
-          cover: '/kokia.jpg',
+          cover: new URL('/kokia.jpg', import.meta.url).href,
           theme: '#46718b',
           artist: 'kokia',
       }
