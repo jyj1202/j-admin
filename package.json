@@ -14,7 +14,7 @@
     "lint:eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix ./src",
     "lint:lint-staged": "lint-staged",
     "lint:commitlint": "commitlint --edit",
-    "commit": "git add -A && czg",
+    "commit": "czg",
     "release": "standard-version",
     "prepare": "husky install",
     "preinstall": "node ./scripts/preinstall.js"
