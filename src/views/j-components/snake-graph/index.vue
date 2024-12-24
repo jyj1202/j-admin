@@ -6,7 +6,7 @@
       <div v-for="(c, colIndex) in r" :key="`${rowIndex}${colIndex}`" class="item rounded-md p-5">
         <span>{{c}}</span>
         <SvgIcon v-if="!isLast(colIndex, r.length)"
-          name="arrow" class="arrow arrow-horizontal" :class="{'rotate-180': isEven(rowIndex+1)}"
+          name="arrow" class="arrow arrow-horizontal"
         ></SvgIcon>
         <SvgIcon v-if="isLast(colIndex, r.length) && !isLast(rowIndex, flowData.length)"
           name="arrow"
@@ -115,6 +115,7 @@ onMounted(() => {
   .arrow-horizontal {
     left: calc(-1 * var(--arrow-width) - var(--arrow-gap-horizontal));
     right: auto;
+    transform: rotate(180deg);
   }
 }
 </style>
