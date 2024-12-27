@@ -6,7 +6,7 @@
 
 <script lang="ts" setup>
 import { throttle } from 'lodash'
-import { onMounted, ref } from 'vue'
+import { onMounted, ref, onUnmounted } from 'vue'
 
 const props = defineProps<{
   cb: (containerWidth: number, reSize: (colNum: number) => void) => void;
@@ -50,10 +50,15 @@ function init(
   })
 
   resizeObserver.observe(el)
+  return resizeObserver
 }
 
 onMounted(() => {
-  init(containerRef.value!, props.sourceData, props.cb, props.delay)
+  const observer = init(containerRef.value!, props.sourceData, props.cb, props.delay)
+  
+  onUnmounted(() => {
+    observer.disconnect()
+  })
 })
 </script>
 

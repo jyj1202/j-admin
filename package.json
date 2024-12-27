@@ -91,7 +91,7 @@
     "unplugin-vue-components": "^0.25.2",
     "vite": "^4.4.9",
     "vite-plugin-svg-icons": "^2.0.1",
-    "vitest": "^0.34.2",
+    "vitest": "^2.1.8",
     "vue-tsc": "^1.8.8"
   }
 }
