@@ -1,88 +1,50 @@
 <template>
-  <div ref="containerRef" class="container-box space-y-14">
-    <div v-for="(r, rowIndex) in flowData" :key="rowIndex"
-      class="row grid gap-14" :class="{'direction-rtl': isEven(rowIndex+1)}"
+  <div>
+    <SnakeGraph
+      class="snake-graph space-y-14"
+      :cb="cb"
+      :source-data="sourceData"
     >
-      <div v-for="(c, colIndex) in r" :key="`${rowIndex}${colIndex}`" class="item rounded-md p-5">
-        <span>{{c}}</span>
-        <SvgIcon v-if="!isLast(colIndex, r.length)"
-          name="arrow" class="arrow arrow-horizontal"
-        ></SvgIcon>
-        <SvgIcon v-if="isLast(colIndex, r.length) && !isLast(rowIndex, flowData.length)"
-          name="arrow"
-          class="arrow arrow-vertical"
-        ></SvgIcon>
-      </div>
-    </div>
+      <template #default="{data}">
+        <RowItem v-for="(row, rowIndex) in data" :key="rowIndex" :row-index="rowIndex">
+          <ColumnItem
+            class="item rounded-md p-5"
+            v-for="(col, colIndex) in row"
+            :key="`${rowIndex}${colIndex}`"
+            :col-index="colIndex"
+            :row-index="rowIndex"
+            :row-count="row.length"
+            :total="data.length"
+          >
+            <template #horizontalArrow>
+              <SvgIcon name="arrow" class="arrow arrow-horizontal"></SvgIcon>
+            </template>
+            <template #verticalArrow>
+              <SvgIcon name="arrow" class="arrow arrow-vertical"></SvgIcon>
+            </template>
+            <div>{{ rowIndex+1 }}{{ colIndex+1 }} {{ col.label }}</div>
+          </ColumnItem>
+        </RowItem>
+      </template>
+    </SnakeGraph>
   </div>
 </template>
 
-<script lang="ts" setup>
-import { throttle } from 'lodash';
-import { onMounted, ref } from 'vue';
+<script setup lang="ts">
+import { SnakeGraph, RowItem, ColumnItem } from "./components";
 
-const sourceData = Array.from({length: 10}).map((i, index)=>index+1)
-
-const flowData = ref()
-
-const containerRef = ref<HTMLDivElement>()
-
-function generateFlow(source: Array<any>, colNum: number) {
-  const result: number[][] = [];
-  for (let i = 0; i < source.length; i += colNum) {
-      result.push(source.slice(i, i + colNum));
-  }
-  return result;
-}
-
-function isLast(currentIndex: number, total: number) {
-  return currentIndex == total - 1
-}
-
-function isEven(num: number) {
-  return num % 2 === 0
-}
-
-function init(el: HTMLElement,
-  cb: (inlineSize: number, reSize: (colNum: number) => void) => void, delay = 500
-) {
-  const debouncedCb = throttle(cb, delay)
-  const resizeObserver = new ResizeObserver((entries) => {
-    for (const entry of entries) {
-      if (entry.contentBoxSize) {
-        const contentBoxSize: ResizeObserverSize = Array.isArray(entry.contentBoxSize)
-        ? entry.contentBoxSize[0]
-        : entry.contentBoxSize;
-        const inlineSize = contentBoxSize.inlineSize;
-        const reSize = (colNum: number) => {
-          flowData.value = generateFlow(sourceData, colNum)
-          containerRef.value?.style.setProperty('--col-num', colNum+'');
-        }
-        debouncedCb(inlineSize, reSize)
-      }
-    }
-  });
-
-  resizeObserver.observe(el);
-}
-
-const cb = (inlineSize: number, reSize: (colNum: number) => void) => {
-  const colNum = Math.max(Math.floor(inlineSize / 150), 1);
+const cb = (containerWidth: number, reSize: (colNum: number) => void) => {
+  const colNum = Math.max(Math.floor(containerWidth / 150), 1)
   reSize(colNum)
 }
 
-onMounted(() => {
-  init(containerRef.value!, cb)
-})
+const sourceData = Array.from({ length: 10 }).map((i, index) => ({
+  label: index + 1 + 'item' 
+}))
+
 </script>
 
-<style scoped lang="scss">
-.container-box {
-  --col-num: 0;
-}
-.row {
-  grid-template-columns: repeat(var(--col-num), 1fr);
-}
+<style scoped>
 .item {
   --arrow-width: 2rem;
   --arrow-height: 2rem;
@@ -92,7 +54,7 @@ onMounted(() => {
   position: relative;
   border: 1px solid var(--border-color);
   background-color: var(--el-color-primary-light-9);
-  text-align: center
+  text-align: center;
 }
 .arrow {
   width: var(--arrow-width);
@@ -109,13 +71,5 @@ onMounted(() => {
   right: 50%;
   bottom: calc(-1 * var(--arrow-height) - var(--arrow-gap-vertical));
   transform: rotate(90deg) translateY(-50%);
-}
-.direction-rtl {
-  direction: rtl;
-  .arrow-horizontal {
-    left: calc(-1 * var(--arrow-width) - var(--arrow-gap-horizontal));
-    right: auto;
-    transform: rotate(180deg);
-  }
 }
 </style>
