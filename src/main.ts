@@ -41,7 +41,7 @@ new APlayer({
   fixed: true,
   order: 'random',
   loop: 'all',
-  autoplay: true,
+  autoplay: false,
   audio: [
       {
           name: 'Merry Christmas Mr.Lawrence',
