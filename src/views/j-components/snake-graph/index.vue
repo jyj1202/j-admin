@@ -22,7 +22,7 @@
             <template #verticalArrow>
               <SvgIcon name="arrow" class="arrow arrow-vertical"></SvgIcon>
             </template>
-            <div>{{ rowIndex+1 }}{{ colIndex+1 }} {{ col.label }}</div>
+            <div>row: {{ rowIndex+1 }} col: {{ colIndex+1 }} {{ col.label }}</div>
           </ColumnItem>
         </RowItem>
       </template>
@@ -38,8 +38,8 @@ const cb = (containerWidth: number, reSize: (colNum: number) => void) => {
   reSize(colNum)
 }
 
-const sourceData = Array.from({ length: 10 }).map((i, index) => ({
-  label: index + 1 + 'item' 
+const sourceData = Array.from({ length: 100 }).map((i, index) => ({
+  label: index + 1 + 'item'
 }))
 
 </script>

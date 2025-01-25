@@ -7,7 +7,7 @@
 <script lang="ts" setup>
 import { throttle } from 'lodash'
 import { onMounted, ref, onUnmounted } from 'vue'
-import { generateFlow } from "./utils";
+import { generateVortex, getVortexSize } from "../utils";
 
 const props = defineProps<{
   cb: (containerWidth: number, reSize: (colNum: number) => void) => void;
@@ -34,7 +34,8 @@ function init(
           : entry.contentBoxSize
         const containerWidth = contentBoxSize.inlineSize
         const reSize = (colNum: number) => {
-          flowData.value = generateFlow(sourceData, colNum)
+          const [rows, cols]  = getVortexSize(sourceData.length, colNum)
+          flowData.value = generateVortex(sourceData, rows, cols)
           containerRef.value?.style.setProperty('--col-num', colNum + '')
         }
         debouncedCb(containerWidth, reSize)

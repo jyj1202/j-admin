@@ -122,8 +122,15 @@ export const staticRouter: RouteRecordRaw[] = [
             title: 'snake graph',
             menu: true,
           }
-        },
-        ]
+        }, {
+          path: '/j-components/vortex-graph',
+          name: 'vortex-graph',
+          component: () => import("@/views/j-components/vortex-graph/index.vue"),
+          meta: {
+            title: 'vortex graph',
+            menu: true,
+          }
+        },]
       },
       {
         path: '/sortable',
