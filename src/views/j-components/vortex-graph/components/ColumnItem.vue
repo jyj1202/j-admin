@@ -1,19 +1,8 @@
 <template>
-  <div :key="`${rowIndex}${colIndex}`">
+  <div>
     <slot></slot>
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
-import { isLast } from '../utils'
-
-defineProps<{
-  rowIndex: number
-  colIndex: number
-}>()
-
 </script>
-
-<style scoped>
-</style>

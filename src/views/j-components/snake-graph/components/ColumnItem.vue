@@ -1,5 +1,5 @@
 <template>
-  <div :key="`${rowIndex}${colIndex}`">
+  <div>
     <slot></slot>
     <slot name="horizontalArrow" v-if="!isLastOfRow">
     </slot>

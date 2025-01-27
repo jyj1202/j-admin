@@ -2,11 +2,11 @@
   <div>
     <VortexGraph
       class="vortex-graph space-y-14"
-      :cb="cb"
+      :on-size-change="cb"
       :source-data="sourceData"
     >
       <template #default="{data}">
-        <RowItem v-for="(row, rowIndex) in data" :key="rowIndex" :row-index="rowIndex">
+        <RowItem v-for="(row, rowIndex) in data" :key="rowIndex">
           <template
             v-for="(col, colIndex) in row"
             :key="`${rowIndex}${colIndex}`"
@@ -42,7 +42,7 @@ const cb = (containerWidth: number, reSize: (colNum: number) => void) => {
   reSize(colNum)
 }
 
-const sourceData = Array.from({ length: 100 }).map((i, index) => ({
+const sourceData = Array.from({ length: 30 }).map((i, index) => ({
   label: 'item: ' + (index + 1)
 }))
 

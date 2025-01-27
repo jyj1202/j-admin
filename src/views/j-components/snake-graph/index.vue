@@ -2,7 +2,7 @@
   <div>
     <SnakeGraph
       class="snake-graph space-y-14"
-      :cb="cb"
+      :on-size-change="cb"
       :source-data="sourceData"
     >
       <template #default="{data}">
@@ -38,7 +38,7 @@ const cb = (containerWidth: number, reSize: (colNum: number) => void) => {
   reSize(colNum)
 }
 
-const sourceData = Array.from({ length: 100 }).map((i, index) => ({
+const sourceData = Array.from({ length: 15 }).map((i, index) => ({
   label: index + 1 + 'item'
 }))
 
@@ -71,5 +71,10 @@ const sourceData = Array.from({ length: 100 }).map((i, index) => ({
   right: 50%;
   bottom: calc(-1 * var(--arrow-height) - var(--arrow-gap-vertical));
   transform: rotate(90deg) translateY(-50%);
+}
+:deep(.direction-rtl .arrow-horizontal) {
+  left: calc(-1 * var(--arrow-width) - var(--arrow-gap-horizontal));
+  right: auto;
+  transform: rotate(180deg);
 }
 </style>

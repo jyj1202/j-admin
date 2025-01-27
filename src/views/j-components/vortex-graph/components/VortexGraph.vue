@@ -10,7 +10,7 @@ import { onMounted, ref, onUnmounted } from 'vue'
 import { generateVortex, getVortexSize } from "../utils";
 
 const props = defineProps<{
-  cb: (containerWidth: number, reSize: (colNum: number) => void) => void;
+  onSizeChange: (containerWidth: number, reSize: (colNum: number) => void) => void;
   sourceData: Array<any>;
   delay?: number;
 }>()
@@ -22,10 +22,10 @@ const containerRef = ref<HTMLDivElement>()
 function init(
   el: HTMLElement,
   sourceData: Array<any>,
-  cb: (containerWidth: number, reSize: (colNum: number) => void) => void,
+  onSizeChange: (containerWidth: number, reSize: (colNum: number) => void) => void,
   delay = 500
 ) {
-  const debouncedCb = throttle(cb, delay)
+  const debounced = throttle(onSizeChange, delay)
   const resizeObserver = new ResizeObserver((entries) => {
     for (const entry of entries) {
       if (entry.contentBoxSize) {
@@ -38,7 +38,7 @@ function init(
           flowData.value = generateVortex(sourceData, rows, cols)
           containerRef.value?.style.setProperty('--col-num', colNum + '')
         }
-        debouncedCb(containerWidth, reSize)
+        debounced(containerWidth, reSize)
       }
     }
   })
@@ -48,7 +48,7 @@ function init(
 }
 
 onMounted(() => {
-  const observer = init(containerRef.value!, props.sourceData, props.cb, props.delay)
+  const observer = init(containerRef.value!, props.sourceData, props.onSizeChange, props.delay)
   
   onUnmounted(() => {
     observer.disconnect()
