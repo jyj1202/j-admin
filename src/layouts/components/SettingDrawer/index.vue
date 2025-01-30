@@ -64,6 +64,7 @@ const handleThemeColorChange = (newColor: string) => {
     const primaryColor = settingStore.isDark ? `${getDarkColor(newColor, i / 10)}` : `${getLightColor(newColor, i / 10)}`
     
     document.documentElement.style.setProperty(`--el-color-primary-light-${i}`, primaryColor);
+    document.documentElement.style.setProperty(`--el-color-primary-dark-${i}`, primaryColor);
   }
 }
 handleThemeColorChange(settingStore.themeColor)
