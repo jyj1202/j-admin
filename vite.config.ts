@@ -7,7 +7,6 @@ import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 // import Components from 'unplugin-vue-components/vite'
 // import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
-
 // https://vitejs.dev/config/
 export default defineConfig({
   base: '/j-admin/',
@@ -18,8 +17,8 @@ export default defineConfig({
       // 指定需要缓存的图标文件夹, string[]
       iconDirs: [fileURLToPath(new URL('./src/assets/icons', import.meta.url))],
       // 指定symbolId格式
-      symbolId: 'icon-[dir]-[name]',
-    }),
+      symbolId: 'icon-[dir]-[name]'
+    })
     // AutoImport({
     //   resolvers: [ElementPlusResolver()],
     // }),
@@ -29,11 +28,11 @@ export default defineConfig({
   ],
   server: {
     port: 8888,
-    host: '0.0.0.0',
+    host: '0.0.0.0'
   },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  },
+  }
 })

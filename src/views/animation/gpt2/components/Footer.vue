@@ -12,7 +12,7 @@
         @keypress="handleEnter"
       />
       <div class="flex flex-row-reverse">
-        <el-button type="primary" @click="sendMessage">发送</el-button>
+        <el-button type="primary" @click="sendMessage">send</el-button>
       </div>
     </div>
   </div>

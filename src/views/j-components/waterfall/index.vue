@@ -7,10 +7,11 @@
 </template>
 
 <script setup lang="ts">
-import Waterfall from "./components/Waterfall.vue";
+import Waterfall from './components/Waterfall.vue'
 
-const images = Object.values(import.meta.glob('@/assets/images/waterfall/*', { as: 'url', eager: true }))
-
+const images = Object.values(
+  import.meta.glob('@/assets/images/waterfall/*', { as: 'url', eager: true })
+)
 </script>
 
 <style lang="scss" scoped>

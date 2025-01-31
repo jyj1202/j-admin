@@ -17,7 +17,6 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import axios from "axios";
 import Footer from "./components/Footer.vue";
 import Message from "./components/Message/index.vue";
 import data from "./data.json";
