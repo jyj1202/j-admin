@@ -1,27 +1,22 @@
 <template>
   <div ref="containerRef" class="container">
-    <img ref="preRef" class="pre" :src="preSrc" alt="">
-    <img ref="nextRef" class="next" :src="nextSrc" alt="" @load="loaded">
+    <img ref="preRef" class="pre" :src="preSrc" alt="" />
+    <img ref="nextRef" class="next" :src="nextSrc" alt="" @load="loaded" />
   </div>
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
+import { ref } from 'vue'
 
 interface Prop {
-  preSrc: string;
-  nextSrc: string;
+  preSrc: string
+  nextSrc: string
 }
-const props = defineProps<Prop>()
+defineProps<Prop>()
 
 const containerRef = ref()
 const preRef = ref()
 const nextRef = ref()
-
-// onMounted(() => {
-  
-  
-// })
 
 function loaded() {
   preRef.value.classList.add('hidden')
@@ -45,17 +40,14 @@ function loaded() {
 }
 .pre {
   opacity: 1;
-  filter: blur(10px);
-  transition: filter 2s ease-in-out;
 }
-.pre.loaded {
-  filter: blur(0);
+.pre.hidden {
+  opacity: 0;
 }
 .next {
-  opacity: 0;
-  transition: opacity 2s ease-in-out;
+  display: none;
 }
 .next.loaded {
-  opacity: 1;
+  display: initial;
 }
 </style>

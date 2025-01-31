@@ -16,13 +16,13 @@
 </template>
 
 <script setup lang="ts">
-import ImgLoad from "@/components/ImgLoad.vue";
-import { getFilenameFromPath, getDir, getExt } from "@/utils/file";
+import ImgLoad from '@/components/ImgLoad.vue'
+import { getFilenameFromPath, getDir, getExt } from '@/utils/file'
 
 /** props */
 interface JWaterfallProp {
-  urls: string[];
-  imgBorderRadius?: string;
+  urls: string[]
+  imgBorderRadius?: string
 }
 const props = withDefaults(defineProps<JWaterfallProp>(), {
   imgBorderRadius: '2px'
@@ -32,16 +32,16 @@ const getPreSrc = (src: string) => {
   const filename = getFilenameFromPath(src)
   const dir = getDir(src)
   const ext = getExt(src)
-  return `${dir}/min/${filename}.${ext}`
+  const url = new URL(`${dir}/min/${filename}.${ext}`, import.meta.url).href
+  return url
 }
-
 </script>
 
 <style lang="scss" scoped>
 .waterfall {
   column-count: 1; /* 列数 */
   column-gap: 1.2rem; /* 列之间的间距 */
-  &>* {
+  & > * {
     break-inside: avoid; /* 防止项目在中间断开 */
     margin-bottom: 1.2rem; /* 每个项目之间的间距 */
     border-radius: v-bind(imgBorderRadius);
