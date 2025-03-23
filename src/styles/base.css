@@ -6,7 +6,8 @@
 }
 
 body {
-  min-height: 100vh;
+  overflow: hidden;
+  height: 100vh;
   color: var(--el-text-color-primary);
   background: var(--el-bg-color);
   transition:

@@ -172,40 +172,59 @@ export const staticRouter: RouteRecordRaw[] = [
         }
       },
       {
-        path: '/d3',
-        name: 'd3.js',
+        path: '/visualization',
+        name: 'visualization',
         meta: {
-          title: 'd3',
+          title: 'visualization',
           menu: true
         },
         children: [
           {
-            path: '/d3/getting-started',
-            name: 'd3-getting-started',
-            component: () => import('@/views/d3/getting-started.vue'),
+            path: '/visualization/leader-line',
+            name: 'leader-line',
+            component: () => import('@/views/visualization/leader-line/index.vue'),
             meta: {
-              title: 'd3 getting-started',
+              title: 'leader-line',
               menu: true
             }
           },
           {
-            path: '/d3/knowledge-network',
-            name: 'd3-knowledge-network',
-            component: () => import('@/views/d3/knowledge-network/index.vue'),
+            path: '/visualization/d3',
+            name: 'd3.js',
             meta: {
-              title: 'd3 knowledge-network',
+              title: 'd3',
               menu: true
-            }
+            },
+            children: [
+              {
+                path: '/visualization/d3/getting-started',
+                name: 'd3-getting-started',
+                component: () => import('@/views/visualization/d3/getting-started.vue'),
+                meta: {
+                  title: 'd3 getting-started',
+                  menu: true
+                }
+              },
+              {
+                path: '/visualization/d3/knowledge-network',
+                name: 'd3-knowledge-network',
+                component: () => import('@/views/visualization/d3/knowledge-network/index.vue'),
+                meta: {
+                  title: 'd3 knowledge-network',
+                  menu: true
+                }
+              },
+              // {
+              //   path: '/visualization/d3/knowledge-network2',
+              //   name: 'd3-knowledge-network2',
+              //   component: () => import('@/views/visualization/d3/knowledge-network2/index.vue'),
+              //   meta: {
+              //     title: 'd3 knowledge-network2',
+              //     menu: true
+              //   }
+              // }
+            ]
           },
-          {
-            path: '/d3/knowledge-network2',
-            name: 'd3-knowledge-network2',
-            component: () => import('@/views/d3/knowledge-network2/index.vue'),
-            meta: {
-              title: 'd3 knowledge-network2',
-              menu: true
-            }
-          }
         ]
       },
       {
