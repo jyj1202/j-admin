@@ -337,25 +337,25 @@ export const staticRouter: RouteRecordRaw[] = [
               menu: true
             }
           },
-          {
-            path: '/animation/GSAP',
-            name: 'animation-GSAP',
-            meta: {
-              title: 'GSAP',
-              menu: true
-            },
-            children: [
-              {
-                path: '/animation/GSAP/start',
-                name: 'animation-start',
-                component: () => import('@/views/animation/GSAP/start/index.vue'),
-                meta: {
-                  title: 'start',
-                  menu: true
-                }
-              }
-            ]
-          }
+          // {
+          //   path: '/animation/GSAP',
+          //   name: 'animation-GSAP',
+          //   meta: {
+          //     title: 'GSAP',
+          //     menu: true
+          //   },
+          //   children: [
+          //     {
+          //       path: '/animation/GSAP/start',
+          //       name: 'animation-start',
+          //       component: () => import('@/views/animation/GSAP/start/index.vue'),
+          //       meta: {
+          //         title: 'start',
+          //         menu: true
+          //       }
+          //     }
+          //   ]
+          // }
         ]
       },
       {
