@@ -13,7 +13,7 @@
       this is the part that don't need to transform.
     </div>
 
-    <div ref="toAddedRef" class="max-w-md border bg-yellow-200 p-5 rounded">
+    <div ref="toAddedRef" class="max-w-md border bg-yellow-200 p-5 rounded-sm">
       Consequat deserunt et commodo ut ex incididunt amet nisi sint magna do pariatur. Et incididunt aute velit irure. Dolor est voluptate anim irure enim reprehenderit magna labore velit enim. Duis consectetur labore anim nisi magna adipisicing culpa. Fugiat eu non elit sint exercitation ullamco.
     </div>
 

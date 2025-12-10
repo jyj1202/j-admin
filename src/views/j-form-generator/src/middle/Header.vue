@@ -22,7 +22,7 @@
     width="60%"
   >
     <JForm
-      class="border p-5 rounded"
+      class="border p-5 rounded-sm"
       v-model="viewFormData"
       :option="currentFormOption"
     />

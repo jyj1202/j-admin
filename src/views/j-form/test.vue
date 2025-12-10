@@ -111,8 +111,8 @@ const ruleForm = reactive<RuleForm>({
 
 const rules = reactive<FormRules<RuleForm>>({
   name: [
-    { required: true, message: 'Please input Activity name', trigger: 'blur' },
-    { min: 3, max: 5, message: 'Length should be 3 to 5', trigger: 'blur' },
+    { required: true, message: 'Please input Activity name', trigger: 'blur-sm' },
+    { min: 3, max: 5, message: 'Length should be 3 to 5', trigger: 'blur-sm' },
   ],
   region: [
     {
@@ -160,7 +160,7 @@ const rules = reactive<FormRules<RuleForm>>({
     },
   ],
   desc: [
-    { required: true, message: 'Please input activity form', trigger: 'blur' },
+    { required: true, message: 'Please input activity form', trigger: 'blur-sm' },
   ],
 })
 

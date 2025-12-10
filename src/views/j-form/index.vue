@@ -55,7 +55,7 @@ const formOption = reactive<JFormOptionType>({
     rules: {
       required: true,
       message: "Please input something",
-      trigger: "blur"
+      trigger: "blur-sm"
     }
   }, {
     label: 'input-number',
@@ -79,7 +79,7 @@ const formOption = reactive<JFormOptionType>({
     rules: [{
       required: true,
       message: "Please select something",
-      trigger: "blur"
+      trigger: "blur-sm"
     }],
     dicData: [{
       label: 'select1',
@@ -102,7 +102,7 @@ const formOption = reactive<JFormOptionType>({
     rules: {
       required: true,
       message: "Please select something",
-      trigger: "blur"
+      trigger: "blur-sm"
     },
     dicData: [{
       label: 'radio1',
@@ -129,7 +129,7 @@ const formOption = reactive<JFormOptionType>({
     rules: {
       required: true,
       message: "Please select date",
-      trigger: "blur"
+      trigger: "blur-sm"
     },
   }, {
     label: 'rate',

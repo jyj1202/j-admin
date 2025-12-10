@@ -13,7 +13,7 @@
         item-key="type"
       >
         <template #item="{element}">
-          <li class="px-1.5 py-0.5 rounded-sm cursor-move leading-normal align-middle">
+          <li class="px-1.5 py-0.5 rounded-xs cursor-move leading-normal align-middle">
             <a>
               <i :class="element.icon"></i>
               <span class="text-sm leading-none">{{element.label}}</span>
